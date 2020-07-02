@@ -1,0 +1,4324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://www-diag.intra.renault.fr/DDT2000/DDTECUPreview.xsl"?>
+<xml xmlns:ddt="http://www-diag.renault.com/2002/ECU">
+	<Generator name="DDT2000 XML library" version="2.0.0.0" date="2008-04-25T07:37"/>
+	<ddt:Target Name="can_v38.02" xmlns="http://www-diag.renault.com/2002/ECU" xmlns:ds="http://www-diag.renault.com/2002/screens">
+		<Projects xmlns=""><x38/></Projects>
+		<Function Name="CAN" Address="0"/>
+		<Language Name="Français" Reference="1"/>
+		<Description><![CDATA[Messagerie CAN / CAN database: can_v38.02
+
+Importé le / Import date: 2008-04-25 07:12:12]]></Description>
+		<DateOfficialisation/>
+		<Failures Name="Ne contient pas de pannes" Id="0"/>
+		<PowerSupply>
+			<Ground/>
+			<Vbat/>
+			<AfterContact/>
+		</PowerSupply>
+		<CAN BaudRate="500000" Multipoint="1">
+		</CAN>
+		<AutoIdents>
+		</AutoIdents>
+		<Datas>
+
+			<Data Name="AirbagCrashOrder">
+				<Bits count="16">
+					<Scaled/>
+				</Bits>
+			</Data>
+			<Data Name="CrashDetected">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="no crash detected"/>
+						<Item Value="1" Text="crash detected"/></List>
+				</Bits>
+			</Data>
+			<Data Name="Crash_DetectionOutOfOrder">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="no Crash Detection Out Of Order"/>
+						<Item Value="1" Text="Crash Detection Out Of Order"/></List>
+				</Bits>
+			</Data>
+			<Data Name="Driver_SBR">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="Driver safety belt reminder : No"/>
+						<Item Value="1" Text="Driver safety belt reminder Warn"/>
+						<Item Value="2" Text="Driver safety belt reminder  War"/>
+						<Item Value="3" Text="Not Used"/></List>
+				</Bits>
+			</Data>
+			<Data Name="FrontPassengerSafetyBeltReminder">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="Passenger safety belt reminder :"/>
+						<Item Value="1" Text="Passenger safety belt reminder W"/>
+						<Item Value="2" Text="Passenger safety belt reminder W_2"/>
+						<Item Value="3" Text="Not Used"/></List>
+				</Bits>
+			</Data>
+			<Data Name="PassAIRBAG_Inhibition">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="Passenger AIRBAG not inhibited"/>
+						<Item Value="1" Text="Passenger AIRBAG inhibited"/></List>
+				</Bits>
+			</Data>
+			<Data Name="AIRBAGMalfunction">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="no AIRBAG system malfunction"/>
+						<Item Value="1" Text="AIRBAG system malfunction"/></List>
+				</Bits>
+			</Data>
+			<Data Name="SecondRowCenterSafetyBeltState">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="Center SB not monitored"/>
+						<Item Value="1" Text="Center SB unfastened"/>
+						<Item Value="2" Text="Center SB fastened"/>
+						<Item Value="3" Text="Unavailable"/></List>
+				</Bits>
+			</Data>
+			<Data Name="SecondRowLeftSafetyBeltState">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="Left SB not monitored"/>
+						<Item Value="1" Text="Left SB unfastened"/>
+						<Item Value="2" Text="Left SB fastened"/>
+						<Item Value="3" Text="Unavailable"/></List>
+				</Bits>
+			</Data>
+			<Data Name="SecondRowRightSafetyBeltState">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="Right SB not monitored"/>
+						<Item Value="1" Text="Right SB unfastened"/>
+						<Item Value="2" Text="Right SB fastened"/>
+						<Item Value="3" Text="Unavailable"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ValidAIRBAGInformation">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="no valid AIRBAG Information"/>
+						<Item Value="1" Text="Valid AIRBAG Information"/></List>
+				</Bits>
+			</Data>
+			<Data Name="EDRActiveDisplayRequest">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="No display request"/>
+						<Item Value="1" Text="EDR active display request"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ThirdRowLeftSafetyBeltState">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="Left SB not monitored"/>
+						<Item Value="1" Text="Left SB unfastened"/>
+						<Item Value="2" Text="Left SB fastened"/>
+						<Item Value="3" Text="Unavailable"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ThirdRowRightSafetyBeltState">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="Right SB not monitored"/>
+						<Item Value="1" Text="Right SB unfastened"/>
+						<Item Value="2" Text="Right SB fastened"/>
+						<Item Value="3" Text="Unavailable"/></List>
+				</Bits>
+			</Data>
+			<Data Name="PassAirbagONDisplayReq">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="No Display Request"/>
+						<Item Value="1" Text="PassengerAIRBAG_ON Display Reque"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ROPS_Position">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="Unavailable"/>
+						<Item Value="1" Text="ROPS in"/>
+						<Item Value="2" Text="ROPS out"/>
+						<Item Value="3" Text="Not used"/></List>
+				</Bits>
+			</Data>
+			<Data Name="BCM_WakeUpSleepCommand">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="Go to Sleep"/>
+						<Item Value="1" Text="reserved"/>
+						<Item Value="2" Text="reserved_2"/>
+						<Item Value="3" Text="WakeUp"/></List>
+				</Bits>
+			</Data>
+			<Data Name="BCMLSFT_WakeUpSleepCommand">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="Go to Sleep"/>
+						<Item Value="1" Text="reserved"/>
+						<Item Value="2" Text="reserved_2"/>
+						<Item Value="3" Text="WakeUp"/></List>
+				</Bits>
+			</Data>
+			<Data Name="WakeUpType">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="Customer wake up"/>
+						<Item Value="1" Text="Technical wake up"/></List>
+				</Bits>
+			</Data>
+			<Data Name="VehicleState">
+				<Bits count="3">
+					<List>
+						<Item Value="0" Text="Vehicle asleep and engine stoppe"/>
+						<Item Value="1" Text="Vehicle awake and engine stopped"/>
+						<Item Value="2" Text="Ignition ON (engine ready to sta"/>
+						<Item Value="3" Text="Starting in progress"/>
+						<Item Value="4" Text="vehicle awake and engine running"/></List>
+				</Bits>
+			</Data>
+			<Data Name="DiagMuxOn_BCM">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="counting and storage of CAN mute"/>
+						<Item Value="1" Text="counting and storage of CAN mute_1"/></List>
+				</Bits>
+			</Data>
+			<Data Name="StartingMode_BCM_R">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="Engine stopped request"/>
+						<Item Value="1" Text="no request"/>
+						<Item Value="2" Text="Ignition request"/>
+						<Item Value="3" Text="Starting request"/></List>
+				</Bits>
+			</Data>
+			<Data Name="EngineStopDriverRequested">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="no engine stop requested by driv"/>
+						<Item Value="1" Text="nominal engine stop requested by"/></List>
+				</Bits>
+			</Data>
+			<Data Name="SwitchOffSESDisturbers">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="No request"/>
+						<Item Value="1" Text="Disturbers switch off request"/></List>
+				</Bits>
+			</Data>
+			<Data Name="BatTempoRequest">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="no +BAT tempo requested"/>
+						<Item Value="1" Text="+BAT tempo requested"/></List>
+				</Bits>
+			</Data>
+			<Data Name="DischargedSupplyRequest">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="no Discharged supply requested"/>
+						<Item Value="1" Text="Discharged supply requested"/></List>
+				</Bits>
+			</Data>
+			<Data Name="DeliveryModeInfo">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="customer mode"/>
+						<Item Value="1" Text="delivery mode"/></List>
+				</Bits>
+			</Data>
+			<Data Name="AbsoluteTimeSince1rstIgnition">
+				<Bits count="24">
+					<Scaled/>
+				</Bits>
+			</Data>
+			<Data Name="BrakeInfoStatus">
+				<Bits count="3">
+					<List>
+						<Item Value="1" Text="Brake pedal not pressed"/>
+						<Item Value="2" Text="Brake pedal pressed"/>
+						<Item Value="4" Text="Brake pedal confirmed pressed"/>
+						<Item Value="7" Text="unavailable"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ClutchSwitchMaximumTravel">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="Not used"/>
+						<Item Value="1" Text="Clutch pedal not pressed at maxi"/>
+						<Item Value="2" Text="Clutch pedal pressed at maximum"/>
+						<Item Value="3" Text="Unavailable"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ClutchSwitchMinimumTravel">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="Not used"/>
+						<Item Value="1" Text="Clutch pedal not pressed        "/>
+						<Item Value="2" Text="Clutch pedal pressed at minimum"/>
+						<Item Value="3" Text="Unavailable"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ProbableCustomerFeedBackNeed">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="Customer feedback probably not n"/>
+						<Item Value="1" Text="Customer feedback needed"/></List>
+				</Bits>
+			</Data>
+			<Data Name="EmergencyEngineStop">
+				<Bits count="4">
+					<List>
+						<Item Value="0" Text="No order"/>
+						<Item Value="6" Text="No emergency stop order"/>
+						<Item Value="9" Text="Emergency engine stop order"/></List>
+				</Bits>
+			</Data>
+			<Data Name="WelcomePhaseState">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="No welcome phase in progress"/>
+						<Item Value="1" Text="Welcome phase in progress"/></List>
+				</Bits>
+			</Data>
+			<Data Name="SupposedCustomerDeparture">
+				<Bits count="2">
+					<Scaled/>
+				</Bits>
+			</Data>
+			<Data Name="VehicleOutsideLockedState">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="Vehicle not locked from the outs"/>
+						<Item Value="1" Text="Vehicle Locked from the outside "/></List>
+				</Bits>
+			</Data>
+			<Data Name="BrakeSwitchFailure">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="No detected failure"/>
+						<Item Value="1" Text="failure 1 : failure detected but"/>
+						<Item Value="2" Text="failure 2 : failure detected and"/>
+						<Item Value="3" Text="unavailable"/></List>
+				</Bits>
+			</Data>
+			<Data Name="GenericApplicativeDiagEnable">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="Only faults reports and alerts t"/>
+						<Item Value="1" Text="All  faults reports and alerts n"/>
+						<Item Value="2" Text="All  faults reports and alerts a"/>
+						<Item Value="3" Text="Unavailable"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ParkingBrakeStatus">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="Not used"/>
+						<Item Value="1" Text="Automatic or manual Parking brak"/>
+						<Item Value="2" Text="Automatic or manual Parking brak_2"/>
+						<Item Value="3" Text="Unavailable"/></List>
+				</Bits>
+			</Data>
+			<Data Name="PositionLightsRequest">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="position lights not requested"/>
+						<Item Value="1" Text="position lights requested"/></List>
+				</Bits>
+			</Data>
+			<Data Name="LowBeamRequest">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="low beam not requested"/>
+						<Item Value="1" Text="low beam requested"/></List>
+				</Bits>
+			</Data>
+			<Data Name="HighBeamRequest">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="high beam not requested"/>
+						<Item Value="1" Text="high beam requested"/></List>
+				</Bits>
+			</Data>
+			<Data Name="FrontFogLightsRequest">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="front fog lights not requested"/>
+						<Item Value="1" Text="front fog lights requested"/></List>
+				</Bits>
+			</Data>
+			<Data Name="LowBeamSwitchOffDelayedRequest">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="No request"/>
+						<Item Value="1" Text="Turn off Left lowbeam"/>
+						<Item Value="2" Text="Turn Off right lowbeam"/>
+						<Item Value="3" Text="Turn Off left and right lowbeam"/></List>
+				</Bits>
+			</Data>
+			<Data Name="HeadLampsWasherRequest">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="headlamps washer not requested"/>
+						<Item Value="1" Text="headlamps washer requested"/></List>
+				</Bits>
+			</Data>
+			<Data Name="FrontWipingRequest">
+				<Bits count="3">
+					<List>
+						<Item Value="0" Text="front wiper in stop position"/>
+						<Item Value="1" Text="front wiper forced to stop"/>
+						<Item Value="2" Text="one low speed wiping requested"/>
+						<Item Value="3" Text="one high speed wiping requested"/>
+						<Item Value="4" Text="unavailable"/>
+						<Item Value="5" Text="reserved"/>
+						<Item Value="6" Text="low speed wiping requested"/>
+						<Item Value="7" Text="high speed wiping requested"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ElectricalPowerDrived">
+				<Bits count="5">
+					<Scaled Step=" 100"/>
+				</Bits>
+			</Data>
+			<Data Name="ClimateCoolingRequest">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="no air conditionning requested"/>
+						<Item Value="1" Text="air conditionning requested"/></List>
+				</Bits>
+			</Data>
+			<Data Name="PTCEngineIdleSpeedRequest">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="No PTC engine Idle speed increas"/>
+						<Item Value="1" Text="PTC engine Idle speed increase r"/></List>
+				</Bits>
+			</Data>
+			<Data Name="Children_inhibitionState">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="Switch not activated Or customer"/>
+						<Item Value="1" Text="Switch activated and customer re"/></List>
+				</Bits>
+			</Data>
+			<Data Name="PTC_Thermal_Regulator_Freeze">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="No PTC thermal Regulator Freeze "/>
+						<Item Value="1" Text="PTC thermal Regulator Freeze req"/></List>
+				</Bits>
+			</Data>
+			<Data Name="RearDefrostEngaged">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="Rear Defrost not engaged"/>
+						<Item Value="1" Text="Rear Defrost engaged"/></List>
+				</Bits>
+			</Data>
+			<Data Name="UserIdentification">
+				<Bits count="3">
+					<List>
+						<Item Value="0" Text="Unavailable"/>
+						<Item Value="1" Text="User n°1"/>
+						<Item Value="2" Text="User n°2"/>
+						<Item Value="3" Text="User n°3"/>
+						<Item Value="4" Text="User n°4"/></List>
+				</Bits>
+			</Data>
+			<Data Name="DayNightStatusForBacklights">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="Day time according light level s"/>
+						<Item Value="1" Text="Night time according to light le"/></List>
+				</Bits>
+			</Data>
+			<Data Name="FlashingIndicatorCommandPosition">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="No direction indicator request"/>
+						<Item Value="1" Text="Left Flashing Indicators command"/>
+						<Item Value="2" Text="Right Flashing Indicators comman"/>
+						<Item Value="3" Text="Not used"/></List>
+				</Bits>
+			</Data>
+			<Data Name="DriverDoorState">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="Driver door closed"/>
+						<Item Value="1" Text="Driver door open"/></List>
+				</Bits>
+			</Data>
+			<Data Name="PassengerDoorState">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="Passenger door closed"/>
+						<Item Value="1" Text="Passenger door open"/></List>
+				</Bits>
+			</Data>
+			<Data Name="StartButtonPushed">
+				<Bits count="3">
+					<Scaled/>
+				</Bits>
+			</Data>
+			<Data Name="NightRheostatedLightMaxPercent">
+				<Bits>
+					<Scaled Step=" .4"/>
+				</Bits>
+			</Data>
+			<Data Name="LightSensorStatus">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="Day time according light level s"/>
+						<Item Value="1" Text="Night time according to light le"/></List>
+				</Bits>
+			</Data>
+			<Data Name="AvFuelConsumptionAfterSaleReset">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="No Reset of average fuelComsumpt"/>
+						<Item Value="1" Text="Reset of Average FuelConsumption"/></List>
+				</Bits>
+			</Data>
+			<Data Name="RightSolarLevelInfo">
+				<Bits count="5">
+					<Scaled Step=" 50"/>
+				</Bits>
+			</Data>
+			<Data Name="LeftSolarLevelInfo">
+				<Bits count="5">
+					<Scaled Step=" 50"/>
+				</Bits>
+			</Data>
+			<Data Name="KeyVehicle">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="Keyless vehicle"/>
+						<Item Value="1" Text="Unavailable"/>
+						<Item Value="2" Text="Not used"/>
+						<Item Value="3" Text="Key vehicle"/></List>
+				</Bits>
+			</Data>
+			<Data Name="DayRunningLightRequest">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="Day running light not requested"/>
+						<Item Value="1" Text="Day running light request"/></List>
+				</Bits>
+			</Data>
+			<Data Name="VisibleSolarLevelInfo">
+				<Bits count="4">
+					<Scaled Step=" 50"/>
+				</Bits>
+			</Data>
+			<Data Name="RightBadgePushedState">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="unvailable"/>
+						<Item Value="1" Text="Right Short Push Requested"/>
+						<Item Value="2" Text="Right Long Push Requested"/>
+						<Item Value="3" Text="not used"/></List>
+				</Bits>
+			</Data>
+			<Data Name="LeftBadgePushedState">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="unvailable"/>
+						<Item Value="1" Text="Left Short Push Requested"/>
+						<Item Value="2" Text="Left Long Push Requested"/>
+						<Item Value="3" Text="not used"/></List>
+				</Bits>
+			</Data>
+			<Data Name="RightDoorLockState">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="unvailable value"/>
+						<Item Value="1" Text="Right Door Locked"/>
+						<Item Value="2" Text="Right Door Unlocked"/>
+						<Item Value="3" Text="not used"/></List>
+				</Bits>
+			</Data>
+			<Data Name="LeftDoorLockState">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="unvailable value"/>
+						<Item Value="1" Text="Left Door Locked"/>
+						<Item Value="2" Text="Left Door Unlocked"/>
+						<Item Value="3" Text="not used"/></List>
+				</Bits>
+			</Data>
+			<Data Name="UnlockRequestHandsFree">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="unvalaible value"/>
+						<Item Value="1" Text="Unlock Requested"/>
+						<Item Value="2" Text="Unlock not Requested"/>
+						<Item Value="3" Text="not used"/></List>
+				</Bits>
+			</Data>
+			<Data Name="SLockValueControl">
+				<Bits count="5">
+					<Scaled/>
+				</Bits>
+			</Data>
+			<Data Name="SoftwareLockValue">
+				<Bytes count="4"/>
+			</Data>
+			<Data Name="SteeringLockCode">
+				<Bits count="16">
+					<Scaled/>
+				</Bits>
+			</Data>
+			<Data Name="BCMComputerOperatingProperly">
+				<Bits count="1">
+					<Scaled/>
+				</Bits>
+			</Data>
+			<Data Name="IgnitionON">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="Primary Ignition Supply OFF"/>
+						<Item Value="1" Text="Primary Ignition Supply ON"/></List>
+				</Bits>
+			</Data>
+			<Data Name="Steering_Column_Unlock">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="steering column unlocking not re"/>
+						<Item Value="1" Text="steering column unlocking  reque"/></List>
+				</Bits>
+			</Data>
+			<Data Name="Steering_Column_Lock">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="steering column locking not requ"/>
+						<Item Value="1" Text="steering column locking  request"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ClearSteeringCode">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="ESCL code not cleared"/>
+						<Item Value="1" Text="ESCL code cleared"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ABSinRegulation">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="no ABS regulation"/>
+						<Item Value="1" Text="ABS in regulation"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ABSMalfunction">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="no ABS malfunction"/>
+						<Item Value="1" Text="ABS malfunction"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ASRinRegulation">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="no ASR regulation"/>
+						<Item Value="1" Text="ASR in regulation"/></List>
+				</Bits>
+			</Data>
+			<Data Name="Reserved1bit">
+				<Bits count="1">
+					<Scaled/>
+				</Bits>
+			</Data>
+			<Data Name="AYCinRegulation">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="no AYC regulation"/>
+						<Item Value="1" Text="AYC in regulation"/></List>
+				</Bits>
+			</Data>
+			<Data Name="AYCMalfunction">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="no AYC malfunction"/>
+						<Item Value="1" Text="AYC malfunction"/></List>
+				</Bits>
+			</Data>
+			<Data Name="MSRinRegulation">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="no MSR regulation"/>
+						<Item Value="1" Text="MSR in regulation"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ESP_Clock">
+				<Bits count="4">
+					<Scaled/>
+				</Bits>
+			</Data>
+			<Data Name="ESP_TorqueControlType">
+				<Bits count="3">
+					<List>
+						<Item Value="0" Text="no torque request"/>
+						<Item Value="5" Text="ASR torque request (decrease tor"/>
+						<Item Value="6" Text="MSR torque request (increase tor"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ASRDynamicTorqueRequest">
+				<Bits count="12">
+					<Scaled Step=" .5" Offset="-400"/>
+				</Bits>
+			</Data>
+			<Data Name="ASRStaticTorqueRequest">
+				<Bits count="12">
+					<Scaled Step=" .5" Offset="-400"/>
+				</Bits>
+			</Data>
+			<Data Name="MSRTorqueRequest">
+				<Bits count="12">
+					<Scaled Step=" .5" Offset="-400"/>
+				</Bits>
+			</Data>
+			<Data Name="ShiftingAuthorization">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="gear shift forbidden"/>
+						<Item Value="1" Text="shift down authorized"/>
+						<Item Value="2" Text="shift up authorized"/>
+						<Item Value="3" Text="shift up or down authorized"/></List>
+				</Bits>
+			</Data>
+			<Data Name="WheelSpeed_F_R">
+				<Bits count="16">
+					<Scaled Step=" .0417"/>
+				</Bits>
+			</Data>
+			<Data Name="WheelSpeed_F_L">
+				<Bits count="16">
+					<Scaled Step=" .0417"/>
+				</Bits>
+			</Data>
+			<Data Name="VehicleSpeed">
+				<Bits count="16">
+					<Scaled Step=" .01"/>
+				</Bits>
+			</Data>
+			<Data Name="WheelSpeed_R_L">
+				<Bits count="16">
+					<Scaled Step=" .0417"/>
+				</Bits>
+			</Data>
+			<Data Name="WheelSpeed_R_R">
+				<Bits count="16">
+					<Scaled Step=" .0417"/>
+				</Bits>
+			</Data>
+			<Data Name="FourWheelReferenceSpeed">
+				<Bits count="16">
+					<Scaled Step=" .01"/>
+				</Bits>
+			</Data>
+			<Data Name="VehicleSpeed_CVT">
+				<Bits count="16">
+					<Scaled Step=" .01"/>
+				</Bits>
+			</Data>
+			<Data Name="LongitudinalAccelerationProc">
+				<Bits>
+					<Scaled Step=" .05" Offset="-10"/>
+				</Bits>
+			</Data>
+			<Data Name="TransversalAcceleration">
+				<Bits count="16">
+					<Scaled Step=" .004" Offset="-131.068"/>
+				</Bits>
+			</Data>
+			<Data Name="YawRate">
+				<Bits count="12">
+					<Scaled Step=" .1" Offset="-204.7"/>
+				</Bits>
+			</Data>
+			<Data Name="ESP_RearWheelAnglePositionSeen">
+				<Bits>
+					<Scaled Step=" .03" Offset="-3.81"/>
+				</Bits>
+			</Data>
+			<Data Name="ESP_RearWheelAngleRequest">
+				<Bits>
+					<Scaled Step=" .03" Offset="-3.81"/>
+				</Bits>
+			</Data>
+			<Data Name="ESP_RWARequestType">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="No request from ESP"/>
+						<Item Value="1" Text="MuSplit request"/>
+						<Item Value="2" Text="Not used"/>
+						<Item Value="3" Text="Not used_3"/></List>
+				</Bits>
+			</Data>
+			<Data Name="MuSplit_Clock">
+				<Bits count="4">
+					<Scaled/>
+				</Bits>
+			</Data>
+			<Data Name="DistanceTotalizer">
+				<Bits count="28">
+					<Scaled Step=" .01"/>
+				</Bits>
+			</Data>
+			<Data Name="WheelsLockingState">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="Unavailable"/>
+						<Item Value="1" Text="No wheels locking detected "/>
+						<Item Value="2" Text="Wheels locking detected"/>
+						<Item Value="3" Text="Not used"/></List>
+				</Bits>
+			</Data>
+			<Data Name="VehicleSpeedSign">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="nul vehicle speed"/>
+						<Item Value="1" Text="Positive vehicle speed (= Forwar"/>
+						<Item Value="2" Text="Negative vehicle speed (= revers"/>
+						<Item Value="3" Text="Unavailable"/></List>
+				</Bits>
+			</Data>
+			<Data Name="AccurateOdometer">
+				<Bits count="5">
+					<Scaled Step=" 4"/>
+				</Bits>
+			</Data>
+			<Data Name="ABS_WarningRequest">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="reserved"/>
+						<Item Value="1" Text="warning lamps off request"/>
+						<Item Value="2" Text="warning lamps on request"/>
+						<Item Value="3" Text="reserved_3"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ESP_StopLampRequest">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="Reserved"/>
+						<Item Value="1" Text="Stops lamps off request"/>
+						<Item Value="2" Text="Stop lamps on request"/>
+						<Item Value="3" Text="Reserved_3"/></List>
+				</Bits>
+			</Data>
+			<Data Name="DriverBrake">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="not used"/>
+						<Item Value="1" Text="driver not braking"/>
+						<Item Value="2" Text="driver braking"/>
+						<Item Value="3" Text="unavailable"/></List>
+				</Bits>
+			</Data>
+			<Data Name="FHSA_PABStatus">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="PAB FHSA not active"/>
+						<Item Value="1" Text="PAB FHSA active"/>
+						<Item Value="2" Text="Hold Malfunction"/></List>
+				</Bits>
+			</Data>
+			<Data Name="FHSA_PABHolding">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="Unavailable"/>
+						<Item Value="1" Text="Vehicle hold by PAB"/>
+						<Item Value="2" Text="Vehicle not hold by PAB"/></List>
+				</Bits>
+			</Data>
+			<Data Name="NoBrakeForce">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="no braking"/>
+						<Item Value="1" Text="driver braking or ESP preload or"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ACC_SDL_BrakeAcknowledgment">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="incorrect dialogue"/>
+						<Item Value="1" Text="correct dialog"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ACC_SDL_BrakeRequestStatus">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="no deceleration request"/>
+						<Item Value="1" Text="brake request during execution"/>
+						<Item Value="2" Text="deceleration not complitely real"/>
+						<Item Value="3" Text="impossible to execute the reques"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ACC_SDL_StatusControl">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="no correct ACC status"/>
+						<Item Value="1" Text="correct ACC status"/></List>
+				</Bits>
+			</Data>
+			<Data Name="BrakingPressure">
+				<Bits>
+					<Scaled Step=" .5"/>
+				</Bits>
+			</Data>
+			<Data Name="Vehicle_Speed">
+				<Bits count="16">
+					<Scaled Step=" .01"/>
+				</Bits>
+			</Data>
+			<Data Name="Reserved_8bits">
+				<Bits>
+					<Scaled/>
+				</Bits>
+			</Data>
+			<Data Name="Reserved_3bits">
+				<Bits count="3">
+					<List>
+						<Item Value="0" Text="fixed value produced"/></List>
+				</Bits>
+			</Data>
+			<Data Name="Reserved_2bits">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="fixed value produced"/></List>
+				</Bits>
+			</Data>
+			<Data Name="Reserved_1bit">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="fixed value produced"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ACCompPowerUsed">
+				<Bits>
+					<Scaled Step=" 25"/>
+				</Bits>
+			</Data>
+			<Data Name="ACCompValveRequest">
+				<Bits count="7">
+					<Scaled Step=" .01"/>
+				</Bits>
+			</Data>
+			<Data Name="ClimateCoolingSelect">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="no air conditionning requested"/>
+						<Item Value="1" Text="air conditionning requested"/></List>
+				</Bits>
+			</Data>
+			<Data Name="BlowerState">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="Blower fan OFF"/>
+						<Item Value="1" Text="Blower fan ON"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ACCoolingFanSpeedRequest">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="no engine fan speed requested"/>
+						<Item Value="1" Text="low speed engine fan speed reque"/>
+						<Item Value="2" Text="Mid speed engine fan speed reque"/>
+						<Item Value="3" Text="high speed engine fan speed requ"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ACCompRequest">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="No air conditionning requested"/>
+						<Item Value="1" Text="Air Conditioning Requested"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ACCompWorkingMode">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="Running in idle mode or stopped"/>
+						<Item Value="1" Text="Running not in idle mode"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ACCompClutchRequest">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="ac compressor not requested"/>
+						<Item Value="1" Text="AC compressor requested"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ACVbatTempoMaintain">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="Vbat Tempo Maintain for AC not r"/>
+						<Item Value="1" Text="Vbat Tempo Maintain for AC reque"/></List>
+				</Bits>
+			</Data>
+			<Data Name="FrontDefrostRequest">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="Front defrost not requested"/>
+						<Item Value="1" Text="Front defrost requested"/></List>
+				</Bits>
+			</Data>
+			<Data Name="FrontDefrostButtonState">
+				<Bits count="4">
+					<Scaled/>
+				</Bits>
+			</Data>
+			<Data Name="RearDefrostRequest">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="No rear defrost Requested"/>
+						<Item Value="1" Text="Rear defrost requested"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ClimCustomerAction">
+				<Bits count="2">
+					<Scaled/>
+				</Bits>
+			</Data>
+			<Data Name="PTCNumberThermalRequest">
+				<Bits count="4">
+					<List>
+						<Item Value="0" Text="0 PTC requested"/>
+						<Item Value="1" Text="1 PTC requested"/>
+						<Item Value="2" Text="2 PTC requested"/>
+						<Item Value="3" Text="3 PTC requested"/>
+						<Item Value="4" Text="4 PTC requested"/>
+						<Item Value="5" Text="5 PTC requested"/>
+						<Item Value="6" Text="6 PTC requested"/>
+						<Item Value="7" Text="7 PTC requested"/>
+						<Item Value="8" Text="8 PTC requested"/>
+						<Item Value="9" Text="9 PTC requested"/>
+						<Item Value="10" Text="10 PTC requested"/>
+						<Item Value="11" Text="Not used"/>
+						<Item Value="12" Text="Not used_12"/>
+						<Item Value="13" Text="Not used_13"/>
+						<Item Value="14" Text="Not used_14"/>
+						<Item Value="15" Text="No request for PTC number therma"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ACMinEngineIdleSpeedRequest">
+				<Bits count="4">
+					<Scaled Step=" 50" Offset=" 500"/>
+				</Bits>
+			</Data>
+			<Data Name="Cluster_RefusetoSleep">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="reserved"/>
+						<Item Value="1" Text="Cluster refuse to sleep "/>
+						<Item Value="2" Text="Cluster ready to sleep"/>
+						<Item Value="3" Text="reserved_3"/></List>
+				</Bits>
+			</Data>
+			<Data Name="DiagnosedFuelLow">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="Unavailable"/>
+						<Item Value="1" Text="Not empty"/>
+						<Item Value="2" Text="Empty"/>
+						<Item Value="3" Text="Not used"/></List>
+				</Bits>
+			</Data>
+			<Data Name="HandBrakeSwitch">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="not used"/>
+						<Item Value="1" Text="parking brake not applied"/>
+						<Item Value="2" Text="parking brake applied"/>
+						<Item Value="3" Text="unavailable"/></List>
+				</Bits>
+			</Data>
+			<Data Name="FuelLow">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="fuel level OK"/>
+						<Item Value="1" Text="fuel level low"/></List>
+				</Bits>
+			</Data>
+			<Data Name="OilDrainAlertResetRequest">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="No OilDrainAlert reset requested"/>
+						<Item Value="1" Text="OilDrainAlert reset requested"/></List>
+				</Bits>
+			</Data>
+			<Data Name="AIRBAGMalfunctionLampState">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="Diag result : AIRBAG Malfunction"/>
+						<Item Value="1" Text="Diag result : AIRBAG Malfunction_1"/>
+						<Item Value="2" Text="Diag result :  failure"/>
+						<Item Value="3" Text="Not used"/></List>
+				</Bits>
+			</Data>
+			<Data Name="PassAIRBAGInhibitionLampState">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="Diag result : PassengerAIRBAG_OF"/>
+						<Item Value="1" Text="Diag result : PassengerAIRBAG_OF_1"/>
+						<Item Value="2" Text="Diag result : failure"/>
+						<Item Value="3" Text="Not used"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ClusterDrivenLampsAutoCheck">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="no self-test in progress"/>
+						<Item Value="1" Text="self-test in progress"/></List>
+				</Bits>
+			</Data>
+			<Data Name="DisplayedSpeedUnit">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="Speed Unit in kmph"/>
+						<Item Value="1" Text="Speed Unit in mph"/></List>
+				</Bits>
+			</Data>
+			<Data Name="MuteRadioOrder">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="No mute radio order"/>
+						<Item Value="1" Text="Mute radio order"/>
+						<Item Value="2" Text="Not used"/>
+						<Item Value="3" Text="Not used_3"/></List>
+				</Bits>
+			</Data>
+			<Data Name="PassAirbagONLampState">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="PassengerAIRBAG_ON lamp  OFF"/>
+						<Item Value="1" Text="PassengerAIRBAG_ON lamp ON"/>
+						<Item Value="2" Text="Failure"/>
+						<Item Value="3" Text="Not used"/></List>
+				</Bits>
+			</Data>
+			<Data Name="DisplayedSpeed">
+				<Bits count="16">
+					<Scaled Step=" .01"/>
+				</Bits>
+			</Data>
+			<Data Name="MILDisplayState">
+				<Bits count="4">
+					<Scaled/>
+				</Bits>
+			</Data>
+			<Data Name="DisplayedOilLevel">
+				<Bits count="4">
+					<List>
+						<Item Value="0" Text="warning"/>
+						<Item Value="1" Text="1 bargraph element displayed"/>
+						<Item Value="2" Text="2 bargraph element displayed"/>
+						<Item Value="3" Text="3 bargraph element displayed"/>
+						<Item Value="4" Text="4 bargraph element displayed"/>
+						<Item Value="5" Text="5 bargraph element displayed"/>
+						<Item Value="6" Text="6 bargraph element displayed"/>
+						<Item Value="7" Text="7 bargraph element displayed"/>
+						<Item Value="8" Text="8 bargraph element displayed"/>
+						<Item Value="15" Text="not available"/></List>
+				</Bits>
+			</Data>
+			<Data Name="GlobalVehicleWarningState">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text=" No gloval  vehicle  Fault"/>
+						<Item Value="1" Text="'SERV' is ON"/>
+						<Item Value="2" Text="'STOP' is ON"/>
+						<Item Value="3" Text="'SERV' and 'STOP' are ON"/></List>
+				</Bits>
+			</Data>
+			<Data Name="WasherLevelWarningState">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="No Washer low level Warning"/>
+						<Item Value="1" Text="Windscreen Washer low level warn"/></List>
+				</Bits>
+			</Data>
+			<Data Name="BatteryWarningState">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="No battery Warning"/>
+						<Item Value="1" Text="Battery to be checked"/>
+						<Item Value="2" Text="Battery red alert"/>
+						<Item Value="3" Text="both alerts"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ParticulateFilterWarningState">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="No particulate filter Warning"/>
+						<Item Value="1" Text="Particulate Filter Warning displ"/></List>
+				</Bits>
+			</Data>
+			<Data Name="FuelAutonomyInKm">
+				<Bits count="10">
+					<Scaled/>
+				</Bits>
+			</Data>
+			<Data Name="FuelLevelDisplayed">
+				<Bits count="7">
+					<Scaled/>
+				</Bits>
+			</Data>
+			<Data Name="WaterInDieselWarningState">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="No water in diesel Warning"/>
+						<Item Value="1" Text="Water In Diesel Warning displaye"/></List>
+				</Bits>
+			</Data>
+			<Data Name="FixedMaintenanceRange">
+				<Bits>
+					<Scaled Step=" 250"/>
+				</Bits>
+			</Data>
+			<Data Name="AverageFuelConsumptionAfterSale">
+				<Bits>
+					<Scaled Step=" .2"/>
+				</Bits>
+			</Data>
+			<Data Name="MalfunctionLampWarningState">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="No lamp fault"/>
+						<Item Value="1" Text="Stop Lamp fault"/>
+						<Item Value="2" Text="Position Lamp fault"/>
+						<Item Value="3" Text="Stop and position lamp fault"/></List>
+				</Bits>
+			</Data>
+			<Data Name="BadgeWarningState">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="No card battery Warning"/>
+						<Item Value="1" Text="Card battery out of order"/></List>
+				</Bits>
+			</Data>
+			<Data Name="PersoOilDrainingRange">
+				<Bits>
+					<Scaled Step=" 250"/>
+				</Bits>
+			</Data>
+			<Data Name="MemorizedDistanceTotalizer">
+				<Bits count="24">
+					<Scaled/>
+				</Bits>
+			</Data>
+			<Data Name="DDCM_RefusetoSleep">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="reserved"/>
+						<Item Value="1" Text="DDCM refuse to sleep "/>
+						<Item Value="2" Text="DDCM ready to sleep"/>
+						<Item Value="3" Text="reserved_3"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ChildrenInhibitionRequest">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="Rear function inhibition not req"/>
+						<Item Value="1" Text="Rear function inhibition request"/></List>
+				</Bits>
+			</Data>
+			<Data Name="MatrixSwitchesFailure">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="No  switches failure"/>
+						<Item Value="1" Text="Switches failure"/></List>
+				</Bits>
+			</Data>
+			<Data Name="PassWindowLiftActionReq">
+				<Bits count="3">
+					<List>
+						<Item Value="0" Text="No window lift action requested"/>
+						<Item Value="1" Text="Manual passenger Window up lift "/>
+						<Item Value="2" Text="Manual passenger Window down lif"/>
+						<Item Value="3" Text="Passenger Window stop action req"/>
+						<Item Value="4" Text="Not used"/>
+						<Item Value="5" Text="Express passenger Window up lift"/>
+						<Item Value="6" Text="Express passenger Window down li"/>
+						<Item Value="7" Text="Not used_7"/></List>
+				</Bits>
+			</Data>
+			<Data Name="RearLeftWindowLiftActionReq">
+				<Bits count="3">
+					<List>
+						<Item Value="0" Text="No window lift action requested"/>
+						<Item Value="1" Text="Manual Rear Left Window up lift "/>
+						<Item Value="2" Text="Manual Rear Left Window down lif"/>
+						<Item Value="3" Text="Rear left window stop action req"/>
+						<Item Value="4" Text="Not used"/>
+						<Item Value="5" Text="Express Rear Left Window up lift"/>
+						<Item Value="6" Text="Express Rear Left Window down li"/>
+						<Item Value="7" Text="Not used_7"/></List>
+				</Bits>
+			</Data>
+			<Data Name="RearRightWindowLiftActionReq">
+				<Bits count="3">
+					<List>
+						<Item Value="0" Text="No window lift action requested"/>
+						<Item Value="1" Text="Manual RearRight Window up lift "/>
+						<Item Value="2" Text="Manual RearRight Window down lif"/>
+						<Item Value="3" Text="rear Right window stop action re"/>
+						<Item Value="4" Text="Not used"/>
+						<Item Value="5" Text="Express RearRight Window up lift"/>
+						<Item Value="6" Text="Express RearRight Window down li"/>
+						<Item Value="7" Text="Not used_7"/></List>
+				</Bits>
+			</Data>
+			<Data Name="AutoMirrorFoldingStatus">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="Unavailable"/>
+						<Item Value="1" Text="Automatic mirror folding activat"/>
+						<Item Value="2" Text="Automatic mirror folding de-acti"/>
+						<Item Value="3" Text="Not Used"/></List>
+				</Bits>
+			</Data>
+			<Data Name="PassMirrorMovementRequest">
+				<Bits count="3">
+					<List>
+						<Item Value="0" Text="No passenger mirror movement req"/>
+						<Item Value="1" Text="Passenger mirror  up movement re"/>
+						<Item Value="2" Text="Passenger mirror down movement r"/>
+						<Item Value="3" Text="not used"/>
+						<Item Value="4" Text="not used_4"/>
+						<Item Value="5" Text="Passenger mirror left movement r"/>
+						<Item Value="6" Text="Passenger mirror right movement "/>
+						<Item Value="7" Text="not used_7"/></List>
+				</Bits>
+			</Data>
+			<Data Name="PassMirrorParkingPositionRequest">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="No passenger mirror parking posi"/>
+						<Item Value="1" Text="Passenger mirror parking positio"/></List>
+				</Bits>
+			</Data>
+			<Data Name="PassMirrorFoldingRequest">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="No passenger mirror folding/unfo"/>
+						<Item Value="1" Text="Passenger mirror folding request"/>
+						<Item Value="2" Text="Passenger mirror unfolding reque"/>
+						<Item Value="3" Text="Not used"/></List>
+				</Bits>
+			</Data>
+			<Data Name="DDCMCustomerAction">
+				<Bits count="2">
+					<Scaled/>
+				</Bits>
+			</Data>
+			<Data Name="ExternalTemp">
+				<Bits>
+					<Scaled Offset="-40"/>
+				</Bits>
+			</Data>
+			<Data Name="DongleBCM1">
+				<Bits count="2">
+					<Scaled/>
+				</Bits>
+			</Data>
+			<Data Name="DongleBCM2">
+				<Bits count="10">
+					<Scaled/>
+				</Bits>
+			</Data>
+			<Data Name="DongleBCM3">
+				<Bits count="2">
+					<Scaled/>
+				</Bits>
+			</Data>
+			<Data Name="DongleEPS1">
+				<Bits count="2">
+					<Scaled/>
+				</Bits>
+			</Data>
+			<Data Name="DongleEPS2">
+				<Bits count="10">
+					<Scaled/>
+				</Bits>
+			</Data>
+			<Data Name="DongleEPS3">
+				<Bits count="2">
+					<Scaled/>
+				</Bits>
+			</Data>
+			<Data Name="EngineFanSpeedRequest">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="no engine fan  requested"/>
+						<Item Value="1" Text="low speed engine fan request"/>
+						<Item Value="2" Text="mid speed engine fan request"/>
+						<Item Value="3" Text="high speed engine fan  request"/></List>
+				</Bits>
+			</Data>
+			<Data Name="MaxElectricalPowerAllowed">
+				<Bits count="5">
+					<Scaled Step=" 100"/>
+				</Bits>
+			</Data>
+			<Data Name="ElectricalPowerCutFreeze">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="no request"/>
+						<Item Value="1" Text="PTC freeze request"/>
+						<Item Value="2" Text="PTC cut request"/>
+						<Item Value="3" Text="Reserved"/></List>
+				</Bits>
+			</Data>
+			<Data Name="EngineStatus_R">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="engine stopped "/>
+						<Item Value="1" Text="Reserved"/>
+						<Item Value="2" Text=" independant  running engine  "/>
+						<Item Value="3" Text="running engine-driven"/></List>
+				</Bits>
+			</Data>
+			<Data Name="EngineStopRequestOrigine">
+				<Bits count="4">
+					<List>
+						<Item Value="0" Text="No engine stop request (initial "/></List>
+				</Bits>
+			</Data>
+			<Data Name="CrankingAuthorization_ECM">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="cranking not allowed"/>
+						<Item Value="1" Text="cranking allowed"/>
+						<Item Value="2" Text="cranking stopped required"/>
+						<Item Value="3" Text="no request"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ACCompClutchActivation">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="no compressor activation request"/>
+						<Item Value="1" Text="compressor activation requested"/></List>
+				</Bits>
+			</Data>
+			<Data Name="OpenActiveBrakeSwitch_ECM">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="Brake pedal not pressed"/>
+						<Item Value="1" Text="Brake pedal pressed"/>
+						<Item Value="2" Text="Not used"/>
+						<Item Value="3" Text="Unavailable"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ACCompAuthorized">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="ac compressor not authorized"/>
+						<Item Value="1" Text="ac compressor authorized"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ACHighPressureSensor">
+				<Bits count="9">
+					<Scaled Step=" .1"/>
+				</Bits>
+			</Data>
+			<Data Name="FloatingInhibition">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="Unavailable"/>
+						<Item Value="1" Text="Floating forbidden "/>
+						<Item Value="2" Text="Floating not forbidden"/>
+						<Item Value="3" Text="Not used "/></List>
+				</Bits>
+			</Data>
+			<Data Name="AllowedPowerGradient">
+				<Bits>
+					<Scaled Step=" 40"/>
+				</Bits>
+			</Data>
+			<Data Name="AlternatorMaximumPower">
+				<Bits>
+					<Scaled Step=" 40"/>
+				</Bits>
+			</Data>
+			<Data Name="ACCompMaximumPower">
+				<Bits>
+					<Scaled Step=" 25"/>
+				</Bits>
+			</Data>
+			<Data Name="EngineCoolantTemp">
+				<Bits>
+					<Scaled Offset="-40"/>
+				</Bits>
+			</Data>
+			<Data Name="IdleSpeedControlInternalRequest">
+				<Bits>
+					<Scaled Step=" 8"/>
+				</Bits>
+			</Data>
+			<Data Name="DownTransitionOfEngCoolantTemp">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="No down transition in progress"/>
+						<Item Value="1" Text="Down transition in progress"/></List>
+				</Bits>
+			</Data>
+			<Data Name="EngineCoolantRegulationTemp">
+				<Bits count="3">
+					<List>
+						<Item Value="0" Text="90 °C"/>
+						<Item Value="1" Text="95 °C"/>
+						<Item Value="2" Text="100 °C"/>
+						<Item Value="3" Text="105 °C"/>
+						<Item Value="4" Text="110 °C"/>
+						<Item Value="5" Text="80 °C"/>
+						<Item Value="6" Text="85 °C"/>
+						<Item Value="7" Text="unavailable"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ECM_MechanicalLoadRequest">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="No mechanical load requested by "/>
+						<Item Value="1" Text="Mechanical load requested by ECM"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ECM_RearDefrostRequest">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="no rear defrost request"/>
+						<Item Value="1" Text="rear defrost request"/></List>
+				</Bits>
+			</Data>
+			<Data Name="MinEngineSpeedRequest">
+				<Bits>
+					<Scaled Step=" 32"/>
+				</Bits>
+			</Data>
+			<Data Name="MaxEngineSpeedRequest">
+				<Bits>
+					<Scaled Step=" 32"/>
+				</Bits>
+			</Data>
+			<Data Name="ComputedOilDrainingRange">
+				<Bits count="16">
+					<Scaled/>
+				</Bits>
+			</Data>
+			<Data Name="SLockRequestControl">
+				<Bits count="4">
+					<Scaled/>
+				</Bits>
+			</Data>
+			<Data Name="EPSWarning">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="No EPS warning"/>
+						<Item Value="1" Text="EPS failure level 1"/>
+						<Item Value="2" Text="EPS failure level 2"/>
+						<Item Value="3" Text="Not Used"/></List>
+				</Bits>
+			</Data>
+			<Data Name="SteeringLockCOP">
+				<Bits count="1">
+					<Scaled/>
+				</Bits>
+			</Data>
+			<Data Name="WrongCode">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="right code"/>
+						<Item Value="1" Text="wrong code"/></List>
+				</Bits>
+			</Data>
+			<Data Name="AntiscanOn">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="antiscan off"/>
+						<Item Value="1" Text="antiscan on"/></List>
+				</Bits>
+			</Data>
+			<Data Name="LockForbidden">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="no locking inhibition"/>
+						<Item Value="1" Text="locking inhibition"/></List>
+				</Bits>
+			</Data>
+			<Data Name="UnlockingFinished">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="unlocking movement not finished"/>
+						<Item Value="1" Text="unlocking movement finished"/></List>
+				</Bits>
+			</Data>
+			<Data Name="Undefined_position">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="position OK (compliant with the "/>
+						<Item Value="1" Text="undefined position (not complian"/></List>
+				</Bits>
+			</Data>
+			<Data Name="LockingFinished">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="locking movement not finished"/>
+						<Item Value="1" Text="locking movement finished"/></List>
+				</Bits>
+			</Data>
+			<Data Name="Blank_Coded">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="coded"/>
+						<Item Value="1" Text="blank"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ResetInfo_Verrou">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="no exit from reset"/>
+						<Item Value="1" Text="exit from reset"/></List>
+				</Bits>
+			</Data>
+			<Data Name="SteeringLockMinorElecFailure">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="no minor internal electronic fai"/>
+						<Item Value="1" Text="minor internal electronic failur"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ESCL3Position">
+				<Bits count="3">
+					<List>
+						<Item Value="0" Text="reserved"/>
+						<Item Value="1" Text="sensor or wire command failure"/>
+						<Item Value="2" Text="unlocked and secured position"/>
+						<Item Value="3" Text="undefined position"/>
+						<Item Value="4" Text="pseudo-armed"/>
+						<Item Value="5" Text="sensor or wire command short-cir"/>
+						<Item Value="6" Text="reserved_6"/>
+						<Item Value="7" Text="reserved_7"/></List>
+				</Bits>
+			</Data>
+			<Data Name="Steering_actuator_failure">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="no actuator failure"/>
+						<Item Value="1" Text="actuator failure"/></List>
+				</Bits>
+			</Data>
+			<Data Name="SteeringLockMajorElectronicFail">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="no major internal electronic fai"/>
+						<Item Value="1" Text="Major internal electronic failur"/></List>
+				</Bits>
+			</Data>
+			<Data Name="SpeedInhibition">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="vehicle speed equal to 0 km/h"/>
+						<Item Value="1" Text="vehicle speed &gt; 0 km/h or frame "/></List>
+				</Bits>
+			</Data>
+			<Data Name="SafetyLineInhibition">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="locking allowed"/>
+						<Item Value="1" Text="locking forbidden"/></List>
+				</Bits>
+			</Data>
+			<Data Name="InconsistentBCMMessage">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="data received in BCM frame consi"/>
+						<Item Value="1" Text="data received in BCM frame not c"/></List>
+				</Bits>
+			</Data>
+			<Data Name="PowerSupplyFeedback">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="Hall effect sensor supplied"/>
+						<Item Value="1" Text="Hall effect sensor not supplied"/></List>
+				</Bits>
+			</Data>
+			<Data Name="AbsentFrameBCM_to_ESCL3">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="frame BCM_to_ESCL3 present"/>
+						<Item Value="1" Text="frame BCM_to_ESCL3 has been miss"/></List>
+				</Bits>
+			</Data>
+			<Data Name="OperatingVoltageOutOfRange">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="operating voltage OK (9V&lt;=U&lt;=16V"/>
+						<Item Value="1" Text="operating voltage out of range ("/></List>
+				</Bits>
+			</Data>
+			<Data Name="SensorTestAuthorized">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="sensor test forbidden"/>
+						<Item Value="1" Text="sensor test authorized"/></List>
+				</Bits>
+			</Data>
+			<Data Name="TimeOutOnTheSensorTest">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="timing of sensor test is correct"/>
+						<Item Value="1" Text="sensor test is too long"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ConfigurationAttemptCounter">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="no configuration attempt"/>
+						<Item Value="1" Text="first configuration attempt"/>
+						<Item Value="2" Text="second configuration attempt"/>
+						<Item Value="3" Text="third configuration attempt"/></List>
+				</Bits>
+			</Data>
+			<Data Name="BitRateConfigured">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="bit rate not configured"/>
+						<Item Value="1" Text="bit rate configured"/></List>
+				</Bits>
+			</Data>
+			<Data Name="BitRateConfiguration">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="250 kts"/>
+						<Item Value="1" Text="500 kts"/></List>
+				</Bits>
+			</Data>
+			<Data Name="LowBeamSwitchOffRequest">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="No request"/>
+						<Item Value="1" Text="Turn off Left lowbeam"/>
+						<Item Value="2" Text="Turn Off right lowbeam"/>
+						<Item Value="3" Text="Turn off Left and Right lowbeam"/></List>
+				</Bits>
+			</Data>
+			<Data Name="MBLFailureCondition">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text=" MBL not active"/>
+						<Item Value="1" Text="Failure with MBL active"/></List>
+				</Bits>
+			</Data>
+			<Data Name="MBLFailureDisplay">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="No MBL failure display request"/>
+						<Item Value="1" Text="MBL failure display requested"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ATCVT_RangeIndication">
+				<Bits count="5">
+					<List>
+						<Item Value="0" Text="OFF"/>
+						<Item Value="1" Text="P range"/>
+						<Item Value="2" Text="R range"/>
+						<Item Value="3" Text="N range"/>
+						<Item Value="4" Text="D range"/>
+						<Item Value="5" Text="S range"/>
+						<Item Value="6" Text="L range"/>
+						<Item Value="7" Text="B range"/>
+						<Item Value="8" Text="1st range"/>
+						<Item Value="9" Text="2nd range"/>
+						<Item Value="10" Text="3rd range"/>
+						<Item Value="11" Text="4th range"/>
+						<Item Value="12" Text="5th range"/>
+						<Item Value="13" Text="6th range"/>
+						<Item Value="14" Text="7th range"/>
+						<Item Value="15" Text="8th range"/>
+						<Item Value="16" Text="M1st"/>
+						<Item Value="17" Text="M2nd"/>
+						<Item Value="18" Text="M3rd"/>
+						<Item Value="19" Text="M4th"/>
+						<Item Value="20" Text="M5th"/>
+						<Item Value="21" Text="M6th"/>
+						<Item Value="22" Text="M7th"/>
+						<Item Value="23" Text="M8th"/>
+						<Item Value="24" Text="Auto 1st"/>
+						<Item Value="25" Text="Auto 2nd"/>
+						<Item Value="26" Text="Auto 3rd"/>
+						<Item Value="27" Text="Auto 4th"/>
+						<Item Value="28" Text="Auto 5th"/>
+						<Item Value="29" Text="Auto 6th"/>
+						<Item Value="30" Text="Auto 7th"/>
+						<Item Value="31" Text="Auto 8th"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ATCVT_CheckWarning">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="No AT/CVT default warning"/>
+						<Item Value="1" Text="AT/CVT default warning"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ATCVT_HiTempWarning">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="No AT/CVT High temp warning"/>
+						<Item Value="1" Text="AT/CVT high temp warning"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ATECOmodeRequest">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="No eco mode requested"/>
+						<Item Value="1" Text="Eco mode requested"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ATSnowmodeRequest">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="No snow mode requested"/>
+						<Item Value="1" Text="Snow mode requested"/></List>
+				</Bits>
+			</Data>
+			<Data Name="AT_OpenDoorWarning">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="No AT_OpenDoor Warning"/>
+						<Item Value="1" Text=" AT_OpenDoor Warning"/></List>
+				</Bits>
+			</Data>
+			<Data Name="AT_PressBrakePedalRequest">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="No press brake pedal request"/>
+						<Item Value="1" Text="Push brake pedal requested (Shif"/></List>
+				</Bits>
+			</Data>
+			<Data Name="AT_GearShiftRefused">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="gear shift accepted"/>
+						<Item Value="1" Text="gear shift refused"/></List>
+				</Bits>
+			</Data>
+			<Data Name="FlashingIndicatorStatusDisplay">
+				<Bits count="3">
+					<List>
+						<Item Value="0" Text="left and right flashing indicato"/>
+						<Item Value="1" Text="left flashing indicator ON and r"/>
+						<Item Value="2" Text="left flashing indicator OFF and "/>
+						<Item Value="3" Text="left flashing indicator ON and r_3"/>
+						<Item Value="7" Text="Unavailable"/></List>
+				</Bits>
+			</Data>
+			<Data Name="RearFogLightStateDisplay">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="rear fog light OFF"/>
+						<Item Value="1" Text="rear fog light ON"/></List>
+				</Bits>
+			</Data>
+			<Data Name="FrontFogLightsDisplay">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="front fog lights display not req"/>
+						<Item Value="1" Text="front fog lights display request"/></List>
+				</Bits>
+			</Data>
+			<Data Name="PositionLightsDisplay">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="position lights display not requ"/>
+						<Item Value="1" Text="position lights display requeste"/></List>
+				</Bits>
+			</Data>
+			<Data Name="LowBeamDisplay">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="low beam display not requested"/>
+						<Item Value="1" Text="low beam display requested"/></List>
+				</Bits>
+			</Data>
+			<Data Name="HighBeamDisplay">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="High beam display not requested"/>
+						<Item Value="1" Text="High beam display requested"/></List>
+				</Bits>
+			</Data>
+			<Data Name="PositionLightsOmissionWarning">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="No position lights omission warn"/>
+						<Item Value="1" Text="Position lights omission warning"/>
+						<Item Value="2" Text="not used"/>
+						<Item Value="3" Text="reserved"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ALSMalfunction">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="no ALS malfunction"/>
+						<Item Value="1" Text="ALS malfunction"/></List>
+				</Bits>
+			</Data>
+			<Data Name="FrontLeftDoorOpenWarning">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="No front left door open warning"/>
+						<Item Value="1" Text="Front left door open warning - l"/>
+						<Item Value="2" Text="Front left door open warning - l_2"/>
+						<Item Value="3" Text="not used"/></List>
+				</Bits>
+			</Data>
+			<Data Name="FrontRightDoorOpenWarning">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="No front right door open warning"/>
+						<Item Value="1" Text="front right door open warning - "/>
+						<Item Value="2" Text="front right door open warning - _2"/>
+						<Item Value="3" Text="not used"/></List>
+				</Bits>
+			</Data>
+			<Data Name="KeyInfoReemissionRequest">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="Key info display reemission not "/>
+						<Item Value="1" Text="Key info display reemission requ"/></List>
+				</Bits>
+			</Data>
+			<Data Name="RearLeftDoorOpenWarning">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="No rear left door open warning"/>
+						<Item Value="1" Text="rear left door open warning - le"/>
+						<Item Value="2" Text="rear left door open warning - le_2"/>
+						<Item Value="3" Text="not used"/></List>
+				</Bits>
+			</Data>
+			<Data Name="RearRightDoorOpenWarning">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="No rear right door open warning"/>
+						<Item Value="1" Text="rear right door open warning - l"/>
+						<Item Value="2" Text="rear right door open warning - l_2"/>
+						<Item Value="3" Text="not used"/></List>
+				</Bits>
+			</Data>
+			<Data Name="BDUSafetyLineFailure">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="No BDU safety line failure"/>
+						<Item Value="1" Text="BDU safety line failure"/></List>
+				</Bits>
+			</Data>
+			<Data Name="SteeringLock_Failure">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="no steering lock  failure"/>
+						<Item Value="1" Text="Minor steering column locking fa"/>
+						<Item Value="2" Text="Major steering colum unlocking f"/>
+						<Item Value="3" Text="Not used"/></List>
+				</Bits>
+			</Data>
+			<Data Name="UnlockingSteeringColumnWarning">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text=" No Unlocking Steering Column Wa"/>
+						<Item Value="1" Text="Unlocking Steering Column Warnin"/></List>
+				</Bits>
+			</Data>
+			<Data Name="AutomaticLockUpActivationState">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="Automatic lock up de-activated"/>
+						<Item Value="1" Text="Automatic lock up activated"/></List>
+				</Bits>
+			</Data>
+			<Data Name="BadgeBatteryLow">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="badge battery OK"/>
+						<Item Value="1" Text="badge battery low"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ChildproofLockMalfunctionDisplay">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="No Childproof lock malfunction w"/>
+						<Item Value="1" Text="Childproof lock malfunction mess"/>
+						<Item Value="2" Text="Not used"/>
+						<Item Value="3" Text="Warning re-emission requested"/></List>
+				</Bits>
+			</Data>
+			<Data Name="TripDisplayScrollingRequest">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="no driver request"/>
+						<Item Value="1" Text="upward scrolling request "/>
+						<Item Value="2" Text="downward scrolling request "/>
+						<Item Value="3" Text="Upward and downward scrolling re"/></List>
+				</Bits>
+			</Data>
+			<Data Name="SmartKeylessInformationDisplay">
+				<Bits count="4">
+					<List>
+						<Item Value="0" Text="no display request"/>
+						<Item Value="1" Text="brake pedal and start requested"/>
+						<Item Value="2" Text="Declutch and start requested"/>
+						<Item Value="3" Text="insert card requested"/>
+						<Item Value="4" Text="card not recognized warning"/>
+						<Item Value="5" Text="Turn Steering Wheel angle reques"/>
+						<Item Value="6" Text="MT gear level on neutral positio"/>
+						<Item Value="7" Text="AT gear lever on Park requested"/>
+						<Item Value="8" Text="AT gear lever on neutral positio"/>
+						<Item Value="9" Text="Card not detected - level 1warni"/>
+						<Item Value="10" Text="card not detected - level 2 warn"/>
+						<Item Value="11" Text="Card not detected -confirm engin"/>
+						<Item Value="12" Text="Confirm engine stop warning"/>
+						<Item Value="13" Text="Take card warning"/>
+						<Item Value="14" Text="Permanent ignition take card war"/>
+						<Item Value="15" Text="Not Used"/></List>
+				</Bits>
+			</Data>
+			<Data Name="KeylessInfoReemissionRequest">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="Smart keyless info display reemi"/>
+						<Item Value="1" Text="Smart keyless info display reemi_1"/></List>
+				</Bits>
+			</Data>
+			<Data Name="KeylessCardReaderFailureDisplay">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="keyless card reader failure disp"/>
+						<Item Value="1" Text="Keyless card reader failure disp"/></List>
+				</Bits>
+			</Data>
+			<Data Name="DRLstate">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="Unavailable"/>
+						<Item Value="1" Text="DRL activated"/>
+						<Item Value="2" Text="DRL de-activated"/>
+						<Item Value="3" Text="Not used"/></List>
+				</Bits>
+			</Data>
+			<Data Name="FollowMeHomeDurationDisplay">
+				<Bits count="3">
+					<List>
+						<Item Value="0" Text="No Follow me home duration Displ"/>
+						<Item Value="1" Text="Follow me home duration : 30s"/>
+						<Item Value="2" Text="Follow me home duration : 60s"/>
+						<Item Value="3" Text="Follow me home duration : 90s"/>
+						<Item Value="4" Text="Follow me home duration : 120s"/>
+						<Item Value="5" Text="Not Used"/>
+						<Item Value="6" Text="Not Used_6"/>
+						<Item Value="7" Text="Not Used_7"/></List>
+				</Bits>
+			</Data>
+			<Data Name="SingleDoorOpeningState">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="Unavailable"/>
+						<Item Value="1" Text="Single door opening activated"/>
+						<Item Value="2" Text="Single door opening unactivated"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ManualLockDisplayRequest">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="No manual lock request display"/>
+						<Item Value="1" Text="Manual Lock request displayed"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ClutchSwitchFaultDisplay">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="No clutch switch failure display"/>
+						<Item Value="1" Text="Clutch switch failure display re"/></List>
+				</Bits>
+			</Data>
+			<Data Name="BrakeSwitchFaultDisplay">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="No brake switch failure display "/>
+						<Item Value="1" Text="Brake switch failure display req"/></List>
+				</Bits>
+			</Data>
+			<Data Name="StopLampFailureDisplay">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="Stop lamp failure display not re"/>
+						<Item Value="1" Text="Stop lamp failure display reques"/></List>
+				</Bits>
+			</Data>
+			<Data Name="FlashingIndicatorFailureDisplay">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="Flashing indicator failure displ"/>
+						<Item Value="1" Text="Flashing indicator failure displ_1"/></List>
+				</Bits>
+			</Data>
+			<Data Name="VarPowSteeringFailureDisplay">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="Variable power steering failure "/>
+						<Item Value="1" Text="Variable power steering failure _1"/></List>
+				</Bits>
+			</Data>
+			<Data Name="AutomaticLockUpInhibitionWarning">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="No Automatic lock up inhibition "/>
+						<Item Value="1" Text="Automatic lock up inhibition War"/></List>
+				</Bits>
+			</Data>
+			<Data Name="KeyInformationDisplay">
+				<Bits count="3">
+					<List>
+						<Item Value="0" Text="No display request"/>
+						<Item Value="1" Text="MT Cranking failed display reque"/>
+						<Item Value="2" Text="AT Cranking failed display reque"/>
+						<Item Value="3" Text="MT engine stall display request"/>
+						<Item Value="4" Text="AT engine stall display request"/>
+						<Item Value="5" Text="Cranking help with clutch failur"/>
+						<Item Value="6" Text="Cranking help with neutral failu"/>
+						<Item Value="7" Text="Not used"/></List>
+				</Bits>
+			</Data>
+			<Data Name="RearWiperStatus">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="Unavailable"/>
+						<Item Value="1" Text="Rear wiper activation requested"/>
+						<Item Value="2" Text="Rear wiper de-activation request"/>
+						<Item Value="3" Text="Not used"/></List>
+				</Bits>
+			</Data>
+			<Data Name="BootOpenWarning">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="No boot open warning"/>
+						<Item Value="1" Text="boot open warning - level 1(vehi"/>
+						<Item Value="2" Text="boot open warning - level 2 (veh"/>
+						<Item Value="3" Text="not used"/></List>
+				</Bits>
+			</Data>
+			<Data Name="GlasshatchOpenWarning">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="No glasshatch open warning"/>
+						<Item Value="1" Text="glasshatch open warning - level "/>
+						<Item Value="2" Text="glasshatch open warning - level _2"/>
+						<Item Value="3" Text="not used"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ESPInRegulationDisplayRequest">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="No ESP in regulation display req"/>
+						<Item Value="1" Text="ESP in regulation display reques"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ESPInDefaultDisplayRequest">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="No ESP in failure display reques"/>
+						<Item Value="1" Text="ESP in failure display requested"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ESPActivationStateForDisplay">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="ESP desactivated "/>
+						<Item Value="1" Text="ESP activated"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ASRActivationStateForDisplay">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text=" ASR de-activated"/>
+						<Item Value="1" Text="ASR activated"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ABSInDefaultDisplayRequest">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text=" No ABS in failure display reque"/>
+						<Item Value="1" Text="ABS in failure display requested"/></List>
+				</Bits>
+			</Data>
+			<Data Name="EBVInDefaultDisplayRequest">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="No EBV in failure display reques"/>
+						<Item Value="1" Text="EBV in failure display request"/></List>
+				</Bits>
+			</Data>
+			<Data Name="EmergencyBrakingFailure">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="No emergency braking failure"/>
+						<Item Value="1" Text="Emergency braking failure"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ABS_ESPLampsAutoCheck">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="no auto-check in progress"/>
+						<Item Value="1" Text="auto-check in progress"/></List>
+				</Bits>
+			</Data>
+			<Data Name="FHSADeactivationDispReq">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="No display request"/>
+						<Item Value="1" Text="FHSA deactivated"/>
+						<Item Value="2" Text="FHSA activated"/></List>
+				</Bits>
+			</Data>
+			<Data Name="FHSA_HoldStatusDisplayRequest">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="No display request"/>
+						<Item Value="1" Text="Vehicle hold by PAB"/></List>
+				</Bits>
+			</Data>
+			<Data Name="FHSADriverActionRequest">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="No action request"/>
+						<Item Value="1" Text="Braking request to driver"/></List>
+				</Bits>
+			</Data>
+			<Data Name="FHSA_MalfunctionDisplayRequest">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="No Malfunction"/>
+						<Item Value="1" Text="FHSA Malfunction"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ABSorESPInCalibratingDiag">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="No ABS or ESP in calibrating dia"/>
+						<Item Value="1" Text="ABS or ESP in Calibrating Diagno"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ABSorESPToBeCalibrated">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="No warning : ECU operational"/>
+						<Item Value="1" Text="ECU to be calibrated warning"/></List>
+				</Bits>
+			</Data>
+			<Data Name="VSUStateDisplayRequest">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="No display request"/>
+						<Item Value="1" Text="VSU failure display request"/>
+						<Item Value="2" Text="VSU operationnal, not programmed"/>
+						<Item Value="3" Text="Not used"/></List>
+				</Bits>
+			</Data>
+			<Data Name="RST_RESERVED_2b">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="fixed to 0"/></List>
+				</Bits>
+			</Data>
+			<Data Name="DieselPreHeating">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="No diesel preheating warning"/>
+						<Item Value="1" Text="Diesel preheating warning"/></List>
+				</Bits>
+			</Data>
+			<Data Name="MILLamp">
+				<Bits count="4">
+					<Scaled/>
+				</Bits>
+			</Data>
+			<Data Name="CruiseControlStatusDisplay">
+				<Bits count="3">
+					<List>
+						<Item Value="0" Text="Cruise Control (CC) and Speed Li"/>
+						<Item Value="1" Text="SL active"/>
+						<Item Value="2" Text="SL on and (awaiting or suspended"/>
+						<Item Value="3" Text="SL requested and in failure"/>
+						<Item Value="4" Text="CC active"/>
+						<Item Value="5" Text="CC ON and ( awaiting  or suspend"/>
+						<Item Value="6" Text="CC requested and in failure"/>
+						<Item Value="7" Text="unavailable"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ReqSpeedDisplayReq">
+				<Bits>
+					<Scaled/>
+				</Bits>
+			</Data>
+			<Data Name="OverSpeedIndicationDisplayReq">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="No CC/SL over speed indication d"/>
+						<Item Value="1" Text="CC/SL over speed indication disp"/></List>
+				</Bits>
+			</Data>
+			<Data Name="EngineControlFailureLevel1">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="no Engine Control Failure Level "/>
+						<Item Value="1" Text="Engine Control Failure Level 1"/></List>
+				</Bits>
+			</Data>
+			<Data Name="EngineControlFailureLevel2">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="no Engine Control Failure Level "/>
+						<Item Value="1" Text="Engine Control Failure Level 2 c"/></List>
+				</Bits>
+			</Data>
+			<Data Name="WarningWaterTemp">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="no water temperature warning"/>
+						<Item Value="1" Text="water temperature warning"/></List>
+				</Bits>
+			</Data>
+			<Data Name="DieselFilterWaterDetection">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="no water detected in diesel"/>
+						<Item Value="1" Text="water detected in diesel"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ParticulateFilterState">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="No clog up filter warning messag"/>
+						<Item Value="1" Text="Clog up filter warning"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ParticulateFilterFailureDisplay">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="No Particulate filter failure wa"/>
+						<Item Value="1" Text="Particulate filter failure warni"/></List>
+				</Bits>
+			</Data>
+			<Data Name="FuelConsumptionType">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="petrol consumption"/>
+						<Item Value="1" Text="LPG or GNV consumption"/></List>
+				</Bits>
+			</Data>
+			<Data Name="FuelConsumption">
+				<Bits>
+					<Scaled Step=" 80"/>
+				</Bits>
+			</Data>
+			<Data Name="NominalFuelConsumption">
+				<Bits>
+					<Scaled Step=" 80"/>
+				</Bits>
+			</Data>
+			<Data Name="FreeShift">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="No display request (no freeshift"/>
+						<Item Value="1" Text="UpShift display resquest"/>
+						<Item Value="2" Text="DownShift display request "/>
+						<Item Value="3" Text="No Shift change display Request "/></List>
+				</Bits>
+			</Data>
+			<Data Name="CCSpeedReachedDisplayReq">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="No display request"/>
+						<Item Value="1" Text="CC speed reached display request"/></List>
+				</Bits>
+			</Data>
+			<Data Name="LPGFlowSwitchedOFFWarning">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="No LPG flow switched OFF warning"/>
+						<Item Value="1" Text="LPG flow switched OFF warning"/></List>
+				</Bits>
+			</Data>
+			<Data Name="RST_RESERVED_1b">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="fixed to 0"/></List>
+				</Bits>
+			</Data>
+			<Data Name="SpeedPressureMisadaptation">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="No speed pressure misadaptation"/>
+						<Item Value="1" Text="Speed Pressure Misadaptation"/></List>
+				</Bits>
+			</Data>
+			<Data Name="TPMSFailureWarningRequest">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="No TPMS failure warning request"/>
+						<Item Value="1" Text="TPMS failure warning request"/></List>
+				</Bits>
+			</Data>
+			<Data Name="RearRightWheelState">
+				<Bits count="3">
+					<List>
+						<Item Value="0" Text="pressure OK"/>
+						<Item Value="1" Text="No pressure information (sensor "/>
+						<Item Value="2" Text="Reserved"/>
+						<Item Value="5" Text="Flat tyre(lower than 2nd warning"/>
+						<Item Value="6" Text="tyre under inflated (pressure lo"/></List>
+				</Bits>
+			</Data>
+			<Data Name="RearLeftWheelState">
+				<Bits count="3">
+					<List>
+						<Item Value="0" Text="pressure OK"/>
+						<Item Value="1" Text="No pressure information (sensor "/>
+						<Item Value="2" Text="Reserved"/>
+						<Item Value="5" Text="Flat tyre(lower than 2nd warning"/>
+						<Item Value="6" Text="tyre under inflated (pressure lo"/></List>
+				</Bits>
+			</Data>
+			<Data Name="FrontRightWheelState">
+				<Bits count="3">
+					<List>
+						<Item Value="0" Text="pressure OK"/>
+						<Item Value="1" Text="No pressure information (sensor "/>
+						<Item Value="2" Text="Reserved"/>
+						<Item Value="5" Text="flat tyre  (lower than 2nd warni"/>
+						<Item Value="6" Text="tyre under inflated (pressure lo"/></List>
+				</Bits>
+			</Data>
+			<Data Name="FrontLeftWheelState">
+				<Bits count="3">
+					<List>
+						<Item Value="0" Text="pressure OK"/>
+						<Item Value="1" Text="No pressure information (sensor "/>
+						<Item Value="2" Text="Reserved"/>
+						<Item Value="5" Text="flat tyre  (lower than 2nd warni"/>
+						<Item Value="6" Text="tyre under inflated (pressure lo"/></List>
+				</Bits>
+			</Data>
+			<Data Name="Right_LeftImbalance">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="normal"/>
+						<Item Value="1" Text="front right/left imbalance"/>
+						<Item Value="2" Text="rear right/left imbalance"/>
+						<Item Value="3" Text="front and rear right/left imbala"/></List>
+				</Bits>
+			</Data>
+			<Data Name="RearRightWheelPressure">
+				<Bits>
+					<Scaled Step=" 13.725"/>
+				</Bits>
+			</Data>
+			<Data Name="RearLeftWheelPressure">
+				<Bits>
+					<Scaled Step=" 13.725"/>
+				</Bits>
+			</Data>
+			<Data Name="FrontRightWheelPressure">
+				<Bits>
+					<Scaled Step=" 13.725"/>
+				</Bits>
+			</Data>
+			<Data Name="FrontLeftWheelPressure">
+				<Bits>
+					<Scaled Step=" 13.725"/>
+				</Bits>
+			</Data>
+			<Data Name="UPAFailureDispRequest">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="No failure display request"/>
+						<Item Value="1" Text="UPA failure display request"/></List>
+				</Bits>
+			</Data>
+			<Data Name="UPAStatusDisplayRequest">
+				<Bits count="3">
+					<List>
+						<Item Value="0" Text="no upa status display request"/>
+						<Item Value="1" Text="Rear and front UPA de-activated"/>
+						<Item Value="3" Text="Rear UPA de-activated and front "/>
+						<Item Value="5" Text="Rear UPA activated and front UPA"/>
+						<Item Value="7" Text="Rear and front UPA activated"/></List>
+				</Bits>
+			</Data>
+			<Data Name="FrontParkAssistState">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="Front park assistance de-activat"/>
+						<Item Value="1" Text="Front park assistance activated"/></List>
+				</Bits>
+			</Data>
+			<Data Name="FrontParkAssistVolState">
+				<Bits count="3">
+					<List>
+						<Item Value="0" Text="Not used"/>
+						<Item Value="1" Text="Front park assistance volume lev"/>
+						<Item Value="2" Text="Front park assistance volume lev_2"/>
+						<Item Value="3" Text="Front park assistance volume lev_3"/>
+						<Item Value="4" Text="Front park assistance volume lev_4"/>
+						<Item Value="5" Text="Front park assistance volume lev_5"/>
+						<Item Value="6" Text="Front park assistance volume lev_6"/>
+						<Item Value="7" Text="Volume deactivated"/></List>
+				</Bits>
+			</Data>
+			<Data Name="RearParkAssistState">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="Rear park assistance de-activate"/>
+						<Item Value="1" Text="Rear park assistance activated"/></List>
+				</Bits>
+			</Data>
+			<Data Name="RearParkAssistVolState">
+				<Bits count="3">
+					<List>
+						<Item Value="0" Text="Unavailable"/>
+						<Item Value="1" Text="Rear park assistance volume leve"/>
+						<Item Value="2" Text="Rear park assistance volume leve_2"/>
+						<Item Value="3" Text="Rear park assistance volume leve_3"/>
+						<Item Value="4" Text="Rear park assistance volume leve_4"/>
+						<Item Value="5" Text="Rear park assistance volume leve_5"/>
+						<Item Value="6" Text="Rear park assistance volume leve_6"/>
+						<Item Value="7" Text="Rear park assistance volume leve_7"/></List>
+				</Bits>
+			</Data>
+			<Data Name="WeakOilPressureWarning">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="No Weak Oil Pressure Warning"/>
+						<Item Value="1" Text="Weak Oil Pressure Warning"/></List>
+				</Bits>
+			</Data>
+			<Data Name="BatteryWarning">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="No Battery Warning requested"/>
+						<Item Value="1" Text="Battery Warning requested"/></List>
+				</Bits>
+			</Data>
+			<Data Name="BDUCommandLineFailure">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="No BDU Command line failure"/>
+						<Item Value="1" Text="BDU Command line failure"/></List>
+				</Bits>
+			</Data>
+			<Data Name="NeutralSwitchFaultDisplay">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="No neutral switch failure displa"/>
+						<Item Value="1" Text="Neutral switch failure display r"/></List>
+				</Bits>
+			</Data>
+			<Data Name="LowBatteryVoltageDisplay">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="No display request"/>
+						<Item Value="1" Text="Battery weak"/>
+						<Item Value="2" Text="Battery weak : start engine"/>
+						<Item Value="3" Text="Battery in charge"/></List>
+				</Bits>
+			</Data>
+			<Data Name="PositionLightsFailureDisplay">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="position lights failure display "/>
+						<Item Value="1" Text="position lights failure display _1"/></List>
+				</Bits>
+			</Data>
+			<Data Name="OverHeatingBatteryWarning">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="No over heating battery warning"/>
+						<Item Value="1" Text="Over heating battery warning"/></List>
+				</Bits>
+			</Data>
+			<Data Name="OilPressureSwitchFaultDisplay">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="No oil pressure switch fault war"/>
+						<Item Value="1" Text="Oil pressure switch fault warnin"/></List>
+				</Bits>
+			</Data>
+			<Data Name="MMCustomerAction">
+				<Bits count="4">
+					<Scaled/>
+				</Bits>
+			</Data>
+			<Data Name="ForgettingPhoneWarning">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="No Forgetting Phone warning"/>
+						<Item Value="1" Text="Forgetting Phone Warning"/></List>
+				</Bits>
+			</Data>
+			<Data Name="SteeringWheelAngle">
+				<Bits count="16">
+					<Scaled Step=" .1" Offset="-3276.7"/>
+				</Bits>
+			</Data>
+			<Data Name="SteeringWheelRotationSpeed">
+				<Bits count="16">
+					<Scaled Step=" .1" Offset="-3276.7"/>
+				</Bits>
+			</Data>
+			<Data Name="SteeringWheelAngle_Offset">
+				<Bits count="16">
+					<Scaled Step=" .1" Offset="-3276.7"/>
+				</Bits>
+			</Data>
+			<Data Name="SwaSensorInternalStatus">
+				<Bits count="3">
+					<Scaled/>
+				</Bits>
+			</Data>
+			<Data Name="SwaClock">
+				<Bits count="4">
+					<Scaled/>
+				</Bits>
+			</Data>
+			<Data Name="SwaChecksum">
+				<Bits>
+					<Scaled/>
+				</Bits>
+			</Data>
+			<Data Name="FastTorqueRequest">
+				<Bits count="12">
+					<Scaled Step=" .5" Offset="-400"/>
+				</Bits>
+			</Data>
+			<Data Name="Limit_SlowTorqueRequest">
+				<Bits count="12">
+					<Scaled Step=" .5" Offset="-400"/>
+				</Bits>
+			</Data>
+			<Data Name="TransmRangeEngaged_Target">
+				<Bits count="4">
+					<List>
+						<Item Value="0" Text="declutched at rest"/>
+						<Item Value="1" Text="1st range"/>
+						<Item Value="2" Text="2nd range"/>
+						<Item Value="3" Text="3rd range"/>
+						<Item Value="4" Text="4th range"/>
+						<Item Value="5" Text="5th range"/>
+						<Item Value="6" Text="6th range"/>
+						<Item Value="7" Text="7th range"/>
+						<Item Value="8" Text="8th range"/>
+						<Item Value="9" Text="reverse"/>
+						<Item Value="10" Text="neutral or parking"/>
+						<Item Value="11" Text="CVT in continuous mode"/>
+						<Item Value="15" Text="AT in limphome"/></List>
+				</Bits>
+			</Data>
+			<Data Name="TransmRangeEngaged_Current">
+				<Bits count="4">
+					<List>
+						<Item Value="0" Text="declutched at rest"/>
+						<Item Value="1" Text="1st range"/>
+						<Item Value="2" Text="2nd range"/>
+						<Item Value="3" Text="3rd range"/>
+						<Item Value="4" Text="4th range"/>
+						<Item Value="5" Text="5th range"/>
+						<Item Value="6" Text="6th range"/>
+						<Item Value="7" Text="7th range"/>
+						<Item Value="8" Text="8th range"/>
+						<Item Value="9" Text="reverse"/>
+						<Item Value="10" Text="neutral or parking"/>
+						<Item Value="11" Text="CVT in continuous mode"/>
+						<Item Value="15" Text="AT in limphome"/></List>
+				</Bits>
+			</Data>
+			<Data Name="AT_TorqueControlType">
+				<Bits count="3">
+					<List>
+						<Item Value="0" Text="torque limitation without transm"/>
+						<Item Value="5" Text="Upper torque value limitation"/>
+						<Item Value="6" Text="Lower torque value limitation"/>
+						<Item Value="7" Text="Full torque control"/></List>
+				</Bits>
+			</Data>
+			<Data Name="AT_Clock">
+				<Bits count="4">
+					<Scaled/>
+				</Bits>
+			</Data>
+			<Data Name="TorqueConverterState">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="unlocked converter"/>
+						<Item Value="1" Text="sliding converter"/>
+						<Item Value="2" Text="locked-up converter"/>
+						<Item Value="3" Text="unavailable"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ATCoolingFanSpeedRequest">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="no engine fan speed requested"/>
+						<Item Value="1" Text="low speed engine fan speed reque"/>
+						<Item Value="2" Text="Mid speed engine fan speed reque"/>
+						<Item Value="3" Text="high speed engine fan speed requ"/></List>
+				</Bits>
+			</Data>
+			<Data Name="AnticipatedCurrentShift">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="Unavailable"/>
+						<Item Value="1" Text="Parking/Neutral"/>
+						<Item Value="2" Text="Declutched at rest"/>
+						<Item Value="3" Text="Anticipated Current Drive"/></List>
+				</Bits>
+			</Data>
+			<Data Name="EstimatedPowertrainWheelTorque">
+				<Bits count="16">
+					<Scaled Step=" .5" Offset="-6400"/>
+				</Bits>
+			</Data>
+			<Data Name="InputShaftRevolution">
+				<Bits count="16">
+					<Scaled/>
+				</Bits>
+			</Data>
+			<Data Name="AT_MinimumIdleSpeedRequest">
+				<Bits>
+					<Scaled Step=" 8"/>
+				</Bits>
+			</Data>
+			<Data Name="SportivityCriteria">
+				<Bits>
+					<Scaled Step=" .392157"/>
+				</Bits>
+			</Data>
+			<Data Name="AT_TorqueLosses">
+				<Bits>
+					<Scaled Step=" .5"/>
+				</Bits>
+			</Data>
+			<Data Name="CrankingAuthorisation_AT">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="cranking not allowed"/>
+						<Item Value="1" Text="cranking allowed"/>
+						<Item Value="2" Text="reserved"/>
+						<Item Value="3" Text="unavailable"/></List>
+				</Bits>
+			</Data>
+			<Data Name="AT_MILRequest">
+				<Bits count="3">
+					<Scaled/>
+				</Bits>
+			</Data>
+			<Data Name="GearLeverPosition">
+				<Bits count="4">
+					<List>
+						<Item Value="0" Text="parking"/>
+						<Item Value="1" Text="reverse"/>
+						<Item Value="2" Text="neutral"/>
+						<Item Value="3" Text="drive"/>
+						<Item Value="4" Text="4th gear"/>
+						<Item Value="5" Text="3rd gear"/>
+						<Item Value="6" Text="2nd gear"/>
+						<Item Value="7" Text="1st gear"/>
+						<Item Value="8" Text="intermediate P/R or N/R"/>
+						<Item Value="9" Text="intermediate N/D"/>
+						<Item Value="10" Text="intermediate"/>
+						<Item Value="11" Text="manual mode"/>
+						<Item Value="12" Text="6th gear"/>
+						<Item Value="13" Text="7th gear"/>
+						<Item Value="14" Text="5th gear"/>
+						<Item Value="15" Text="not available (init or lever swi"/></List>
+				</Bits>
+			</Data>
+			<Data Name="FuelCutRequestedEngineSpeed">
+				<Bits>
+					<Scaled Step=" 50"/>
+				</Bits>
+			</Data>
+			<Data Name="EngineRPM">
+				<Bits count="16">
+					<Scaled Step=" .125"/>
+				</Bits>
+			</Data>
+			<Data Name="MeanEffTorque">
+				<Bits count="12">
+					<Scaled Step=" .5" Offset="-400"/>
+				</Bits>
+			</Data>
+			<Data Name="RequestedTorqueAfterProc">
+				<Bits count="12">
+					<Scaled Step=" .5" Offset="-400"/>
+				</Bits>
+			</Data>
+			<Data Name="RawSensor">
+				<Bits count="10">
+					<Scaled Step=" .125"/>
+				</Bits>
+			</Data>
+			<Data Name="ASR_MSRAcknowledgement">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="data received not consistent"/>
+						<Item Value="1" Text="Data received  consistent"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ECM_TorqueRequestStatus">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="normal"/>
+						<Item Value="1" Text="Exact torque request cannot be a"/>
+						<Item Value="2" Text="Transient state preventing torqu"/>
+						<Item Value="3" Text="torque request can not be achiev"/></List>
+				</Bits>
+			</Data>
+			<Data Name="RawEngineTorque_WithoutTMReq">
+				<Bits count="12">
+					<Scaled Step=" .5" Offset="-400"/>
+				</Bits>
+			</Data>
+			<Data Name="AT_TorqueAcknowledgement">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="data received from transmission "/>
+						<Item Value="1" Text="data received  from transmission"/></List>
+				</Bits>
+			</Data>
+			<Data Name="CruiseControlStatus_forTM">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="CC and SL inactive (OFF, in stan"/>
+						<Item Value="1" Text="pedal recovery"/>
+						<Item Value="2" Text="CC or SL active"/>
+						<Item Value="3" Text="reserved"/></List>
+				</Bits>
+			</Data>
+			<Data Name="PowerTrainSetPoint">
+				<Bits count="10">
+					<Scaled Step=" .125"/>
+				</Bits>
+			</Data>
+			<Data Name="KickDownActivated">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="kick down off"/>
+						<Item Value="1" Text="kick down activated"/></List>
+				</Bits>
+			</Data>
+			<Data Name="FrictionTorque">
+				<Bits count="12">
+					<Scaled Step=" .5" Offset="-400"/>
+				</Bits>
+			</Data>
+			<Data Name="PedalError">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="No pedal failure"/>
+						<Item Value="1" Text="Pedal Single failure"/>
+						<Item Value="2" Text="Not used"/>
+						<Item Value="3" Text="Pedal severe failure"/></List>
+				</Bits>
+			</Data>
+			<Data Name="EngTorque_WithoutTMReq">
+				<Bits count="12">
+					<Scaled Step=" .5" Offset="-400"/>
+				</Bits>
+			</Data>
+			<Data Name="MinimumInstantTorque">
+				<Bits count="12">
+					<Scaled Step=" .5" Offset="-400"/>
+				</Bits>
+			</Data>
+			<Data Name="MaximumInstantTorque">
+				<Bits count="12">
+					<Scaled Step=" .5" Offset="-400"/>
+				</Bits>
+			</Data>
+			<Data Name="AlternatorLoad">
+				<Bits>
+					<Scaled Step=" .390625"/>
+				</Bits>
+			</Data>
+			<Data Name="StarterStatus">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="cranking relay switched off"/>
+						<Item Value="1" Text="short relaxation active"/>
+						<Item Value="2" Text="long relaxation active"/>
+						<Item Value="3" Text="cranking relay switched on"/></List>
+				</Bits>
+			</Data>
+			<Data Name="RearGearEngaged">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="Not used"/>
+						<Item Value="1" Text="Rear Gear not Engaged"/>
+						<Item Value="2" Text="Rear Gear Engaged"/>
+						<Item Value="3" Text="unavailable"/></List>
+				</Bits>
+			</Data>
+			<Data Name="NeutralContact">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="not used"/>
+						<Item Value="1" Text="neutral contact not reached"/>
+						<Item Value="2" Text="neutral contact reached"/>
+						<Item Value="3" Text="unavailable"/></List>
+				</Bits>
+			</Data>
+			<Data Name="MiniConsumptionRequest">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="Reserved"/>
+						<Item Value="1" Text="No minimum consumption requested"/>
+						<Item Value="2" Text="Minimum consumption requested"/>
+						<Item Value="3" Text="Reserved_3"/></List>
+				</Bits>
+			</Data>
+			<Data Name="CoolingFanSpeedStatus">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="Engine Fan Stopped"/>
+						<Item Value="1" Text="low speed engine fan active"/>
+						<Item Value="2" Text="mid speed engine fan active"/>
+						<Item Value="3" Text="high speed engine fan active"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ACCompClutchDefault">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="No AC Compressor clutch default"/>
+						<Item Value="1" Text="AC Compressor clutch default"/></List>
+				</Bits>
+			</Data>
+			<Data Name="FrontDefrostEngaged">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="Front Defrost not engaged"/>
+						<Item Value="1" Text="Front Defrost engaged"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ACCompValveDefault">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="No AC Compressor valve default"/>
+						<Item Value="1" Text="AC Compressor valve default"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ACCompClutchStatus">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="Compressor clutch off"/>
+						<Item Value="1" Text="Compressor clutch on"/></List>
+				</Bits>
+			</Data>
+			<Data Name="ACCompValveCurrent">
+				<Bits count="7">
+					<Scaled Step=" .01"/>
+				</Bits>
+			</Data>
+			<Data Name="InstantMecanicalPowerByAlt">
+				<Bits>
+					<Scaled Step=" 40"/>
+				</Bits>
+			</Data>
+			<Data Name="USM_RefusetoSleep">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="reserved"/>
+						<Item Value="1" Text="USM refuse to sleep "/>
+						<Item Value="2" Text="USM ready to sleep"/>
+						<Item Value="3" Text="reserved_3"/></List>
+				</Bits>
+			</Data>
+			<Data Name="IgnitionSupplyConfirmation">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="no primary ignition supply"/>
+						<Item Value="1" Text="primary ignition supply on"/></List>
+				</Bits>
+			</Data>
+			<Data Name="FrontWiperStopPosition">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="stop position not reached"/>
+						<Item Value="1" Text="stop position reached"/></List>
+				</Bits>
+			</Data>
+			<Data Name="FrontWiperStatus">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="front wiper stopped"/>
+						<Item Value="1" Text="low speed active"/>
+						<Item Value="2" Text="high speed active"/>
+						<Item Value="3" Text="unavailable"/></List>
+				</Bits>
+			</Data>
+			<Data Name="BDUOpeningAnticipation">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="BDU not about to open"/>
+						<Item Value="1" Text="BDU is about to open"/></List>
+				</Bits>
+			</Data>
+			<Data Name="IgnitionControlState">
+				<Bits count="1">
+					<List>
+						<Item Value="0" Text="Primary ignition supply relay co"/>
+						<Item Value="1" Text="Primary ignition supply relay co_1"/></List>
+				</Bits>
+			</Data>
+			<Data Name="BatteryVoltage">
+				<Bits>
+					<Scaled Step=" .0625"/>
+				</Bits>
+			</Data>
+			<Data Name="AutoLockUpActivationRequest">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="No Automatic Lock Up activation/"/>
+						<Item Value="1" Text="Automatic Lock Up activation req"/>
+						<Item Value="2" Text="Automatic lock up de-activation "/></List>
+				</Bits>
+			</Data>
+			<Data Name="SingleDoorOpeningActivationReq">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="No single door opening request"/>
+						<Item Value="1" Text="Single door opening activation r"/>
+						<Item Value="2" Text="Single door opening de-activatio"/></List>
+				</Bits>
+			</Data>
+			<Data Name="AutoMirrorFoldingActivationReq">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="No Automatic mirror folding acti"/>
+						<Item Value="1" Text="Automatic mirror folding activat"/>
+						<Item Value="2" Text="Automatic mirror folding de-acti"/></List>
+				</Bits>
+			</Data>
+			<Data Name="FrontParkAssistActivationReq">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="No request"/>
+						<Item Value="1" Text="Front parking assistance activat"/>
+						<Item Value="2" Text="Front parking assistance de-acti"/></List>
+				</Bits>
+			</Data>
+			<Data Name="FrontParkAssistVolumeReq">
+				<Bits count="3">
+					<List>
+						<Item Value="0" Text="No front park assistance volume "/>
+						<Item Value="1" Text="Front parking assistance volume "/>
+						<Item Value="2" Text="Front parking assistance volume _2"/>
+						<Item Value="3" Text="Front parking assistance volume _3"/>
+						<Item Value="4" Text="Front parking assistance volume _4"/>
+						<Item Value="5" Text="Front parking assistance volume _5"/>
+						<Item Value="6" Text="Front parking assistance volume _6"/>
+						<Item Value="7" Text="Volume deactivated"/></List>
+				</Bits>
+			</Data>
+			<Data Name="RearParkAssistActivationReq">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="No request"/>
+						<Item Value="1" Text="Rear parking assistance activati"/>
+						<Item Value="2" Text="Rear parking assistance de-activ"/></List>
+				</Bits>
+			</Data>
+			<Data Name="RearParkAssistVolumeReq">
+				<Bits count="3">
+					<List>
+						<Item Value="0" Text="No rear park assistance volume r"/>
+						<Item Value="1" Text="Rear parking assistance volume l"/>
+						<Item Value="2" Text="Rear parking assistance volume l_2"/>
+						<Item Value="3" Text="Rear parking assistance volume l_3"/>
+						<Item Value="4" Text="Rear parking assistance volume l_4"/>
+						<Item Value="5" Text="Rear parking assistance volume l_5"/>
+						<Item Value="6" Text="Rear parking assistance volume l_6"/>
+						<Item Value="7" Text="Rear parking assistance volume l_7"/></List>
+				</Bits>
+			</Data>
+			<Data Name="DRLActivationRequest">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="No DRL activation request"/>
+						<Item Value="1" Text="DRL activation requested"/>
+						<Item Value="2" Text="DRL de-activation requested"/>
+						<Item Value="3" Text="Not Used"/></List>
+				</Bits>
+			</Data>
+			<Data Name="LanguageConfigurationRequest">
+				<Bits count="4">
+					<List>
+						<Item Value="0" Text="No Request : custom language"/>
+						<Item Value="1" Text="French"/>
+						<Item Value="2" Text="English"/>
+						<Item Value="3" Text="German"/>
+						<Item Value="4" Text="Spanish"/>
+						<Item Value="5" Text="Portuguese"/>
+						<Item Value="6" Text="Italian"/>
+						<Item Value="7" Text="Polish"/>
+						<Item Value="8" Text="Turkish"/>
+						<Item Value="9" Text="Dutch"/>
+						<Item Value="10" Text="Not Used"/>
+						<Item Value="11" Text="Not Used_11"/>
+						<Item Value="12" Text="Not Used_12"/>
+						<Item Value="13" Text="Not Used_13"/>
+						<Item Value="14" Text="Not Used_14"/>
+						<Item Value="15" Text="Not Used_15"/></List>
+				</Bits>
+			</Data>
+			<Data Name="AutoRearWiperActivationRequest">
+				<Bits count="2">
+					<List>
+						<Item Value="0" Text="No automatic rear wiper activati"/>
+						<Item Value="1" Text="Automatic Rear wiper activation "/>
+						<Item Value="2" Text="Automatic Rear wiper de-activati"/>
+						<Item Value="3" Text="Not Used"/></List>
+				</Bits>
+			</Data>
+			<Data Name="AIRBAG_to_DTOOL">
+				<Bytes count="8"/>
+			</Data>
+			<Data Name="AT_to_DTOOL">
+				<Bytes count="8"/>
+			</Data>
+			<Data Name="BCM_to_DTOOL">
+				<Bytes count="8"/>
+			</Data>
+			<Data Name="Brake_to_DTOOL">
+				<Bytes count="8"/>
+			</Data>
+			<Data Name="CLIM_to_DTOOL">
+				<Bytes count="8"/>
+			</Data>
+			<Data Name="CLUSTER_to_DTOOL">
+				<Bytes count="8"/>
+			</Data>
+			<Data Name="DDCM_to_DTOOL">
+				<Bytes count="8"/>
+			</Data>
+			<Data Name="DTOOL_to_AIRBAG">
+				<Bytes count="8"/>
+			</Data>
+			<Data Name="DTOOL_to_ALLUCEOBD">
+				<Bytes count="8"/>
+			</Data>
+			<Data Name="DTOOL_to_AT">
+				<Bytes count="8"/>
+			</Data>
+			<Data Name="DTOOL_to_BCM">
+				<Bytes count="8"/>
+			</Data>
+			<Data Name="DTOOL_to_Brake">
+				<Bytes count="8"/>
+			</Data>
+			<Data Name="DTOOL_to_CLIM">
+				<Bytes count="8"/>
+			</Data>
+			<Data Name="DTOOL_to_CLUSTER">
+				<Bytes count="8"/>
+			</Data>
+			<Data Name="DTOOL_to_DDCM">
+				<Bytes count="8"/>
+			</Data>
+			<Data Name="DTOOL_to_ECM">
+				<Bytes count="8"/>
+			</Data>
+			<Data Name="DTOOL_to_EPS">
+				<Bytes count="8"/>
+			</Data>
+			<Data Name="DTOOL_to_HLS">
+				<Bytes count="8"/>
+			</Data>
+			<Data Name="DTOOL_to_LDCM">
+				<Bytes count="8"/>
+			</Data>
+			<Data Name="DTOOL_to_PAS">
+				<Bytes count="8"/>
+			</Data>
+			<Data Name="DTOOL_to_PDCM">
+				<Bytes count="8"/>
+			</Data>
+			<Data Name="DTOOL_to_RDCM">
+				<Bytes count="8"/>
+			</Data>
+			<Data Name="DTOOL_to_Roof">
+				<Bytes count="8"/>
+			</Data>
+			<Data Name="DTOOL_to_USM">
+				<Bytes count="8"/>
+			</Data>
+			<Data Name="ECM_to_DTOOL">
+				<Bytes count="8"/>
+			</Data>
+			<Data Name="EPS_to_DTOOL">
+				<Bytes count="8"/>
+			</Data>
+			<Data Name="HLS_to_DTOOL">
+				<Bytes count="8"/>
+			</Data>
+			<Data Name="LDCM_to_DTOOL">
+				<Bytes count="8"/>
+			</Data>
+			<Data Name="PAS_to_DTOOL">
+				<Bytes count="8"/>
+			</Data>
+			<Data Name="PDCM_to_DTOOL">
+				<Bytes count="8"/>
+			</Data>
+			<Data Name="RDCM_to_DTOOL">
+				<Bytes count="8"/>
+			</Data>
+			<Data Name="Roof_to_DTOOL">
+				<Bytes count="8"/>
+			</Data>
+			<Data Name="SoftwareLockRequest">
+				<Bytes count="6"/>
+			</Data>
+			<Data Name="USM_to_DTOOL">
+				<Bytes count="8"/>
+			</Data>
+			<Data Name="VehicleID">
+				<Bytes count="4"/>
+			</Data></Datas>
+		<Requests Endian="Big">
+			<Request Name="AIRBAGCrash">
+
+				<Comment><![CDATA[4]]></Comment>
+				<Sent>
+					<SentBytes>0023</SentBytes>
+				</Sent>
+				<Received MinBytes="2">
+					<DataItem Name="AirbagCrashOrder" Ref="1" FirstByte="1"/>
+				</Received>
+			</Request>
+			<Request Name="AIRBAG_CANHS_R_01">
+
+				<Comment><![CDATA[100]]></Comment>
+				<Sent>
+					<SentBytes>0653</SentBytes>
+				</Sent>
+				<Received MinBytes="4">
+					<DataItem Name="CrashDetected" Ref="1" FirstByte="1"/>
+					<DataItem Name="Crash_DetectionOutOfOrder" Ref="1" FirstByte="1" BitOffset="1"/>
+					<DataItem Name="Driver_SBR" Ref="1" FirstByte="2"/>
+					<DataItem Name="FrontPassengerSafetyBeltReminder" Ref="1" FirstByte="2" BitOffset="2"/>
+					<DataItem Name="PassAIRBAG_Inhibition" Ref="1" FirstByte="2" BitOffset="4"/>
+					<DataItem Name="AIRBAGMalfunction" Ref="1" FirstByte="2" BitOffset="5"/>
+					<DataItem Name="SecondRowCenterSafetyBeltState" Ref="1" FirstByte="2" BitOffset="6"/>
+					<DataItem Name="SecondRowLeftSafetyBeltState" Ref="1" FirstByte="3"/>
+					<DataItem Name="SecondRowRightSafetyBeltState" Ref="1" FirstByte="3" BitOffset="2"/>
+					<DataItem Name="ValidAIRBAGInformation" Ref="1" FirstByte="3" BitOffset="4"/>
+					<DataItem Name="EDRActiveDisplayRequest" Ref="1" FirstByte="3" BitOffset="5"/>
+					<DataItem Name="ThirdRowLeftSafetyBeltState" Ref="1" FirstByte="3" BitOffset="6"/>
+					<DataItem Name="ThirdRowRightSafetyBeltState" Ref="1" FirstByte="4"/>
+					<DataItem Name="PassAirbagONDisplayReq" Ref="1" FirstByte="4" BitOffset="2"/>
+					<DataItem Name="ROPS_Position" Ref="1" FirstByte="4" BitOffset="3"/>
+				</Received>
+			</Request>
+			<Request Name="AIRBAG_to_DTOOL">
+
+				<Sent>
+					<SentBytes>0772</SentBytes>
+				</Sent>
+				<Received MinBytes="8">
+					<DataItem Name="AIRBAG_to_DTOOL" Ref="1" FirstByte="1"/>
+				</Received>
+			</Request>
+			<Request Name="AT_to_DTOOL">
+
+				<Sent>
+					<SentBytes>07E9</SentBytes>
+				</Sent>
+				<Received MinBytes="8">
+					<DataItem Name="AT_to_DTOOL" Ref="1" FirstByte="1"/>
+				</Received>
+			</Request>
+			<Request Name="BCM_CANHS_RNr_01">
+
+				<Comment><![CDATA[100]]></Comment>
+				<Sent>
+					<SentBytes>035C</SentBytes>
+				</Sent>
+				<Received MinBytes="8">
+					<DataItem Name="BCM_WakeUpSleepCommand" Ref="1" FirstByte="1"/>
+					<DataItem Name="BCMLSFT_WakeUpSleepCommand" Ref="1" FirstByte="1" BitOffset="2"/>
+					<DataItem Name="WakeUpType" Ref="1" FirstByte="1" BitOffset="4"/>
+					<DataItem Name="VehicleState" Ref="1" FirstByte="1" BitOffset="5"/>
+					<DataItem Name="DiagMuxOn_BCM" Ref="1" FirstByte="2"/>
+					<DataItem Name="StartingMode_BCM_R" Ref="1" FirstByte="2" BitOffset="1"/>
+					<DataItem Name="EngineStopDriverRequested" Ref="1" FirstByte="2" BitOffset="3"/>
+					<DataItem Name="SwitchOffSESDisturbers" Ref="1" FirstByte="2" BitOffset="4"/>
+					<DataItem Name="BatTempoRequest" Ref="1" FirstByte="2" BitOffset="5"/>
+					<DataItem Name="DischargedSupplyRequest" Ref="1" FirstByte="2" BitOffset="6"/>
+					<DataItem Name="DeliveryModeInfo" Ref="1" FirstByte="2" BitOffset="7"/>
+					<DataItem Name="AbsoluteTimeSince1rstIgnition" Ref="1" FirstByte="3"/>
+					<DataItem Name="BrakeInfoStatus" Ref="1" FirstByte="6"/>
+					<DataItem Name="ClutchSwitchMaximumTravel" Ref="1" FirstByte="6" BitOffset="3"/>
+					<DataItem Name="ClutchSwitchMinimumTravel" Ref="1" FirstByte="6" BitOffset="5"/>
+					<DataItem Name="ProbableCustomerFeedBackNeed" Ref="1" FirstByte="6" BitOffset="7"/>
+					<DataItem Name="EmergencyEngineStop" Ref="1" FirstByte="7"/>
+					<DataItem Name="WelcomePhaseState" Ref="1" FirstByte="7" BitOffset="4"/>
+					<DataItem Name="SupposedCustomerDeparture" Ref="1" FirstByte="7" BitOffset="5"/>
+					<DataItem Name="VehicleOutsideLockedState" Ref="1" FirstByte="7" BitOffset="7"/>
+					<DataItem Name="BrakeSwitchFailure" Ref="1" FirstByte="8"/>
+					<DataItem Name="GenericApplicativeDiagEnable" Ref="1" FirstByte="8" BitOffset="2"/>
+					<DataItem Name="ParkingBrakeStatus" Ref="1" FirstByte="8" BitOffset="4"/>
+				</Received>
+			</Request>
+			<Request Name="BCM_CANHS_RNr_02">
+
+				<Comment><![CDATA[100]]></Comment>
+				<Sent>
+					<SentBytes>05EE</SentBytes>
+				</Sent>
+				<Received MinBytes="8">
+					<DataItem Name="PositionLightsRequest" Ref="1" FirstByte="1"/>
+					<DataItem Name="LowBeamRequest" Ref="1" FirstByte="1" BitOffset="1"/>
+					<DataItem Name="HighBeamRequest" Ref="1" FirstByte="1" BitOffset="2"/>
+					<DataItem Name="FrontFogLightsRequest" Ref="1" FirstByte="1" BitOffset="3"/>
+					<DataItem Name="LowBeamSwitchOffDelayedRequest" Ref="1" FirstByte="1" BitOffset="4"/>
+					<DataItem Name="HeadLampsWasherRequest" Ref="1" FirstByte="1" BitOffset="6"/>
+					<DataItem Name="FrontWipingRequest" Ref="1" FirstByte="2"/>
+					<DataItem Name="ElectricalPowerDrived" Ref="1" FirstByte="2" BitOffset="3"/>
+					<DataItem Name="ClimateCoolingRequest" Ref="1" FirstByte="3"/>
+					<DataItem Name="PTCEngineIdleSpeedRequest" Ref="1" FirstByte="3" BitOffset="1"/>
+					<DataItem Name="Children_inhibitionState" Ref="1" FirstByte="3" BitOffset="2"/>
+					<DataItem Name="PTC_Thermal_Regulator_Freeze" Ref="1" FirstByte="3" BitOffset="3"/>
+					<DataItem Name="RearDefrostEngaged" Ref="1" FirstByte="3" BitOffset="4"/>
+					<DataItem Name="UserIdentification" Ref="1" FirstByte="3" BitOffset="5"/>
+					<DataItem Name="DayNightStatusForBacklights" Ref="1" FirstByte="4"/>
+					<DataItem Name="FlashingIndicatorCommandPosition" Ref="1" FirstByte="4" BitOffset="1"/>
+					<DataItem Name="DriverDoorState" Ref="1" FirstByte="4" BitOffset="3"/>
+					<DataItem Name="PassengerDoorState" Ref="1" FirstByte="4" BitOffset="4"/>
+					<DataItem Name="StartButtonPushed" Ref="1" FirstByte="4" BitOffset="5"/>
+					<DataItem Name="NightRheostatedLightMaxPercent" Ref="1" FirstByte="5"/>
+					<DataItem Name="LightSensorStatus" Ref="1" FirstByte="6"/>
+					<DataItem Name="AvFuelConsumptionAfterSaleReset" Ref="1" FirstByte="6" BitOffset="1"/>
+					<DataItem Name="RightSolarLevelInfo" Ref="1" FirstByte="6" BitOffset="3"/>
+					<DataItem Name="LeftSolarLevelInfo" Ref="1" FirstByte="7"/>
+					<DataItem Name="KeyVehicle" Ref="1" FirstByte="7" BitOffset="5"/>
+					<DataItem Name="DayRunningLightRequest" Ref="1" FirstByte="8" BitOffset="3"/>
+					<DataItem Name="VisibleSolarLevelInfo" Ref="1" FirstByte="8" BitOffset="4"/>
+				</Received>
+			</Request>
+			<Request Name="BCM_CANHS_R_02">
+
+				<Comment><![CDATA[100]]></Comment>
+				<Sent>
+					<SentBytes>05EF</SentBytes>
+				</Sent>
+				<Received MinBytes="2">
+					<DataItem Name="RightBadgePushedState" Ref="1" FirstByte="1"/>
+					<DataItem Name="LeftBadgePushedState" Ref="1" FirstByte="1" BitOffset="2"/>
+					<DataItem Name="RightDoorLockState" Ref="1" FirstByte="1" BitOffset="4"/>
+					<DataItem Name="LeftDoorLockState" Ref="1" FirstByte="1" BitOffset="6"/>
+					<DataItem Name="UnlockRequestHandsFree" Ref="1" FirstByte="2"/>
+				</Received>
+			</Request>
+			<Request Name="BCM_VERLOG">
+
+				<Comment><![CDATA[100]]></Comment>
+				<Sent>
+					<SentBytes>0500</SentBytes>
+				</Sent>
+				<Received MinBytes="5">
+					<DataItem Name="SLockValueControl" Ref="1" FirstByte="1" BitOffset="3"/>
+					<DataItem Name="SoftwareLockValue" Ref="1" FirstByte="2"/>
+				</Received>
+			</Request>
+			<Request Name="BCM_to_DTOOL">
+
+				<Sent>
+					<SentBytes>0765</SentBytes>
+				</Sent>
+				<Received MinBytes="8">
+					<DataItem Name="BCM_to_DTOOL" Ref="1" FirstByte="1"/>
+				</Received>
+			</Request>
+			<Request Name="BCM_to_ESCL3">
+
+				<Comment><![CDATA[100]]></Comment>
+				<Sent>
+					<SentBytes>0505</SentBytes>
+				</Sent>
+				<Received MinBytes="4">
+					<DataItem Name="SteeringLockCode" Ref="1" FirstByte="1"/>
+					<DataItem Name="BCMComputerOperatingProperly" Ref="1" FirstByte="3" BitOffset="1"/>
+					<DataItem Name="IgnitionON" Ref="1" FirstByte="3" BitOffset="2"/>
+					<DataItem Name="Steering_Column_Unlock" Ref="1" FirstByte="3" BitOffset="5"/>
+					<DataItem Name="Steering_Column_Lock" Ref="1" FirstByte="3" BitOffset="6"/>
+					<DataItem Name="ClearSteeringCode" Ref="1" FirstByte="3" BitOffset="7"/>
+				</Received>
+			</Request>
+			<Request Name="BRAKE_CANHS_RNr_01">
+
+				<Comment><![CDATA[20]]></Comment>
+				<Sent>
+					<SentBytes>0242</SentBytes>
+				</Sent>
+				<Received MinBytes="7">
+					<DataItem Name="ABSinRegulation" Ref="1" FirstByte="1"/>
+					<DataItem Name="ABSMalfunction" Ref="1" FirstByte="1" BitOffset="1"/>
+					<DataItem Name="ASRinRegulation" Ref="1" FirstByte="1" BitOffset="2"/>
+					<DataItem Name="Reserved1bit" Ref="1" FirstByte="1" BitOffset="3"/>
+					<DataItem Name="AYCinRegulation" Ref="1" FirstByte="1" BitOffset="5"/>
+					<DataItem Name="AYCMalfunction" Ref="1" FirstByte="1" BitOffset="6"/>
+					<DataItem Name="MSRinRegulation" Ref="1" FirstByte="1" BitOffset="7"/>
+					<DataItem Name="ESP_Clock" Ref="1" FirstByte="2" BitOffset="1"/>
+					<DataItem Name="ESP_TorqueControlType" Ref="1" FirstByte="2" BitOffset="5"/>
+					<DataItem Name="ASRDynamicTorqueRequest" Ref="1" FirstByte="3"/>
+					<DataItem Name="ASRStaticTorqueRequest" Ref="1" FirstByte="4" BitOffset="4"/>
+					<DataItem Name="MSRTorqueRequest" Ref="1" FirstByte="6"/>
+					<DataItem Name="ShiftingAuthorization" Ref="1" FirstByte="7" BitOffset="4"/>
+				</Received>
+			</Request>
+			<Request Name="BRAKE_CANHS_RNr_02">
+
+				<Comment><![CDATA[20]]></Comment>
+				<Sent>
+					<SentBytes>029A</SentBytes>
+				</Sent>
+				<Received MinBytes="6">
+					<DataItem Name="WheelSpeed_F_R" Ref="1" FirstByte="1"/>
+					<DataItem Name="WheelSpeed_F_L" Ref="1" FirstByte="3"/>
+					<DataItem Name="VehicleSpeed" Ref="1" FirstByte="5"/>
+				</Received>
+			</Request>
+			<Request Name="BRAKE_CANHS_RNr_03">
+
+				<Comment><![CDATA[20]]></Comment>
+				<Sent>
+					<SentBytes>029C</SentBytes>
+				</Sent>
+				<Received MinBytes="8">
+					<DataItem Name="WheelSpeed_R_L" Ref="1" FirstByte="1"/>
+					<DataItem Name="WheelSpeed_R_R" Ref="1" FirstByte="3"/>
+					<DataItem Name="FourWheelReferenceSpeed" Ref="1" FirstByte="5"/>
+					<DataItem Name="VehicleSpeed_CVT" Ref="1" FirstByte="7"/>
+				</Received>
+			</Request>
+			<Request Name="BRAKE_CANHS_RNr_04">
+
+				<Comment><![CDATA[10]]></Comment>
+				<Sent>
+					<SentBytes>012E</SentBytes>
+				</Sent>
+				<Received MinBytes="8">
+					<DataItem Name="LongitudinalAccelerationProc" Ref="1" FirstByte="1"/>
+					<DataItem Name="TransversalAcceleration" Ref="1" FirstByte="2"/>
+					<DataItem Name="YawRate" Ref="1" FirstByte="4"/>
+					<DataItem Name="ESP_RearWheelAnglePositionSeen" Ref="1" FirstByte="6"/>
+					<DataItem Name="ESP_RearWheelAngleRequest" Ref="1" FirstByte="7"/>
+					<DataItem Name="ESP_RWARequestType" Ref="1" FirstByte="8"/>
+					<DataItem Name="MuSplit_Clock" Ref="1" FirstByte="8" BitOffset="2"/>
+				</Received>
+			</Request>
+			<Request Name="BRAKE_CANHS_R_01">
+
+				<Comment><![CDATA[100]]></Comment>
+				<Sent>
+					<SentBytes>05D7</SentBytes>
+				</Sent>
+				<Received MinBytes="7">
+					<DataItem Name="VehicleSpeed" Ref="1" FirstByte="1"/>
+					<DataItem Name="DistanceTotalizer" Ref="1" FirstByte="3"/>
+					<DataItem Name="WheelsLockingState" Ref="1" FirstByte="6" BitOffset="4"/>
+					<DataItem Name="VehicleSpeedSign" Ref="1" FirstByte="7"/>
+					<DataItem Name="AccurateOdometer" Ref="1" FirstByte="7" BitOffset="2"/>
+				</Received>
+			</Request>
+			<Request Name="BRAKE_CANHS_R_02">
+
+				<Comment><![CDATA[40]]></Comment>
+				<Sent>
+					<SentBytes>0352</SentBytes>
+				</Sent>
+				<Received MinBytes="4">
+					<DataItem Name="ABS_WarningRequest" Ref="1" FirstByte="1"/>
+					<DataItem Name="ESP_StopLampRequest" Ref="1" FirstByte="1" BitOffset="2"/>
+					<DataItem Name="DriverBrake" Ref="1" FirstByte="1" BitOffset="4"/>
+					<DataItem Name="FHSA_PABStatus" Ref="1" FirstByte="2"/>
+					<DataItem Name="FHSA_PABHolding" Ref="1" FirstByte="2" BitOffset="2"/>
+					<DataItem Name="NoBrakeForce" Ref="1" FirstByte="3"/>
+					<DataItem Name="ACC_SDL_BrakeAcknowledgment" Ref="1" FirstByte="3" BitOffset="1"/>
+					<DataItem Name="ACC_SDL_BrakeRequestStatus" Ref="1" FirstByte="3" BitOffset="2"/>
+					<DataItem Name="ACC_SDL_StatusControl" Ref="1" FirstByte="3" BitOffset="4"/>
+					<DataItem Name="BrakingPressure" Ref="1" FirstByte="4"/>
+				</Received>
+			</Request>
+			<Request Name="BRAKE_to_DTOOL">
+
+				<Sent>
+					<SentBytes>0760</SentBytes>
+				</Sent>
+				<Received MinBytes="8">
+					<DataItem Name="Brake_to_DTOOL" Ref="1" FirstByte="1"/>
+				</Received>
+			</Request>
+			<Request Name="Brake_GeneralData">
+
+				<Comment><![CDATA[40]]></Comment>
+				<Sent>
+					<SentBytes>0354</SentBytes>
+				</Sent>
+				<Received MinBytes="8">
+					<DataItem Name="Vehicle_Speed" Ref="1" FirstByte="1"/>
+					<DataItem Name="Reserved_8bits" Ref="1" FirstByte="3"/>
+					<DataItem Name="Reserved_3bits" Ref="1" FirstByte="5"/>
+					<DataItem Name="Reserved_2bits" Ref="1" FirstByte="5" BitOffset="3"/>
+					<DataItem Name="Reserved_1bit" Ref="1" FirstByte="5" BitOffset="7"/>
+				</Received>
+			</Request>
+			<Request Name="CLIM_CANHS_R_01">
+
+				<Comment><![CDATA[50]]></Comment>
+				<Sent>
+					<SentBytes>0391</SentBytes>
+				</Sent>
+				<Received MinBytes="6">
+					<DataItem Name="ACCompPowerUsed" Ref="1" FirstByte="1"/>
+					<DataItem Name="ACCompValveRequest" Ref="1" FirstByte="2"/>
+					<DataItem Name="ClimateCoolingSelect" Ref="1" FirstByte="2" BitOffset="7"/>
+					<DataItem Name="BlowerState" Ref="1" FirstByte="3"/>
+					<DataItem Name="ACCoolingFanSpeedRequest" Ref="1" FirstByte="3" BitOffset="1"/>
+					<DataItem Name="ACCompRequest" Ref="1" FirstByte="3" BitOffset="3"/>
+					<DataItem Name="ACCompWorkingMode" Ref="1" FirstByte="3" BitOffset="4"/>
+					<DataItem Name="ACCompClutchRequest" Ref="1" FirstByte="3" BitOffset="5"/>
+					<DataItem Name="ACVbatTempoMaintain" Ref="1" FirstByte="3" BitOffset="6"/>
+					<DataItem Name="FrontDefrostRequest" Ref="1" FirstByte="3" BitOffset="7"/>
+					<DataItem Name="FrontDefrostButtonState" Ref="1" FirstByte="4"/>
+					<DataItem Name="RearDefrostRequest" Ref="1" FirstByte="4" BitOffset="4"/>
+					<DataItem Name="ClimCustomerAction" Ref="1" FirstByte="5"/>
+					<DataItem Name="PTCNumberThermalRequest" Ref="1" FirstByte="5" BitOffset="4"/>
+					<DataItem Name="ACMinEngineIdleSpeedRequest" Ref="1" FirstByte="6"/>
+				</Received>
+			</Request>
+			<Request Name="CLIM_to_DTOOL">
+
+				<Sent>
+					<SentBytes>0764</SentBytes>
+				</Sent>
+				<Received MinBytes="8">
+					<DataItem Name="CLIM_to_DTOOL" Ref="1" FirstByte="1"/>
+				</Received>
+			</Request>
+			<Request Name="CLUSTER_CANHS_RNr_01">
+
+				<Comment><![CDATA[100]]></Comment>
+				<Sent>
+					<SentBytes>04F8</SentBytes>
+				</Sent>
+				<Received MinBytes="5">
+					<DataItem Name="Cluster_RefusetoSleep" Ref="1" FirstByte="1"/>
+					<DataItem Name="DiagnosedFuelLow" Ref="1" FirstByte="1" BitOffset="2"/>
+					<DataItem Name="HandBrakeSwitch" Ref="1" FirstByte="1" BitOffset="4"/>
+					<DataItem Name="FuelLow" Ref="1" FirstByte="1" BitOffset="6"/>
+					<DataItem Name="OilDrainAlertResetRequest" Ref="1" FirstByte="1" BitOffset="7"/>
+					<DataItem Name="AIRBAGMalfunctionLampState" Ref="1" FirstByte="2"/>
+					<DataItem Name="PassAIRBAGInhibitionLampState" Ref="1" FirstByte="2" BitOffset="2"/>
+					<DataItem Name="ClusterDrivenLampsAutoCheck" Ref="1" FirstByte="2" BitOffset="4"/>
+					<DataItem Name="DisplayedSpeedUnit" Ref="1" FirstByte="2" BitOffset="5"/>
+					<DataItem Name="MuteRadioOrder" Ref="1" FirstByte="2" BitOffset="6"/>
+					<DataItem Name="PassAirbagONLampState" Ref="1" FirstByte="3"/>
+					<DataItem Name="DisplayedSpeed" Ref="1" FirstByte="4"/>
+				</Received>
+			</Request>
+			<Request Name="CLUSTER_CANHS_R_01">
+
+				<Comment><![CDATA[3000]]></Comment>
+				<Sent>
+					<SentBytes>06FB</SentBytes>
+				</Sent>
+				<Received MinBytes="8">
+					<DataItem Name="MILDisplayState" Ref="1" FirstByte="1"/>
+					<DataItem Name="DisplayedOilLevel" Ref="1" FirstByte="1" BitOffset="4"/>
+					<DataItem Name="GlobalVehicleWarningState" Ref="1" FirstByte="2"/>
+					<DataItem Name="WasherLevelWarningState" Ref="1" FirstByte="2" BitOffset="2"/>
+					<DataItem Name="BatteryWarningState" Ref="1" FirstByte="2" BitOffset="3"/>
+					<DataItem Name="ParticulateFilterWarningState" Ref="1" FirstByte="2" BitOffset="5"/>
+					<DataItem Name="FuelAutonomyInKm" Ref="1" FirstByte="2" BitOffset="6"/>
+					<DataItem Name="FuelLevelDisplayed" Ref="1" FirstByte="4"/>
+					<DataItem Name="WaterInDieselWarningState" Ref="1" FirstByte="4" BitOffset="7"/>
+					<DataItem Name="FixedMaintenanceRange" Ref="1" FirstByte="5"/>
+					<DataItem Name="AverageFuelConsumptionAfterSale" Ref="1" FirstByte="6"/>
+					<DataItem Name="MalfunctionLampWarningState" Ref="1" FirstByte="7"/>
+					<DataItem Name="BadgeWarningState" Ref="1" FirstByte="7" BitOffset="2"/>
+					<DataItem Name="PersoOilDrainingRange" Ref="1" FirstByte="8"/>
+				</Received>
+			</Request>
+			<Request Name="CLUSTER_CANHS_R_02">
+
+				<Sent>
+					<SentBytes>05D1</SentBytes>
+				</Sent>
+				<Received MinBytes="3">
+					<DataItem Name="MemorizedDistanceTotalizer" Ref="1" FirstByte="1"/>
+				</Received>
+			</Request>
+			<Request Name="CLUSTER_to_DTOOL">
+
+				<Sent>
+					<SentBytes>0763</SentBytes>
+				</Sent>
+				<Received MinBytes="8">
+					<DataItem Name="CLUSTER_to_DTOOL" Ref="1" FirstByte="1"/>
+				</Received>
+			</Request>
+			<Request Name="DDCM_CANLSFT_R_01">
+
+				<Comment><![CDATA[100]]></Comment>
+				<Sent>
+					<SentBytes>0534</SentBytes>
+				</Sent>
+				<Received MinBytes="5">
+					<DataItem Name="DDCM_RefusetoSleep" Ref="1" FirstByte="1"/>
+					<DataItem Name="ChildrenInhibitionRequest" Ref="1" FirstByte="2"/>
+					<DataItem Name="MatrixSwitchesFailure" Ref="1" FirstByte="2" BitOffset="1"/>
+					<DataItem Name="PassWindowLiftActionReq" Ref="1" FirstByte="2" BitOffset="2"/>
+					<DataItem Name="RearLeftWindowLiftActionReq" Ref="1" FirstByte="2" BitOffset="5"/>
+					<DataItem Name="RearRightWindowLiftActionReq" Ref="1" FirstByte="3"/>
+					<DataItem Name="AutoMirrorFoldingStatus" Ref="1" FirstByte="3" BitOffset="3"/>
+					<DataItem Name="PassMirrorMovementRequest" Ref="1" FirstByte="4"/>
+					<DataItem Name="PassMirrorParkingPositionRequest" Ref="1" FirstByte="4" BitOffset="3"/>
+					<DataItem Name="PassMirrorFoldingRequest" Ref="1" FirstByte="4" BitOffset="4"/>
+					<DataItem Name="DDCMCustomerAction" Ref="1" FirstByte="4" BitOffset="6"/>
+					<DataItem Name="ExternalTemp" Ref="1" FirstByte="5"/>
+				</Received>
+			</Request>
+			<Request Name="DDCM_to_DTOOL">
+
+				<Sent>
+					<SentBytes>0725</SentBytes>
+				</Sent>
+				<Received MinBytes="8">
+					<DataItem Name="DDCM_to_DTOOL" Ref="1" FirstByte="1"/>
+				</Received>
+			</Request>
+			<Request Name="DONGLE_BCM_CANHS_R_01">
+
+				<Comment><![CDATA[100]]></Comment>
+				<Sent>
+					<SentBytes>0552</SentBytes>
+				</Sent>
+				<Received MinBytes="2">
+					<DataItem Name="DongleBCM1" Ref="1" FirstByte="1"/>
+					<DataItem Name="DongleBCM2" Ref="1" FirstByte="1" BitOffset="2"/>
+					<DataItem Name="DongleBCM3" Ref="1" FirstByte="2" BitOffset="4"/>
+				</Received>
+			</Request>
+			<Request Name="DONGLE_EPS_CANHS_R_01">
+
+				<Comment><![CDATA[100]]></Comment>
+				<Sent>
+					<SentBytes>0563</SentBytes>
+				</Sent>
+				<Received MinBytes="2">
+					<DataItem Name="DongleEPS1" Ref="1" FirstByte="1"/>
+					<DataItem Name="DongleEPS2" Ref="1" FirstByte="1" BitOffset="2"/>
+					<DataItem Name="DongleEPS3" Ref="1" FirstByte="2" BitOffset="4"/>
+				</Received>
+			</Request>
+			<Request Name="DTOOL_to_AIRBAG">
+
+				<Sent>
+					<SentBytes>0752</SentBytes>
+				</Sent>
+				<Received MinBytes="8">
+					<DataItem Name="DTOOL_to_AIRBAG" Ref="1" FirstByte="1"/>
+				</Received>
+			</Request>
+			<Request Name="DTOOL_to_ALLUCEOBD">
+
+				<Sent>
+					<SentBytes>07DF</SentBytes>
+				</Sent>
+				<Received MinBytes="8">
+					<DataItem Name="DTOOL_to_ALLUCEOBD" Ref="1" FirstByte="1"/>
+				</Received>
+			</Request>
+			<Request Name="DTOOL_to_AT">
+
+				<Sent>
+					<SentBytes>07E1</SentBytes>
+				</Sent>
+				<Received MinBytes="8">
+					<DataItem Name="DTOOL_to_AT" Ref="1" FirstByte="1"/>
+				</Received>
+			</Request>
+			<Request Name="DTOOL_to_BCM">
+
+				<Sent>
+					<SentBytes>0745</SentBytes>
+				</Sent>
+				<Received MinBytes="8">
+					<DataItem Name="DTOOL_to_BCM" Ref="1" FirstByte="1"/>
+				</Received>
+			</Request>
+			<Request Name="DTOOL_to_BRAKE">
+
+				<Sent>
+					<SentBytes>0740</SentBytes>
+				</Sent>
+				<Received MinBytes="8">
+					<DataItem Name="DTOOL_to_Brake" Ref="1" FirstByte="1"/>
+				</Received>
+			</Request>
+			<Request Name="DTOOL_to_CLIM">
+
+				<Sent>
+					<SentBytes>0744</SentBytes>
+				</Sent>
+				<Received MinBytes="8">
+					<DataItem Name="DTOOL_to_CLIM" Ref="1" FirstByte="1"/>
+				</Received>
+			</Request>
+			<Request Name="DTOOL_to_CLUSTER">
+
+				<Sent>
+					<SentBytes>0743</SentBytes>
+				</Sent>
+				<Received MinBytes="8">
+					<DataItem Name="DTOOL_to_CLUSTER" Ref="1" FirstByte="1"/>
+				</Received>
+			</Request>
+			<Request Name="DTOOL_to_DDCM">
+
+				<Sent>
+					<SentBytes>0705</SentBytes>
+				</Sent>
+				<Received MinBytes="8">
+					<DataItem Name="DTOOL_to_DDCM" Ref="1" FirstByte="1"/>
+				</Received>
+			</Request>
+			<Request Name="DTOOL_to_ECM">
+
+				<Sent>
+					<SentBytes>07E0</SentBytes>
+				</Sent>
+				<Received MinBytes="8">
+					<DataItem Name="DTOOL_to_ECM" Ref="1" FirstByte="1"/>
+				</Received>
+			</Request>
+			<Request Name="DTOOL_to_EPS">
+
+				<Sent>
+					<SentBytes>0742</SentBytes>
+				</Sent>
+				<Received MinBytes="8">
+					<DataItem Name="DTOOL_to_EPS" Ref="1" FirstByte="1"/>
+				</Received>
+			</Request>
+			<Request Name="DTOOL_to_HLS">
+
+				<Sent>
+					<SentBytes>0751</SentBytes>
+				</Sent>
+				<Received MinBytes="8">
+					<DataItem Name="DTOOL_to_HLS" Ref="1" FirstByte="1"/>
+				</Received>
+			</Request>
+			<Request Name="DTOOL_to_LDCM">
+
+				<Sent>
+					<SentBytes>0716</SentBytes>
+				</Sent>
+				<Received MinBytes="8">
+					<DataItem Name="DTOOL_to_LDCM" Ref="1" FirstByte="1"/>
+				</Received>
+			</Request>
+			<Request Name="DTOOL_to_PDCM">
+
+				<Sent>
+					<SentBytes>0706</SentBytes>
+				</Sent>
+				<Received MinBytes="8">
+					<DataItem Name="DTOOL_to_PDCM" Ref="1" FirstByte="1"/>
+				</Received>
+			</Request>
+			<Request Name="DTOOL_to_RDCM">
+
+				<Sent>
+					<SentBytes>0717</SentBytes>
+				</Sent>
+				<Received MinBytes="8">
+					<DataItem Name="DTOOL_to_RDCM" Ref="1" FirstByte="1"/>
+				</Received>
+			</Request>
+			<Request Name="DTOOL_to_ROOF">
+
+				<Sent>
+					<SentBytes>074B</SentBytes>
+				</Sent>
+				<Received MinBytes="8">
+					<DataItem Name="DTOOL_to_Roof" Ref="1" FirstByte="1"/>
+				</Received>
+			</Request>
+			<Request Name="DTOOL_to_UPA">
+
+				<Sent>
+					<SentBytes>074E</SentBytes>
+				</Sent>
+				<Received MinBytes="8">
+					<DataItem Name="DTOOL_to_PAS" Ref="1" FirstByte="1"/>
+				</Received>
+			</Request>
+			<Request Name="DTOOL_to_USM">
+
+				<Sent>
+					<SentBytes>074D</SentBytes>
+				</Sent>
+				<Received MinBytes="8">
+					<DataItem Name="DTOOL_to_USM" Ref="1" FirstByte="1"/>
+				</Received>
+			</Request>
+			<Request Name="ECM_CANHS_RNr_01">
+
+				<Comment><![CDATA[10]]></Comment>
+				<Sent>
+					<SentBytes>01F6</SentBytes>
+				</Sent>
+				<Received MinBytes="8">
+					<DataItem Name="EngineFanSpeedRequest" Ref="1" FirstByte="1"/>
+					<DataItem Name="MaxElectricalPowerAllowed" Ref="1" FirstByte="1" BitOffset="3"/>
+					<DataItem Name="ElectricalPowerCutFreeze" Ref="1" FirstByte="2"/>
+					<DataItem Name="EngineStatus_R" Ref="1" FirstByte="2" BitOffset="2"/>
+					<DataItem Name="EngineStopRequestOrigine" Ref="1" FirstByte="2" BitOffset="4"/>
+					<DataItem Name="CrankingAuthorization_ECM" Ref="1" FirstByte="3"/>
+					<DataItem Name="ACCompClutchActivation" Ref="1" FirstByte="3" BitOffset="2"/>
+					<DataItem Name="OpenActiveBrakeSwitch_ECM" Ref="1" FirstByte="3" BitOffset="3"/>
+					<DataItem Name="ACCompAuthorized" Ref="1" FirstByte="3" BitOffset="6"/>
+					<DataItem Name="ACHighPressureSensor" Ref="1" FirstByte="3" BitOffset="7"/>
+					<DataItem Name="FloatingInhibition" Ref="1" FirstByte="5"/>
+					<DataItem Name="AllowedPowerGradient" Ref="1" FirstByte="6"/>
+					<DataItem Name="AlternatorMaximumPower" Ref="1" FirstByte="7"/>
+					<DataItem Name="ACCompMaximumPower" Ref="1" FirstByte="8"/>
+				</Received>
+			</Request>
+			<Request Name="ECM_CANHS_RNr_02">
+
+				<Comment><![CDATA[100]]></Comment>
+				<Sent>
+					<SentBytes>05DA</SentBytes>
+				</Sent>
+				<Received MinBytes="7">
+					<DataItem Name="EngineCoolantTemp" Ref="1" FirstByte="1"/>
+					<DataItem Name="IdleSpeedControlInternalRequest" Ref="1" FirstByte="2"/>
+					<DataItem Name="DownTransitionOfEngCoolantTemp" Ref="1" FirstByte="3"/>
+					<DataItem Name="EngineCoolantRegulationTemp" Ref="1" FirstByte="3" BitOffset="1"/>
+					<DataItem Name="ECM_MechanicalLoadRequest" Ref="1" FirstByte="3" BitOffset="6"/>
+					<DataItem Name="ECM_RearDefrostRequest" Ref="1" FirstByte="3" BitOffset="7"/>
+					<DataItem Name="MinEngineSpeedRequest" Ref="1" FirstByte="4"/>
+					<DataItem Name="MaxEngineSpeedRequest" Ref="1" FirstByte="5"/>
+					<DataItem Name="ComputedOilDrainingRange" Ref="1" FirstByte="6"/>
+				</Received>
+			</Request>
+			<Request Name="ECM_VERLOG">
+
+				<Comment><![CDATA[100]]></Comment>
+				<Sent>
+					<SentBytes>0511</SentBytes>
+				</Sent>
+				<Received MinBytes="7">
+					<DataItem Name="SLockRequestControl" Ref="1" FirstByte="1" BitOffset="4"/>
+					<DataItem Name="SoftwareLockRequest" Ref="1" FirstByte="2"/>
+				</Received>
+			</Request>
+			<Request Name="ECM_to_DTOOL">
+
+				<Sent>
+					<SentBytes>07E8</SentBytes>
+				</Sent>
+				<Received MinBytes="8">
+					<DataItem Name="ECM_to_DTOOL" Ref="1" FirstByte="1"/>
+				</Received>
+			</Request>
+			<Request Name="EPS_CANHS_R_01">
+
+				<Comment><![CDATA[100]]></Comment>
+				<Sent>
+					<SentBytes>062C</SentBytes>
+				</Sent>
+				<Received MinBytes="1">
+					<DataItem Name="EPSWarning" Ref="1" FirstByte="1"/>
+				</Received>
+			</Request>
+			<Request Name="EPS_to_DTOOL">
+
+				<Sent>
+					<SentBytes>0762</SentBytes>
+				</Sent>
+				<Received MinBytes="8">
+					<DataItem Name="EPS_to_DTOOL" Ref="1" FirstByte="1"/>
+				</Received>
+			</Request>
+			<Request Name="ESCL3_to_BCM">
+
+				<Comment><![CDATA[100]]></Comment>
+				<Sent>
+					<SentBytes>0581</SentBytes>
+				</Sent>
+				<Received MinBytes="4">
+					<DataItem Name="SteeringLockCOP" Ref="1" FirstByte="1"/>
+					<DataItem Name="WrongCode" Ref="1" FirstByte="1" BitOffset="1"/>
+					<DataItem Name="AntiscanOn" Ref="1" FirstByte="1" BitOffset="2"/>
+					<DataItem Name="LockForbidden" Ref="1" FirstByte="1" BitOffset="3"/>
+					<DataItem Name="UnlockingFinished" Ref="1" FirstByte="1" BitOffset="4"/>
+					<DataItem Name="Undefined_position" Ref="1" FirstByte="1" BitOffset="5"/>
+					<DataItem Name="LockingFinished" Ref="1" FirstByte="1" BitOffset="6"/>
+					<DataItem Name="Blank_Coded" Ref="1" FirstByte="1" BitOffset="7"/>
+					<DataItem Name="ResetInfo_Verrou" Ref="1" FirstByte="2"/>
+					<DataItem Name="SteeringLockMinorElecFailure" Ref="1" FirstByte="2" BitOffset="1"/>
+					<DataItem Name="ESCL3Position" Ref="1" FirstByte="2" BitOffset="2"/>
+					<DataItem Name="Steering_actuator_failure" Ref="1" FirstByte="2" BitOffset="5"/>
+					<DataItem Name="SteeringLockMajorElectronicFail" Ref="1" FirstByte="2" BitOffset="6"/>
+					<DataItem Name="SpeedInhibition" Ref="1" FirstByte="3"/>
+					<DataItem Name="SafetyLineInhibition" Ref="1" FirstByte="3" BitOffset="3"/>
+					<DataItem Name="InconsistentBCMMessage" Ref="1" FirstByte="3" BitOffset="4"/>
+					<DataItem Name="PowerSupplyFeedback" Ref="1" FirstByte="3" BitOffset="5"/>
+					<DataItem Name="AbsentFrameBCM_to_ESCL3" Ref="1" FirstByte="3" BitOffset="6"/>
+					<DataItem Name="OperatingVoltageOutOfRange" Ref="1" FirstByte="3" BitOffset="7"/>
+					<DataItem Name="SensorTestAuthorized" Ref="1" FirstByte="4"/>
+					<DataItem Name="TimeOutOnTheSensorTest" Ref="1" FirstByte="4" BitOffset="1"/>
+					<DataItem Name="ConfigurationAttemptCounter" Ref="1" FirstByte="4" BitOffset="4"/>
+					<DataItem Name="BitRateConfigured" Ref="1" FirstByte="4" BitOffset="6"/>
+					<DataItem Name="BitRateConfiguration" Ref="1" FirstByte="4" BitOffset="7"/>
+				</Received>
+			</Request>
+			<Request Name="HLS_to_DTOOL">
+
+				<Sent>
+					<SentBytes>0771</SentBytes>
+				</Sent>
+				<Received MinBytes="8">
+					<DataItem Name="HLS_to_DTOOL" Ref="1" FirstByte="1"/>
+				</Received>
+			</Request>
+			<Request Name="LBCS_CANLSFT_R_01">
+
+				<Comment><![CDATA[100]]></Comment>
+				<Sent>
+					<SentBytes>05E2</SentBytes>
+				</Sent>
+				<Received MinBytes="2">
+					<DataItem Name="LowBeamSwitchOffRequest" Ref="1" FirstByte="1"/>
+					<DataItem Name="MBLFailureCondition" Ref="1" FirstByte="2"/>
+					<DataItem Name="MBLFailureDisplay" Ref="1" FirstByte="2" BitOffset="1"/>
+				</Received>
+			</Request>
+			<Request Name="LDCM_to_DTOOL">
+
+				<Sent>
+					<SentBytes>0736</SentBytes>
+				</Sent>
+				<Received MinBytes="8">
+					<DataItem Name="LDCM_to_DTOOL" Ref="1" FirstByte="1"/>
+				</Received>
+			</Request>
+			<Request Name="MMI_AT_CANHS_RNr_01">
+
+				<Comment><![CDATA[60]]></Comment>
+				<Sent>
+					<SentBytes>03F7</SentBytes>
+				</Sent>
+				<Received MinBytes="2">
+					<DataItem Name="ATCVT_RangeIndication" Ref="1" FirstByte="1"/>
+					<DataItem Name="ATCVT_CheckWarning" Ref="1" FirstByte="1" BitOffset="5"/>
+					<DataItem Name="ATCVT_HiTempWarning" Ref="1" FirstByte="1" BitOffset="6"/>
+					<DataItem Name="ATECOmodeRequest" Ref="1" FirstByte="2"/>
+					<DataItem Name="ATSnowmodeRequest" Ref="1" FirstByte="2" BitOffset="1"/>
+					<DataItem Name="AT_OpenDoorWarning" Ref="1" FirstByte="2" BitOffset="2"/>
+					<DataItem Name="AT_PressBrakePedalRequest" Ref="1" FirstByte="2" BitOffset="3"/>
+					<DataItem Name="AT_GearShiftRefused" Ref="1" FirstByte="2" BitOffset="4"/>
+				</Received>
+			</Request>
+			<Request Name="MMI_BCM_CANHS_R_01">
+
+				<Comment><![CDATA[100]]></Comment>
+				<Sent>
+					<SentBytes>05DE</SentBytes>
+				</Sent>
+				<Received MinBytes="8">
+					<DataItem Name="FlashingIndicatorStatusDisplay" Ref="1" FirstByte="1"/>
+					<DataItem Name="RearFogLightStateDisplay" Ref="1" FirstByte="1" BitOffset="3"/>
+					<DataItem Name="FrontFogLightsDisplay" Ref="1" FirstByte="1" BitOffset="4"/>
+					<DataItem Name="PositionLightsDisplay" Ref="1" FirstByte="1" BitOffset="5"/>
+					<DataItem Name="LowBeamDisplay" Ref="1" FirstByte="1" BitOffset="6"/>
+					<DataItem Name="HighBeamDisplay" Ref="1" FirstByte="1" BitOffset="7"/>
+					<DataItem Name="PositionLightsOmissionWarning" Ref="1" FirstByte="2"/>
+					<DataItem Name="ALSMalfunction" Ref="1" FirstByte="2" BitOffset="2"/>
+					<DataItem Name="FrontLeftDoorOpenWarning" Ref="1" FirstByte="2" BitOffset="3"/>
+					<DataItem Name="FrontRightDoorOpenWarning" Ref="1" FirstByte="2" BitOffset="5"/>
+					<DataItem Name="KeyInfoReemissionRequest" Ref="1" FirstByte="2" BitOffset="7"/>
+					<DataItem Name="RearLeftDoorOpenWarning" Ref="1" FirstByte="3"/>
+					<DataItem Name="RearRightDoorOpenWarning" Ref="1" FirstByte="3" BitOffset="2"/>
+					<DataItem Name="BDUSafetyLineFailure" Ref="1" FirstByte="3" BitOffset="4"/>
+					<DataItem Name="SteeringLock_Failure" Ref="1" FirstByte="3" BitOffset="5"/>
+					<DataItem Name="UnlockingSteeringColumnWarning" Ref="1" FirstByte="3" BitOffset="7"/>
+					<DataItem Name="AutomaticLockUpActivationState" Ref="1" FirstByte="4"/>
+					<DataItem Name="BadgeBatteryLow" Ref="1" FirstByte="4" BitOffset="1"/>
+					<DataItem Name="ChildproofLockMalfunctionDisplay" Ref="1" FirstByte="4" BitOffset="2"/>
+					<DataItem Name="TripDisplayScrollingRequest" Ref="1" FirstByte="4" BitOffset="4"/>
+					<DataItem Name="SmartKeylessInformationDisplay" Ref="1" FirstByte="5"/>
+					<DataItem Name="KeylessInfoReemissionRequest" Ref="1" FirstByte="5" BitOffset="4"/>
+					<DataItem Name="KeylessCardReaderFailureDisplay" Ref="1" FirstByte="5" BitOffset="5"/>
+					<DataItem Name="DRLstate" Ref="1" FirstByte="5" BitOffset="6"/>
+					<DataItem Name="FollowMeHomeDurationDisplay" Ref="1" FirstByte="6"/>
+					<DataItem Name="SingleDoorOpeningState" Ref="1" FirstByte="6" BitOffset="3"/>
+					<DataItem Name="ManualLockDisplayRequest" Ref="1" FirstByte="6" BitOffset="5"/>
+					<DataItem Name="ClutchSwitchFaultDisplay" Ref="1" FirstByte="6" BitOffset="6"/>
+					<DataItem Name="BrakeSwitchFaultDisplay" Ref="1" FirstByte="6" BitOffset="7"/>
+					<DataItem Name="StopLampFailureDisplay" Ref="1" FirstByte="7" BitOffset="1"/>
+					<DataItem Name="FlashingIndicatorFailureDisplay" Ref="1" FirstByte="7" BitOffset="2"/>
+					<DataItem Name="VarPowSteeringFailureDisplay" Ref="1" FirstByte="7" BitOffset="3"/>
+					<DataItem Name="AutomaticLockUpInhibitionWarning" Ref="1" FirstByte="7" BitOffset="4"/>
+					<DataItem Name="KeyInformationDisplay" Ref="1" FirstByte="7" BitOffset="5"/>
+					<DataItem Name="RearWiperStatus" Ref="1" FirstByte="8"/>
+					<DataItem Name="BootOpenWarning" Ref="1" FirstByte="8" BitOffset="2"/>
+					<DataItem Name="GlasshatchOpenWarning" Ref="1" FirstByte="8" BitOffset="4"/>
+				</Received>
+			</Request>
+			<Request Name="MMI_BRAKE_CANHS_RNr_01">
+
+				<Comment><![CDATA[100]]></Comment>
+				<Sent>
+					<SentBytes>0666</SentBytes>
+				</Sent>
+				<Received MinBytes="3">
+					<DataItem Name="ESPInRegulationDisplayRequest" Ref="1" FirstByte="1"/>
+					<DataItem Name="ESPInDefaultDisplayRequest" Ref="1" FirstByte="1" BitOffset="1"/>
+					<DataItem Name="ESPActivationStateForDisplay" Ref="1" FirstByte="1" BitOffset="2"/>
+					<DataItem Name="ASRActivationStateForDisplay" Ref="1" FirstByte="1" BitOffset="3"/>
+					<DataItem Name="ABSInDefaultDisplayRequest" Ref="1" FirstByte="1" BitOffset="4"/>
+					<DataItem Name="EBVInDefaultDisplayRequest" Ref="1" FirstByte="1" BitOffset="6"/>
+					<DataItem Name="EmergencyBrakingFailure" Ref="1" FirstByte="1" BitOffset="7"/>
+					<DataItem Name="ABS_ESPLampsAutoCheck" Ref="1" FirstByte="2"/>
+					<DataItem Name="FHSADeactivationDispReq" Ref="1" FirstByte="2" BitOffset="1"/>
+					<DataItem Name="FHSA_HoldStatusDisplayRequest" Ref="1" FirstByte="2" BitOffset="3"/>
+					<DataItem Name="FHSADriverActionRequest" Ref="1" FirstByte="2" BitOffset="4"/>
+					<DataItem Name="FHSA_MalfunctionDisplayRequest" Ref="1" FirstByte="2" BitOffset="5"/>
+					<DataItem Name="ABSorESPInCalibratingDiag" Ref="1" FirstByte="2" BitOffset="6"/>
+					<DataItem Name="ABSorESPToBeCalibrated" Ref="1" FirstByte="2" BitOffset="7"/>
+					<DataItem Name="VSUStateDisplayRequest" Ref="1" FirstByte="3"/>
+					<DataItem Name="RST_RESERVED_2b" Ref="1" FirstByte="3" BitOffset="2"/>
+				</Received>
+			</Request>
+			<Request Name="MMI_ECM_CANHS_RNr_01">
+
+				<Comment><![CDATA[100]]></Comment>
+				<Sent>
+					<SentBytes>066A</SentBytes>
+				</Sent>
+				<Received MinBytes="6">
+					<DataItem Name="DieselPreHeating" Ref="1" FirstByte="1"/>
+					<DataItem Name="MILLamp" Ref="1" FirstByte="1" BitOffset="1"/>
+					<DataItem Name="CruiseControlStatusDisplay" Ref="1" FirstByte="1" BitOffset="5"/>
+					<DataItem Name="ReqSpeedDisplayReq" Ref="1" FirstByte="2"/>
+					<DataItem Name="OverSpeedIndicationDisplayReq" Ref="1" FirstByte="3"/>
+					<DataItem Name="EngineControlFailureLevel1" Ref="1" FirstByte="3" BitOffset="1"/>
+					<DataItem Name="EngineControlFailureLevel2" Ref="1" FirstByte="3" BitOffset="2"/>
+					<DataItem Name="WarningWaterTemp" Ref="1" FirstByte="3" BitOffset="3"/>
+					<DataItem Name="DieselFilterWaterDetection" Ref="1" FirstByte="3" BitOffset="4"/>
+					<DataItem Name="ParticulateFilterState" Ref="1" FirstByte="3" BitOffset="5"/>
+					<DataItem Name="ParticulateFilterFailureDisplay" Ref="1" FirstByte="3" BitOffset="6"/>
+					<DataItem Name="FuelConsumptionType" Ref="1" FirstByte="3" BitOffset="7"/>
+					<DataItem Name="FuelConsumption" Ref="1" FirstByte="4"/>
+					<DataItem Name="NominalFuelConsumption" Ref="1" FirstByte="5"/>
+					<DataItem Name="FreeShift" Ref="1" FirstByte="6"/>
+					<DataItem Name="CCSpeedReachedDisplayReq" Ref="1" FirstByte="6" BitOffset="2"/>
+					<DataItem Name="LPGFlowSwitchedOFFWarning" Ref="1" FirstByte="6" BitOffset="3"/>
+					<DataItem Name="RST_RESERVED_1b" Ref="1" FirstByte="6" BitOffset="4"/>
+				</Received>
+			</Request>
+			<Request Name="MMI_TPMS_CANHS_R_01">
+
+				<Comment><![CDATA[100]]></Comment>
+				<Sent>
+					<SentBytes>0673</SentBytes>
+				</Sent>
+				<Received MinBytes="6">
+					<DataItem Name="SpeedPressureMisadaptation" Ref="1" FirstByte="1"/>
+					<DataItem Name="TPMSFailureWarningRequest" Ref="1" FirstByte="1" BitOffset="1"/>
+					<DataItem Name="RearRightWheelState" Ref="1" FirstByte="1" BitOffset="2"/>
+					<DataItem Name="RearLeftWheelState" Ref="1" FirstByte="1" BitOffset="5"/>
+					<DataItem Name="FrontRightWheelState" Ref="1" FirstByte="2"/>
+					<DataItem Name="FrontLeftWheelState" Ref="1" FirstByte="2" BitOffset="3"/>
+					<DataItem Name="Right_LeftImbalance" Ref="1" FirstByte="2" BitOffset="6"/>
+					<DataItem Name="RearRightWheelPressure" Ref="1" FirstByte="3"/>
+					<DataItem Name="RearLeftWheelPressure" Ref="1" FirstByte="4"/>
+					<DataItem Name="FrontRightWheelPressure" Ref="1" FirstByte="5"/>
+					<DataItem Name="FrontLeftWheelPressure" Ref="1" FirstByte="6"/>
+				</Received>
+			</Request>
+			<Request Name="MMI_UPA_CANLSFT_R_01">
+
+				<Comment><![CDATA[100]]></Comment>
+				<Sent>
+					<SentBytes>05E9</SentBytes>
+				</Sent>
+				<Received MinBytes="2">
+					<DataItem Name="UPAFailureDispRequest" Ref="1" FirstByte="1"/>
+					<DataItem Name="UPAStatusDisplayRequest" Ref="1" FirstByte="1" BitOffset="1"/>
+					<DataItem Name="FrontParkAssistState" Ref="1" FirstByte="2"/>
+					<DataItem Name="FrontParkAssistVolState" Ref="1" FirstByte="2" BitOffset="1"/>
+					<DataItem Name="RearParkAssistState" Ref="1" FirstByte="2" BitOffset="4"/>
+					<DataItem Name="RearParkAssistVolState" Ref="1" FirstByte="2" BitOffset="5"/>
+				</Received>
+			</Request>
+			<Request Name="MMI_USM_CANHS_R_01">
+
+				<Comment><![CDATA[100]]></Comment>
+				<Sent>
+					<SentBytes>0671</SentBytes>
+				</Sent>
+				<Received MinBytes="2">
+					<DataItem Name="WeakOilPressureWarning" Ref="1" FirstByte="1"/>
+					<DataItem Name="BatteryWarning" Ref="1" FirstByte="1" BitOffset="1"/>
+					<DataItem Name="BDUCommandLineFailure" Ref="1" FirstByte="1" BitOffset="2"/>
+					<DataItem Name="NeutralSwitchFaultDisplay" Ref="1" FirstByte="1" BitOffset="3"/>
+					<DataItem Name="LowBatteryVoltageDisplay" Ref="1" FirstByte="1" BitOffset="4"/>
+					<DataItem Name="PositionLightsFailureDisplay" Ref="1" FirstByte="1" BitOffset="6"/>
+					<DataItem Name="OverHeatingBatteryWarning" Ref="1" FirstByte="1" BitOffset="7"/>
+					<DataItem Name="OilPressureSwitchFaultDisplay" Ref="1" FirstByte="2"/>
+				</Received>
+			</Request>
+			<Request Name="MULTIMEDIA_CANHS_R_01">
+
+				<Comment><![CDATA[100]]></Comment>
+				<Sent>
+					<SentBytes>068B</SentBytes>
+				</Sent>
+				<Received MinBytes="2">
+					<DataItem Name="MMCustomerAction" Ref="1" FirstByte="1"/>
+					<DataItem Name="ForgettingPhoneWarning" Ref="1" FirstByte="2"/>
+				</Received>
+			</Request>
+			<Request Name="PDCM_to_DTOOL">
+
+				<Sent>
+					<SentBytes>0726</SentBytes>
+				</Sent>
+				<Received MinBytes="8">
+					<DataItem Name="PDCM_to_DTOOL" Ref="1" FirstByte="1"/>
+				</Received>
+			</Request>
+			<Request Name="RDCM_to_DTOOL">
+
+				<Sent>
+					<SentBytes>0737</SentBytes>
+				</Sent>
+				<Received MinBytes="8">
+					<DataItem Name="RDCM_to_DTOOL" Ref="1" FirstByte="1"/>
+				</Received>
+			</Request>
+			<Request Name="ROOF_to_DTOOL">
+
+				<Sent>
+					<SentBytes>076B</SentBytes>
+				</Sent>
+				<Received MinBytes="8">
+					<DataItem Name="Roof_to_DTOOL" Ref="1" FirstByte="1"/>
+				</Received>
+			</Request>
+			<Request Name="SWA_CANHS_RNr_01">
+
+				<Comment><![CDATA[10]]></Comment>
+				<Sent>
+					<SentBytes>00C6</SentBytes>
+				</Sent>
+				<Received MinBytes="8">
+					<DataItem Name="SteeringWheelAngle" Ref="1" FirstByte="1"/>
+					<DataItem Name="SteeringWheelRotationSpeed" Ref="1" FirstByte="3"/>
+					<DataItem Name="SteeringWheelAngle_Offset" Ref="1" FirstByte="5"/>
+					<DataItem Name="SwaSensorInternalStatus" Ref="1" FirstByte="7"/>
+					<DataItem Name="SwaClock" Ref="1" FirstByte="7" BitOffset="3"/>
+					<DataItem Name="SwaChecksum" Ref="1" FirstByte="8"/>
+				</Received>
+			</Request>
+			<Request Name="TORQUE_AT_CANHS_RNr_01">
+
+				<Comment><![CDATA[10]]></Comment>
+				<Sent>
+					<SentBytes>017A</SentBytes>
+				</Sent>
+				<Received MinBytes="8">
+					<DataItem Name="FastTorqueRequest" Ref="1" FirstByte="1"/>
+					<DataItem Name="Limit_SlowTorqueRequest" Ref="1" FirstByte="2" BitOffset="4"/>
+					<DataItem Name="TransmRangeEngaged_Target" Ref="1" FirstByte="4"/>
+					<DataItem Name="TransmRangeEngaged_Current" Ref="1" FirstByte="4" BitOffset="4"/>
+					<DataItem Name="AT_TorqueControlType" Ref="1" FirstByte="5"/>
+					<DataItem Name="AT_Clock" Ref="1" FirstByte="5" BitOffset="3"/>
+					<DataItem Name="TorqueConverterState" Ref="1" FirstByte="6"/>
+					<DataItem Name="ATCoolingFanSpeedRequest" Ref="1" FirstByte="6" BitOffset="4"/>
+					<DataItem Name="AnticipatedCurrentShift" Ref="1" FirstByte="6" BitOffset="6"/>
+					<DataItem Name="EstimatedPowertrainWheelTorque" Ref="1" FirstByte="7"/>
+				</Received>
+			</Request>
+			<Request Name="TORQUE_AT_CANHS_RNr_02">
+
+				<Comment><![CDATA[10]]></Comment>
+				<Sent>
+					<SentBytes>017E</SentBytes>
+				</Sent>
+				<Received MinBytes="8">
+					<DataItem Name="InputShaftRevolution" Ref="1" FirstByte="1"/>
+					<DataItem Name="AT_MinimumIdleSpeedRequest" Ref="1" FirstByte="3"/>
+					<DataItem Name="SportivityCriteria" Ref="1" FirstByte="4"/>
+					<DataItem Name="AT_TorqueLosses" Ref="1" FirstByte="5"/>
+					<DataItem Name="CrankingAuthorisation_AT" Ref="1" FirstByte="6"/>
+					<DataItem Name="AT_MILRequest" Ref="1" FirstByte="6" BitOffset="2"/>
+					<DataItem Name="GearLeverPosition" Ref="1" FirstByte="7"/>
+					<DataItem Name="FuelCutRequestedEngineSpeed" Ref="1" FirstByte="8"/>
+				</Received>
+			</Request>
+			<Request Name="TORQUE_ECM_CANHS_RNr_01">
+
+				<Comment><![CDATA[10]]></Comment>
+				<Sent>
+					<SentBytes>0186</SentBytes>
+				</Sent>
+				<Received MinBytes="7">
+					<DataItem Name="EngineRPM" Ref="1" FirstByte="1"/>
+					<DataItem Name="MeanEffTorque" Ref="1" FirstByte="3"/>
+					<DataItem Name="RequestedTorqueAfterProc" Ref="1" FirstByte="4" BitOffset="4"/>
+					<DataItem Name="RawSensor" Ref="1" FirstByte="6"/>
+					<DataItem Name="ASR_MSRAcknowledgement" Ref="1" FirstByte="7" BitOffset="2"/>
+					<DataItem Name="ECM_TorqueRequestStatus" Ref="1" FirstByte="7" BitOffset="3"/>
+				</Received>
+			</Request>
+			<Request Name="TORQUE_ECM_CANHS_RNr_02">
+
+				<Comment><![CDATA[10]]></Comment>
+				<Sent>
+					<SentBytes>018A</SentBytes>
+				</Sent>
+				<Received MinBytes="6">
+					<DataItem Name="RawEngineTorque_WithoutTMReq" Ref="1" FirstByte="1"/>
+					<DataItem Name="AT_TorqueAcknowledgement" Ref="1" FirstByte="2" BitOffset="4"/>
+					<DataItem Name="CruiseControlStatus_forTM" Ref="1" FirstByte="2" BitOffset="5"/>
+					<DataItem Name="PowerTrainSetPoint" Ref="1" FirstByte="3"/>
+					<DataItem Name="KickDownActivated" Ref="1" FirstByte="4" BitOffset="2"/>
+					<DataItem Name="FrictionTorque" Ref="1" FirstByte="4" BitOffset="3"/>
+					<DataItem Name="PedalError" Ref="1" FirstByte="6"/>
+				</Received>
+			</Request>
+			<Request Name="TORQUE_ECM_CANHS_R_01">
+
+				<Comment><![CDATA[10]]></Comment>
+				<Sent>
+					<SentBytes>0189</SentBytes>
+				</Sent>
+				<Received MinBytes="5">
+					<DataItem Name="EngTorque_WithoutTMReq" Ref="1" FirstByte="1"/>
+					<DataItem Name="MinimumInstantTorque" Ref="1" FirstByte="2" BitOffset="4"/>
+					<DataItem Name="MaximumInstantTorque" Ref="1" FirstByte="4"/>
+				</Received>
+			</Request>
+			<Request Name="UPA_to_DTOOL">
+
+				<Sent>
+					<SentBytes>076E</SentBytes>
+				</Sent>
+				<Received MinBytes="8">
+					<DataItem Name="PAS_to_DTOOL" Ref="1" FirstByte="1"/>
+				</Received>
+			</Request>
+			<Request Name="USM_CANHS_RNr_01">
+
+				<Comment><![CDATA[20]]></Comment>
+				<Sent>
+					<SentBytes>0212</SentBytes>
+				</Sent>
+				<Received MinBytes="5">
+					<DataItem Name="AlternatorLoad" Ref="1" FirstByte="1"/>
+					<DataItem Name="StarterStatus" Ref="1" FirstByte="2"/>
+					<DataItem Name="RearGearEngaged" Ref="1" FirstByte="2" BitOffset="2"/>
+					<DataItem Name="NeutralContact" Ref="1" FirstByte="2" BitOffset="4"/>
+					<DataItem Name="MiniConsumptionRequest" Ref="1" FirstByte="2" BitOffset="6"/>
+					<DataItem Name="CoolingFanSpeedStatus" Ref="1" FirstByte="3"/>
+					<DataItem Name="ACCompClutchDefault" Ref="1" FirstByte="3" BitOffset="2"/>
+					<DataItem Name="FrontDefrostEngaged" Ref="1" FirstByte="3" BitOffset="3"/>
+					<DataItem Name="ACCompValveDefault" Ref="1" FirstByte="3" BitOffset="4"/>
+					<DataItem Name="ACCompClutchStatus" Ref="1" FirstByte="3" BitOffset="5"/>
+					<DataItem Name="ACCompValveCurrent" Ref="1" FirstByte="4"/>
+					<DataItem Name="InstantMecanicalPowerByAlt" Ref="1" FirstByte="5"/>
+				</Received>
+			</Request>
+			<Request Name="USM_CANHS_RNr_02">
+
+				<Comment><![CDATA[100]]></Comment>
+				<Sent>
+					<SentBytes>06F8</SentBytes>
+				</Sent>
+				<Received MinBytes="3">
+					<DataItem Name="USM_RefusetoSleep" Ref="1" FirstByte="1"/>
+					<DataItem Name="IgnitionSupplyConfirmation" Ref="1" FirstByte="1" BitOffset="4"/>
+					<DataItem Name="FrontWiperStopPosition" Ref="1" FirstByte="1" BitOffset="5"/>
+					<DataItem Name="FrontWiperStatus" Ref="1" FirstByte="1" BitOffset="6"/>
+					<DataItem Name="BDUOpeningAnticipation" Ref="1" FirstByte="2" BitOffset="2"/>
+					<DataItem Name="IgnitionControlState" Ref="1" FirstByte="2" BitOffset="3"/>
+					<DataItem Name="BatteryVoltage" Ref="1" FirstByte="3"/>
+				</Received>
+			</Request>
+			<Request Name="USM_to_DTOOL">
+
+				<Sent>
+					<SentBytes>076D</SentBytes>
+				</Sent>
+				<Received MinBytes="8">
+					<DataItem Name="USM_to_DTOOL" Ref="1" FirstByte="1"/>
+				</Received>
+			</Request>
+			<Request Name="UserSetPref_CANHS_R_01">
+
+				<Comment><![CDATA[3000]]></Comment>
+				<Sent>
+					<SentBytes>0665</SentBytes>
+				</Sent>
+				<Received MinBytes="4">
+					<DataItem Name="AutoLockUpActivationRequest" Ref="1" FirstByte="1"/>
+					<DataItem Name="SingleDoorOpeningActivationReq" Ref="1" FirstByte="1" BitOffset="2"/>
+					<DataItem Name="AutoMirrorFoldingActivationReq" Ref="1" FirstByte="1" BitOffset="4"/>
+					<DataItem Name="FrontParkAssistActivationReq" Ref="1" FirstByte="2" BitOffset="3"/>
+					<DataItem Name="FrontParkAssistVolumeReq" Ref="1" FirstByte="2" BitOffset="5"/>
+					<DataItem Name="RearParkAssistActivationReq" Ref="1" FirstByte="3"/>
+					<DataItem Name="RearParkAssistVolumeReq" Ref="1" FirstByte="3" BitOffset="2"/>
+					<DataItem Name="DRLActivationRequest" Ref="1" FirstByte="3" BitOffset="5"/>
+					<DataItem Name="LanguageConfigurationRequest" Ref="1" FirstByte="4"/>
+					<DataItem Name="AutoRearWiperActivationRequest" Ref="1" FirstByte="4" BitOffset="4"/>
+				</Received>
+			</Request>
+			<Request Name="VehicleID_CANHS_R_01">
+
+				<Comment><![CDATA[1000]]></Comment>
+				<Sent>
+					<SentBytes>069F</SentBytes>
+				</Sent>
+				<Received MinBytes="4">
+					<DataItem Name="VehicleID" Ref="1" FirstByte="1"/>
+				</Received>
+			</Request>
+		</Requests>
+		<Devices>
+
+		</Devices>
+		<ds:Categories xmlns="http://www-diag.renault.com/2002/screens"/></ddt:Target></xml>

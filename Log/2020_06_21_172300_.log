@@ -1,0 +1,4430 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2020.06.21 17:23:00 =~=~=~=~=~=~=~=~=~=~=~=
+ŠV"ýEnter setting mode success 
+set rate success!!
+Enter Normal Mode Success!!
+CAN BUS Shield init ok!
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+66
+0	0	255	239	254	0	12	
+get data from ID: 
+134
+23	120	49	163	36	0	32	
+get data from ID: 
+246
+30	32	128	51	128	1	255	254	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+246
+30	32	128	51	128	1	255	254	
+get data from ID: 
+82
+92	0	0	255	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	140	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+18
+99	25	0	0	17	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+134
+23	140	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	140	49	163	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+215
+0	0	16	103	219	16	216	
+get data from ID: 
+52
+128	0	0	0	54	
+get data from ID: 
+248
+76	16	217	
+get data from ID: 
+134
+23	134	49	163	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+154
+0	0	0	0	0	0	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	136	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+156
+0	0	0	0	255	255	0	0	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	136	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+154
+0	0	0	0	0	0	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+246
+30	32	128	51	128	1	255	254	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+154
+0	0	0	0	0	0	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+52
+128	0	0	0	54	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	106	49	163	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+84
+0	0	0	0	0	0	0	0	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	104	49	163	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+23
+255	255	240	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	104	49	163	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+156
+0	0	0	0	255	255	0	0	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+52
+128	0	0	0	54	
+get data from ID: 
+134
+23	132	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	51	128	1	255	254	
+get data from ID: 
+154
+0	0	0	0	0	0	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+246
+30	32	128	51	128	1	255	254	
+get data from ID: 
+134
+23	164	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	51	128	1	255	254	
+get data from ID: 
+218
+128	94	0	0	195	255	255	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	164	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	164	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+154
+0	0	0	0	0	0	
+get data from ID: 
+138
+50	64	0	6	170	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+138
+50	64	0	6	170	0	
+get data from ID: 
+154
+0	0	0	0	0	0	
+get data from ID: 
+138
+50	64	0	6	170	0	
+get data from ID: 
+248
+76	16	216	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	132	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+156
+0	0	0	0	255	255	0	0	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	126	49	163	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+154
+0	0	0	0	0	0	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+246
+30	32	128	51	128	1	255	254	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+154
+0	0	0	0	0	0	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+248
+76	16	217	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	134	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	51	128	1	255	254	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+246
+30	32	128	51	128	1	255	254	
+get data from ID: 
+156
+0	0	0	0	255	255	0	0	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	128	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+84
+0	0	0	0	0	0	0	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+44
+0	
+get data from ID: 
+99
+50	128	
+get data from ID: 
+18
+107	25	0	0	17	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+18
+107	25	0	0	17	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+134
+23	130	49	147	36	0	32	
+get data from ID: 
+52
+128	0	0	0	54	
+get data from ID: 
+134
+23	130	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	130	49	163	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	106	49	163	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+18
+107	25	0	0	17	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+134
+23	106	49	163	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	106	49	163	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+156
+0	0	0	0	255	255	0	0	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+248
+76	16	217	
+get data from ID: 
+134
+23	124	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	51	128	1	255	254	
+get data from ID: 
+154
+0	0	0	0	0	0	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	102	49	163	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+18
+107	25	0	0	17	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+134
+23	102	49	163	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	102	49	163	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+156
+0	0	0	0	255	255	0	0	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+83
+0	64	8	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+154
+0	0	0	0	0	0	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	104	49	163	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+18
+107	25	0	0	16	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+134
+23	104	49	163	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	104	49	163	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+156
+0	0	0	0	255	255	0	0	
+get data from ID: 
+18
+107	25	0	0	17	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	108	49	163	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+84
+0	0	0	0	0	0	0	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+239
+0	128	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+156
+0	0	0	0	255	255	0	0	
+get data from ID: 
+18
+107	25	0	0	17	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	110	49	163	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+17
+0	89	77	215	95	71	165	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+134
+23	128	49	163	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	128	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+84
+0	0	0	0	0	0	0	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+0
+2	62	117	110	179	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+222
+6	0	0	128	2	0	0	64	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	146	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+17
+0	152	22	144	202	84	136	
+get data from ID: 
+52
+128	0	0	0	54	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+134
+23	156	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	156	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+23
+255	255	240	
+get data from ID: 
+248
+88	0	0	0	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	160	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+23
+255	255	240	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+44
+0	
+get data from ID: 
+134
+23	160	49	147	36	0	32	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+83
+0	64	8	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+154
+0	0	0	0	0	0	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	162	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+18
+107	25	0	0	17	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+134
+23	150	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	150	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+23
+255	255	240	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+134
+23	150	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	160	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+156
+0	0	0	0	255	255	0	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+239
+0	128	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+84
+0	0	0	0	0	0	0	0	
+get data from ID: 
+248
+76	16	216	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	130	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+17
+0	22	168	2	160	110	78	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	130	49	163	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	122	49	163	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+156
+0	0	0	0	255	255	0	0	
+get data from ID: 
+18
+107	25	0	0	17	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	122	49	163	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+84
+0	0	0	0	0	0	0	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	124	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+23
+255	255	240	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	138	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+218
+128	94	0	0	195	255	255	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+248
+88	0	0	0	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	160	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+23
+255	255	240	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+44
+0	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+92
+244	198	60	146	191	43	100	40	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	188	49	131	36	0	32	
+get data from ID: 
+246
+30	32	128	51	128	1	255	254	
+get data from ID: 
+134
+23	188	49	131	36	0	32	
+get data from ID: 
+246
+30	32	128	51	128	1	255	254	
+get data from ID: 
+156
+0	0	0	0	255	255	0	0	
+get data from ID: 
+18
+107	25	0	0	17	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	188	49	131	35	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+218
+128	94	0	0	195	255	255	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+23
+255	255	240	
+get data from ID: 
+248
+88	0	0	0	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+156
+0	0	0	0	255	255	0	0	
+get data from ID: 
+246
+30	32	128	51	128	1	255	254	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+138
+50	48	0	6	172	0	
+get data from ID: 
+44
+0	
+get data from ID: 
+99
+60	224	
+get data from ID: 
+18
+99	25	0	0	17	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	150	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+18
+99	25	0	0	17	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+134
+23	150	49	131	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	70	49	163	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+106
+5	254	0	241	241	0	
+get data from ID: 
+150
+0	0	0	0	0	0	0	0	
+get data from ID: 
+52
+128	0	0	0	54	
+get data from ID: 
+134
+23	70	49	163	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+23
+255	255	240	
+get data from ID: 
+248
+88	0	0	0	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+84
+0	0	0	0	0	0	0	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+44
+0	
+get data from ID: 
+99
+36	176	
+get data from ID: 
+18
+107	25	0	0	17	
+get data from ID: 
+246
+30	32	128	51	128	1	255	254	
+get data from ID: 
+222
+6	0	0	128	2	0	0	64	
+get data from ID: 
+246
+30	32	128	51	128	1	255	254	
+get data from ID: 
+66
+0	0	255	239	254	0	12	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+246
+30	32	128	51	128	1	255	254	
+get data from ID: 
+134
+23	82	49	163	36	0	32	
+get data from ID: 
+246
+30	32	128	51	128	1	255	254	
+get data from ID: 
+17
+0	18	204	230	76	162	218	
+get data from ID: 
+18
+107	25	0	0	17	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+134
+23	82	49	163	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	104	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+23
+255	255	240	
+get data from ID: 
+248
+88	0	0	0	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	104	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+23
+255	255	240	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+44
+0	
+get data from ID: 
+99
+47	192	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+222
+6	0	0	128	2	0	0	64	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+66
+0	0	255	239	254	0	12	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	90	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+82
+92	0	0	255	
+get data from ID: 
+18
+107	25	0	0	18	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	88	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+156
+0	0	0	0	255	255	0	0	
+get data from ID: 
+18
+107	25	0	0	17	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	88	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+84
+0	0	0	0	0	0	0	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+44
+0	
+get data from ID: 
+99
+46	0	
+get data from ID: 
+18
+107	25	0	0	18	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+222
+6	0	0	128	2	0	0	64	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+246
+30	32	128	51	128	1	255	254	
+get data from ID: 
+134
+23	106	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	51	128	1	255	254	
+get data from ID: 
+17
+0	144	94	88	34	188	160	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+23
+255	255	240	
+get data from ID: 
+150
+0	0	0	0	0	0	0	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	126	49	131	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+23
+255	255	240	
+get data from ID: 
+248
+88	0	0	0	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	126	49	131	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+23
+255	255	240	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+44
+0	
+get data from ID: 
+99
+31	160	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+222
+6	0	0	128	2	0	0	64	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+246
+30	32	128	51	128	1	255	254	
+get data from ID: 
+134
+23	152	49	131	36	0	32	
+get data from ID: 
+246
+30	32	128	51	128	1	255	254	
+get data from ID: 
+17
+0	207	39	17	141	201	131	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+150
+0	0	0	0	0	0	0	0	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+134
+23	168	49	131	36	0	32	
+get data from ID: 
+52
+128	0	0	0	54	
+get data from ID: 
+134
+23	168	49	131	36	0	32	
+get data from ID: 
+248
+88	0	0	0	0	
+get data from ID: 
+66
+0	0	255	239	254	0	12	
+get data from ID: 
+134
+23	148	49	131	35	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+23
+255	255	240	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+44
+0	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	142	49	131	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+23
+255	255	240	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	142	49	131	36	0	32	
+get data from ID: 
+150
+0	0	0	0	0	0	0	0	
+get data from ID: 
+218
+128	94	0	0	195	255	255	
+get data from ID: 
+18
+107	25	0	0	17	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	134	49	131	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+156
+0	0	0	0	255	255	0	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+0
+2	101	196	32	169	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+44
+0	
+get data from ID: 
+99
+43	208	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+222
+6	0	0	128	2	0	0	64	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	126	49	131	36	0	32	
+get data from ID: 
+246
+30	32	128	51	128	1	255	254	
+get data from ID: 
+134
+23	126	49	131	36	0	32	
+get data from ID: 
+246
+30	32	128	51	128	1	255	254	
+get data from ID: 
+82
+92	0	0	255	
+get data from ID: 
+18
+107	25	0	0	17	
+get data from ID: 
+246
+30	32	128	51	128	1	255	254	
+get data from ID: 
+134
+23	134	49	131	36	0	32	
+get data from ID: 
+246
+30	32	128	51	128	1	255	254	
+get data from ID: 
+218
+128	94	0	0	195	255	255	
+get data from ID: 
+18
+107	25	0	0	17	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+52
+128	0	0	0	54	
+get data from ID: 
+246
+30	32	128	51	128	1	255	254	
+get data from ID: 
+84
+0	0	0	0	0	0	0	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+44
+0	
+get data from ID: 
+99
+43	112	
+get data from ID: 
+18
+107	25	0	0	17	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+222
+6	0	0	128	2	0	0	64	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+134
+23	68	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	68	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+17
+0	140	130	60	206	240	44	
+get data from ID: 
+18
+107	25	0	0	17	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	68	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	86	49	131	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+23
+255	255	240	
+get data from ID: 
+248
+88	0	0	0	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	86	49	131	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+23
+255	255	240	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+44
+0	
+get data from ID: 
+134
+23	60	49	147	36	0	32	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	60	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+238
+192	0	1	135	250	159	254	15	
+get data from ID: 
+248
+76	16	216	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	60	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	51	128	1	255	254	
+get data from ID: 
+134
+23	20	49	163	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+106
+5	254	0	243	243	0	
+get data from ID: 
+150
+0	0	0	0	0	0	0	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	20	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	20	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+154
+0	0	0	0	0	0	
+get data from ID: 
+18
+115	25	0	0	16	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	36	49	163	37	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+156
+0	0	0	0	255	255	0	0	
+get data from ID: 
+18
+115	25	0	0	17	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	36	49	163	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+215
+0	0	16	103	219	16	216	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	80	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	80	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+156
+0	0	0	0	255	255	0	0	
+get data from ID: 
+18
+107	25	0	0	17	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	106	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+156
+0	0	0	0	255	255	0	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+44
+0	
+get data from ID: 
+134
+23	106	49	147	36	0	32	
+get data from ID: 
+18
+107	25	0	0	17	
+get data from ID: 
+246
+30	32	128	51	128	1	255	254	
+get data from ID: 
+134
+23	74	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	51	128	1	255	254	
+get data from ID: 
+102
+0	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+134
+23	74	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	74	49	163	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+106
+5	254	0	244	244	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	24	49	163	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+84
+0	0	0	0	0	0	0	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+138
+50	80	0	6	172	0	
+get data from ID: 
+44
+0	
+get data from ID: 
+134
+23	22	49	163	37	0	32	
+get data from ID: 
+18
+107	25	0	0	16	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	22	49	163	37	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+215
+0	0	16	103	219	16	216	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+138
+50	80	0	6	172	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	24	49	163	37	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	24	49	163	37	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+156
+0	0	0	0	255	255	0	0	
+get data from ID: 
+18
+107	25	0	0	17	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+22	248	49	179	37	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+156
+0	0	0	0	255	255	0	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+138
+50	80	0	6	172	0	
+get data from ID: 
+44
+0	
+get data from ID: 
+134
+22	248	49	163	37	0	32	
+get data from ID: 
+18
+107	25	0	0	17	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	14	49	163	37	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	14	49	163	37	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+23
+255	255	240	
+get data from ID: 
+138
+50	80	0	6	172	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	14	49	163	37	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+106
+5	254	0	244	244	0	
+get data from ID: 
+150
+0	0	0	0	0	0	0	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	38	49	147	37	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+23
+255	255	240	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+52
+128	0	0	0	54	
+get data from ID: 
+134
+23	24	49	163	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+66
+0	0	255	239	254	0	12	
+get data from ID: 
+18
+107	25	0	0	18	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	24	49	163	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+82
+92	0	0	255	
+get data from ID: 
+248
+76	16	216	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+23
+255	255	240	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+138
+50	80	0	6	174	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	8	49	163	37	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+218
+128	94	0	0	195	255	255	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+248
+88	0	0	0	0	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	8	49	163	37	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+23
+255	255	240	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+44
+0	
+get data from ID: 
+134
+23	8	49	163	37	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+239
+0	128	
+get data from ID: 
+83
+0	64	8	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+215
+0	0	16	103	219	16	216	
+get data from ID: 
+248
+76	16	216	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	46	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+17
+0	69	1	75	187	75	97	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	48	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	48	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+82
+92	0	0	255	
+get data from ID: 
+18
+99	25	0	0	17	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+52
+128	0	0	0	54	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	44	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+102
+0	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	56	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	56	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+106
+5	254	0	245	245	0	
+get data from ID: 
+150
+0	0	0	0	0	0	0	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	56	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+23
+255	255	240	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	36	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+84
+0	0	0	0	0	0	0	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+83
+0	64	8	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	44	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+23
+255	255	240	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	44	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+23
+255	255	240	
+get data from ID: 
+150
+0	0	0	0	0	0	0	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	42	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+23
+255	255	240	
+get data from ID: 
+248
+88	0	0	0	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	42	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+23
+255	255	240	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+44
+0	
+get data from ID: 
+134
+23	20	49	163	36	0	32	
+get data from ID: 
+18
+107	25	0	0	17	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	20	49	163	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+215
+0	0	16	103	219	16	216	
+get data from ID: 
+248
+76	16	217	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+134
+23	20	49	163	37	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	24	49	163	37	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+23
+255	255	240	
+get data from ID: 
+150
+0	0	0	0	0	0	0	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	24	49	163	37	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+23
+255	255	240	
+get data from ID: 
+248
+88	0	0	0	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	30	49	147	37	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+0
+2	72	2	224	254	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+52
+128	0	0	0	54	
+get data from ID: 
+134
+23	30	49	147	36	0	32	
+get data from ID: 
+18
+115	25	0	0	18	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+134
+23	30	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	16	49	163	37	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+23
+255	255	240	
+get data from ID: 
+138
+50	80	0	6	172	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	16	49	163	37	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+106
+5	254	0	246	246	0	
+get data from ID: 
+150
+0	0	0	0	0	0	0	0	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	32	49	147	37	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	32	49	163	37	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+84
+0	0	0	0	0	0	0	0	
+get data from ID: 
+18
+115	25	0	0	17	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	32	49	163	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+52
+128	0	0	0	54	
+get data from ID: 
+18
+115	25	0	0	17	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	78	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+215
+0	0	16	103	219	16	216	
+get data from ID: 
+248
+76	16	217	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+134
+23	78	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	108	49	131	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+106
+5	254	0	246	246	0	
+get data from ID: 
+150
+0	0	0	0	0	0	0	0	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	108	49	131	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+23
+255	255	240	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+18
+107	25	0	0	17	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	108	49	131	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+99
+36	128	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	108	49	131	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	104	49	131	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+23
+255	255	240	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	104	49	131	36	0	32	
+get data from ID: 
+246
+30	32	128	51	128	1	255	254	
+get data from ID: 
+106
+5	254	0	246	246	0	
+get data from ID: 
+246
+30	32	128	51	128	1	255	254	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+18
+107	25	0	0	17	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	82	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+84
+0	0	0	0	0	0	0	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+44
+0	
+get data from ID: 
+134
+23	62	49	147	36	0	32	
+get data from ID: 
+18
+107	25	0	0	17	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	62	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+102
+0	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	62	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	22	49	163	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+106
+5	254	0	246	246	0	
+get data from ID: 
+150
+0	0	0	0	0	0	0	0	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	22	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+23
+255	255	240	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+18
+115	25	0	0	16	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	44	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+84
+0	0	0	0	0	0	0	0	
+get data from ID: 
+18
+115	25	0	0	16	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	44	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+102
+0	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	90	49	131	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	90	49	131	36	0	32	
+get data from ID: 
+246
+30	32	128	51	128	1	255	254	
+get data from ID: 
+106
+5	254	0	247	247	0	
+get data from ID: 
+150
+0	0	0	0	0	0	0	0	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	102	49	131	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	102	49	131	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+82
+92	0	0	255	
+get data from ID: 
+18
+107	25	0	0	17	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+0
+2	192	163	17	39	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+66
+0	0	255	239	254	0	12	
+get data from ID: 
+18
+107	25	0	0	17	
+get data from ID: 
+246
+30	32	128	51	128	1	255	254	
+get data from ID: 
+134
+23	78	49	131	36	0	32	
+get data from ID: 
+246
+30	32	128	51	128	1	255	254	
+get data from ID: 
+84
+0	0	0	0	0	0	0	0	
+get data from ID: 
+248
+76	16	217	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+23
+255	255	240	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+66
+0	0	255	239	254	0	12	
+get data from ID: 
+18
+107	25	0	0	17	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	98	49	131	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+84
+0	0	0	0	0	0	0	0	
+get data from ID: 
+18
+107	25	0	0	17	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+23
+255	255	240	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+154
+0	0	0	0	0	0	
+get data from ID: 
+18
+107	25	0	0	17	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+0
+2	190	230	5	69	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+18
+107	25	0	0	17	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	118	49	131	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+102
+0	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	138	49	131	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	138	49	131	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+106
+5	254	0	247	247	0	
+get data from ID: 
+150
+0	0	0	0	0	0	0	0	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	100	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	100	49	131	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+84
+0	0	0	0	0	0	0	0	
+get data from ID: 
+18
+99	25	0	0	17	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	100	49	131	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+99
+32	160	
+get data from ID: 
+18
+99	25	0	0	17	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+222
+6	0	0	128	2	0	0	64	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+156
+0	0	0	0	255	255	0	0	
+get data from ID: 
+248
+76	16	217	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	62	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	51	128	1	255	254	
+get data from ID: 
+17
+0	250	164	62	84	218	34	
+get data from ID: 
+18
+99	25	0	0	16	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+134
+23	54	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	54	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+23
+255	255	240	
+get data from ID: 
+248
+88	0	0	0	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+156
+0	0	0	0	255	255	0	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+134
+23	58	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	58	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+238
+192	0	1	135	250	159	254	15	
+get data from ID: 
+248
+76	16	216	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+134
+23	48	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	48	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+106
+5	254	0	248	248	0	
+get data from ID: 
+150
+0	0	0	0	0	0	0	0	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	102	49	131	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	102	49	131	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+84
+0	0	0	0	0	0	0	0	
+get data from ID: 
+18
+107	25	0	0	17	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	102	49	131	36	0	32	
+get data from ID: 
+44
+0	
+get data from ID: 
+99
+33	192	
+get data from ID: 
+134
+23	150	49	115	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+23
+255	255	240	
+get data from ID: 
+83
+0	64	8	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+102
+0	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	150	49	115	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	152	49	115	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+106
+5	254	0	248	248	0	
+get data from ID: 
+150
+0	0	0	0	0	0	0	0	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+134
+23	152	49	115	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	152	49	115	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+156
+0	0	0	0	255	255	0	0	
+get data from ID: 
+18
+107	25	0	0	16	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+134
+23	92	49	147	36	0	32	
+get data from ID: 
+44
+0	
+get data from ID: 
+134
+23	92	49	131	36	0	32	
+get data from ID: 
+18
+107	25	0	0	16	
+get data from ID: 
+246
+30	32	128	51	128	1	255	254	
+get data from ID: 
+134
+23	92	49	131	36	0	32	
+get data from ID: 
+246
+30	32	128	51	128	1	255	254	
+get data from ID: 
+215
+0	0	16	103	219	16	216	
+get data from ID: 
+248
+76	16	216	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	78	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+17
+0	183	255	105	149	1	203	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+134
+23	80	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	80	49	131	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+84
+0	0	0	0	0	0	0	0	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	80	49	131	36	0	32	
+get data from ID: 
+44
+0	
+get data from ID: 
+99
+44	192	
+get data from ID: 
+18
+107	25	0	0	17	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+134
+23	84	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	84	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+17
+0	246	200	34	0	14	174	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+134
+23	88	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	88	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+23
+255	255	240	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	68	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+0
+2	253	248	37	110	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+18
+107	25	0	0	17	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	68	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+102
+0	0	
+get data from ID: 
+248
+76	16	216	
+get data from ID: 
+52
+128	0	0	0	54	
+get data from ID: 
+23
+255	255	240	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+17
+0	53	145	219	107	27	145	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+66
+0	0	255	239	254	0	12	
+get data from ID: 
+134
+23	72	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+23
+255	255	240	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	72	49	147	36	0	32	
+get data from ID: 
+44
+0	
+get data from ID: 
+99
+2	176	
+get data from ID: 
+18
+107	25	0	0	17	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	32	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	32	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+156
+0	0	0	0	255	255	0	0	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	44	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+218
+128	94	0	0	195	255	255	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+23
+255	255	240	
+get data from ID: 
+248
+88	0	0	0	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+156
+0	0	0	0	255	255	0	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+134
+23	48	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	48	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+102
+0	0	
+get data from ID: 
+248
+76	16	216	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+23
+255	255	240	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+18
+107	25	0	0	17	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	78	49	131	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+218
+128	94	0	0	195	255	255	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+134
+23	78	49	131	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	78	49	131	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+23
+255	255	240	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	56	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	51	128	1	255	254	
+get data from ID: 
+92
+244	198	60	146	191	43	100	40	
+get data from ID: 
+246
+30	32	128	51	128	1	255	254	
+get data from ID: 
+82
+92	0	0	255	
+get data from ID: 
+248
+76	16	217	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+23
+255	255	240	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	24	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+218
+128	94	0	0	195	255	255	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+134
+23	24	49	147	36	0	32	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	24	49	163	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+0
+2	5	187	138	91	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	12	49	163	37	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+238
+192	0	1	135	250	159	254	15	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+138
+50	80	0	6	172	0	
+get data from ID: 
+66
+0	0	255	239	254	0	12	
+get data from ID: 
+134
+23	4	49	163	37	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+106
+5	254	0	250	250	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+154
+0	0	0	0	0	0	
+get data from ID: 
+138
+50	80	0	6	172	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+23
+255	255	240	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+138
+50	80	0	6	172	0	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	26	49	163	36	0	32	
+get data from ID: 
+44
+0	
+get data from ID: 
+99
+57	208	
+get data from ID: 
+18
+107	25	0	0	17	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	62	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	51	128	1	255	254	
+get data from ID: 
+134
+23	62	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	51	128	1	255	254	
+get data from ID: 
+156
+0	0	0	0	255	255	0	0	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	52	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	51	128	1	255	254	
+get data from ID: 
+218
+128	94	0	0	195	255	255	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+23
+255	255	240	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	52	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+23
+255	255	240	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	34	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+92
+244	198	60	146	191	43	100	40	
+get data from ID: 
+83
+0	64	8	0	
+get data from ID: 
+215
+0	0	16	103	219	16	216	
+get data from ID: 
+134
+23	34	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	46	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+82
+92	0	0	255	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	46	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	51	128	1	255	254	
+get data from ID: 
+218
+128	94	0	0	195	255	255	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+134
+23	48	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	48	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+23
+255	255	240	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	48	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+92
+244	198	60	146	191	43	100	40	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+84
+0	0	0	0	0	0	0	0	
+get data from ID: 
+248
+76	16	216	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	74	49	131	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+17
+0	238	16	234	88	118	198	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+134
+23	52	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+134
+23	52	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+23
+255	255	240	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	52	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+0
+2	24	52	77	45	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+18
+107	25	0	0	17	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	4	49	163	36	0	32	
+get data from ID: 
+83
+0	64	8	0	
+get data from ID: 
+102
+0	0	
+get data from ID: 
+18
+107	25	0	0	18	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+138
+50	80	0	6	174	0	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	2	49	147	37	0	32	
+get data from ID: 
+52
+128	0	0	0	54	
+get data from ID: 
+106
+5	254	0	251	251	0	
+get data from ID: 
+138
+50	80	0	6	174	0	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	2	49	147	37	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+23
+255	255	240	
+get data from ID: 
+138
+50	80	0	6	174	0	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	28	49	147	37	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+0
+2	43	0	89	248	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+138
+50	64	0	6	174	0	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	40	49	147	36	0	32	
+get data from ID: 
+83
+0	64	8	0	
+get data from ID: 
+102
+0	0	
+get data from ID: 
+248
+76	16	216	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+138
+50	64	0	6	174	0	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	40	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+106
+5	254	0	251	251	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+156
+0	0	0	0	255	255	0	0	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	30	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+156
+0	0	0	0	255	255	0	0	
+get data from ID: 
+101
+0	0	0	0	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+134
+23	40	49	147	36	0	32	
+get data from ID: 
+44
+0	
+get data from ID: 
+134
+23	40	49	147	36	0	32	
+get data from ID: 
+138
+50	64	0	6	174	0	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	40	49	147	36	0	32	
+get data from ID: 
+83
+0	64	8	0	
+get data from ID: 
+102
+0	0	
+get data from ID: 
+113
+0	0	
+get data from ID: 
+248
+76	16	216	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	40	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+17
+0	171	107	21	153	157	111	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+134
+23	40	49	147	36	0	32	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	40	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+23
+255	255	240	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	20	49	147	36	0	32	
+get data from ID: 
+44
+0	
+get data from ID: 
+99
+61	160	
+get data from ID: 
+18
+107	25	0	0	17	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+138
+50	64	0	6	174	0	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	12	49	163	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+23
+255	255	240	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+138
+50	80	0	6	174	0	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	12	49	163	37	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+218
+128	94	0	0	195	255	255	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+138
+50	80	0	6	174	0	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+134
+23	4	49	163	37	0	32	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	4	49	163	37	0	32	
+get data from ID: 
+44
+0	
+get data from ID: 
+84
+0	0	0	0	0	0	0	0	
+get data from ID: 
+134
+23	6	49	163	37	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+23
+255	255	240	
+get data from ID: 
+138
+50	80	0	6	174	0	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	6	49	163	37	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+23
+255	255	240	
+get data from ID: 
+138
+50	80	0	6	174	0	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	28	49	147	37	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+106
+5	254	0	252	252	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+66
+0	0	255	239	254	0	12	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	28	49	163	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+84
+0	0	0	0	0	0	0	0	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	16	49	163	36	0	32	
+get data from ID: 
+44
+0	
+get data from ID: 
+99
+20	208	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+138
+50	80	0	6	172	0	
+get data from ID: 
+66
+0	0	255	239	254	0	12	
+get data from ID: 
+18
+107	25	0	0	17	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+23
+255	255	240	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	40	49	163	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+106
+5	254	0	252	252	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+66
+0	0	255	239	254	0	12	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	38	49	163	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+156
+0	0	0	0	255	255	0	0	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+134
+23	38	49	163	36	0	32	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	16	49	163	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+23
+255	255	240	
+get data from ID: 
+138
+50	64	0	6	174	0	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	16	49	163	36	0	32	
+get data from ID: 
+246
+30	32	128	51	128	1	255	254	
+get data from ID: 
+23
+255	255	240	
+get data from ID: 
+138
+50	80	0	6	174	0	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	28	49	163	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+106
+5	254	0	253	253	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+154
+0	0	0	0	0	0	
+get data from ID: 
+138
+50	64	0	6	174	0	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+23
+255	255	240	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+138
+50	64	0	6	174	0	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	82	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+99
+26	80	
+get data from ID: 
+246
+30	32	128	51	128	1	255	254	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+222
+6	0	0	128	2	0	0	64	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	112	49	147	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+23
+255	255	240	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	112	49	163	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+106
+5	254	0	253	253	0	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+66
+0	0	255	239	254	0	12	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	98	49	163	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	1	255	254	
+get data from ID: 
+156
+0	0	0	0	255	255	0	0	
+get data from ID: 
+138
+50	64	0	6	172	0	
+get data from ID: 
+46
+200	255	255	255	240	255	255	0	
+get data from ID: 
+134
+23	98	49	163	36	0	32	
+get data from ID: 
+198
+255	255	255	255	255	255	0	5	
+get data from ID: 
+134
+23	54	49	179	36	0	32	
+get data from ID: 
+246
+30	32	128	50	128	
