@@ -35,10 +35,10 @@ void loop()
 {
   unsigned char len = 0;
   unsigned char buf[8];
-  unsigned int canId = 0;
+  unsigned long canId = 0;
   if(CAN_MSGAVAIL == CAN.checkReceive()) // check if data coming
   {
-    CAN.readMsgBufID(canId, &len, buf); // read data, len: data length, buf: data buf
+    CAN.readMsgBufID(&canId, &len, buf); // read data, len: data length, buf: data buf
 
     //unsigned int canId = CAN.getCanId();
    if ( canId == 0x5DE)
@@ -52,12 +52,15 @@ void loop_()
 {
   unsigned char len = 0;
   unsigned char buf[8];
+  unsigned long canId;
 
   if(CAN_MSGAVAIL == CAN.checkReceive()) // check if data coming
   {
-    CAN.readMsgBuf(&len, buf); // read data, len: data length, buf: data buf
+    //CAN.readMsgBuf(&len, buf); // read data, len: data length, buf: data buf
 
-    unsigned int canId = CAN.getCanId();
+    //unsigned long canId = CAN.getCanId();
+
+    CAN.readMsgBufID(&canId, &len, buf);
 
     Serial.println("-----------------------------");
     Serial.print("Get data from ID: ");
