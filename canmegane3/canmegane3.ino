@@ -7,7 +7,7 @@
 // v0.9b and v1.0 is default D10
 
 bool engineStarted = false; 
-int engineRPM = 0x0000;
+short engineRPM = 0x0000;
 byte flashState = 0x00;
 byte engineState = 0x00;
 
@@ -56,8 +56,23 @@ void ProcessCanPackage()
   unsigned char buf[8];
   unsigned long canId = 0;
   CAN.readMsgBufID(&canId, &len, buf); // read data, len: data length, buf: data buf
+  //len = 8;
+  //canId = 0x212;
+  //buf[0]=107;
+  //buf[1]=25;
 
-    //unsigned int canId = CAN.getCanId();
+  Serial.println("-----------------------------");
+  Serial.print("Get data from ID: ");
+  Serial.println(canId, HEX);
+
+  for(int i = 0; i<len; i++) // print the data
+  {
+    Serial.print(buf[i], HEX);
+    console.print(buf[i], HEX); 
+    Serial.print(" ");
+  }
+  Serial.println();
+
   if ( canId == 0x5DE)
   {
     flashState = buf[0];
@@ -66,13 +81,13 @@ void ProcessCanPackage()
   }
   else if ( canId == 0x186)
   {
-    engineRPM = buf[0]| (buf[1] << 8);
+    engineRPM = buf[1]| (buf[0] << 8);
     Serial.print("engineRPM: ");
     Serial.println(engineRPM, HEX);
   }
   else if ( canId == 0x212)
   {
-    engineState = buf[2]; 
+    engineState = buf[1]; 
     Serial.print("engineState: ");
     Serial.println(engineState, HEX);
   }
@@ -81,9 +96,9 @@ void ProcessCanPackage()
 
 void ProcessAlgoritm()
 {
-  if (engineRPM > 0)
+  if ((engineState & B1000000)==B1000000)
   {
-    if ((!( flashState & B01100000))&&( flashState & B00010000))   
+    if ((!(( flashState & B01100000)==B01100000))&&( flashState & B00010000)==B00010000)   
     digitalWrite(A0, HIGH);
     digitalWrite(A1, HIGH);
     digitalWrite(LED_BUILTIN, HIGH);
@@ -98,7 +113,7 @@ void ProcessAlgoritm()
 
 void loop()
 {
-
+ 
   if(CAN_MSGAVAIL == CAN.checkReceive()) // check if data coming
   {
     ProcessCanPackage();   
@@ -114,12 +129,7 @@ void loop_()
 
   if(CAN_MSGAVAIL == CAN.checkReceive()) // check if data coming
   {
-    //CAN.readMsgBuf(&len, buf); // read data, len: data length, buf: data buf
-
-    //unsigned long canId = CAN.getCanId();
-
     CAN.readMsgBufID(&canId, &len, buf);
-
     Serial.println("-----------------------------");
     Serial.print("Get data from ID: ");
     Serial.println(canId, HEX);
@@ -132,7 +142,7 @@ void loop_()
   {
     Serial.print(buf[i], HEX);
     console.print(buf[i], HEX); 
-    Serial.print("\t");
+    Serial.print(" ");
   }
     Serial.println();
   }
