@@ -37,8 +37,6 @@ void setup()
   prntex("CAN BUS OK!");
   pinMode(A0, OUTPUT);
   pinMode(A1, OUTPUT);
-  pinMode(LED_BUILTIN, OUTPUT);
-  digitalWrite(LED_BUILTIN, LOW);
 }
 
 //0x5DE = Свет и др.
@@ -96,14 +94,11 @@ void ProcessCanPackage()
 
 void ProcessAlgoritm()
 {
-  pinMode(LED_BUILTIN, OUTPUT);
-  
   if (engineRPM > 0)
   {
     if (flashState==B100){   
     digitalWrite(A0, HIGH);
     digitalWrite(A1, HIGH);
-    digitalWrite(LED_BUILTIN, HIGH);
     Serial.println("ENABLE");
     }
   }
@@ -111,7 +106,6 @@ void ProcessAlgoritm()
   {
     digitalWrite(A0, LOW);
     digitalWrite(A1, LOW);
-    digitalWrite(LED_BUILTIN, LOW);
     Serial.println("DISABLE");
   };     
 }
