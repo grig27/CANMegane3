@@ -61,7 +61,7 @@ void ProcessCanPackage()
   //buf[0]=107;
   //buf[1]=25;
 
-  Serial.println("-----------------------------");
+  /*Serial.println("-----------------------------");
   Serial.print("Get data from ID: ");
   Serial.println(canId, HEX);
 
@@ -72,42 +72,47 @@ void ProcessCanPackage()
     Serial.print(" ");
   }
   Serial.println();
-
+*/
   if ( canId == 0x5DE)
   {
     flashState = buf[0];
     Serial.print("flashState: ");
-    Serial.println(flashState, HEX);
+    Serial.println(flashState, BIN);
   }
   else if ( canId == 0x186)
   {
     engineRPM = buf[1]| (buf[0] << 8);
-    Serial.print("engineRPM: ");
-    Serial.println(engineRPM, HEX);
+    //Serial.print("engineRPM: ");
+    //Serial.println(engineRPM, HEX);
   }
   else if ( canId == 0x212)
   {
     engineState = buf[1]; 
     Serial.print("engineState: ");
-    Serial.println(engineState, HEX);
+    Serial.println(engineState, BIN);
   }
 }
 
 
 void ProcessAlgoritm()
 {
-  if ((engineState & B1000000)==B1000000)
+  pinMode(LED_BUILTIN, OUTPUT);
+  
+  if (engineRPM > 0)
   {
-    if ((!(( flashState & B01100000)==B01100000))&&( flashState & B00010000)==B00010000)   
+    if (flashState==B100){   
     digitalWrite(A0, HIGH);
     digitalWrite(A1, HIGH);
     digitalWrite(LED_BUILTIN, HIGH);
+    Serial.println("ENABLE");
+    }
   }
   else
   {
     digitalWrite(A0, LOW);
     digitalWrite(A1, LOW);
     digitalWrite(LED_BUILTIN, LOW);
+    Serial.println("DISABLE");
   };     
 }
 
@@ -134,14 +139,14 @@ void loop_()
     Serial.print("Get data from ID: ");
     Serial.println(canId, HEX);
 
-    console.print("ID: ");
-    console.print(canId, HEX);
-    console.print("\n"); 
+    //console.print("ID: ");
+    //console.print(canId, HEX);
+    //console.print("\n"); 
 
   for(int i = 0; i<len; i++) // print the data
   {
     Serial.print(buf[i], HEX);
-    console.print(buf[i], HEX); 
+    //console.print(buf[i], HEX); 
     Serial.print(" ");
   }
     Serial.println();
