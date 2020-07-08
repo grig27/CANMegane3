@@ -24,6 +24,10 @@ void prntex(const char ch[])
 
 void setup()
 {
+  pinMode(A0, OUTPUT);
+  pinMode(A1, OUTPUT);
+  digitalWrite(A0, HIGH);
+  digitalWrite(A1, HIGH);
   Serial.begin(115200);
   ssd1306_128x64_i2c_init();
   ssd1306_setFixedFont(ssd1306xled_font6x8);
@@ -35,8 +39,7 @@ void setup()
     delay(100);
   }
   prntex("CAN BUS OK!");
-  pinMode(A0, OUTPUT);
-  pinMode(A1, OUTPUT);
+
 }
 
 //0x5DE = Свет и др.
@@ -96,16 +99,16 @@ void ProcessAlgoritm()
 {
   if (engineRPM > 0)
   {
-    if (flashState==B100){   
-    digitalWrite(A0, HIGH);
-    digitalWrite(A1, HIGH);
+    if (flashState==B100){  
+    digitalWrite(A0, LOW);
+    digitalWrite(A1, LOW); 
     Serial.println("ENABLE");
     }
   }
   else
   {
-    digitalWrite(A0, LOW);
-    digitalWrite(A1, LOW);
+    digitalWrite(A0, HIGH);
+    digitalWrite(A1, HIGH);
     Serial.println("DISABLE");
   };     
 }
