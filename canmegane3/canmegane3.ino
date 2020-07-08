@@ -98,11 +98,17 @@ void ProcessCanPackage()
 void ProcessAlgoritm()
 {
   if (engineRPM > 0)
-  {
+  {.0
     if (flashState==B100){  
     digitalWrite(A0, LOW);
     digitalWrite(A1, LOW); 
     Serial.println("ENABLE");
+    }
+    else
+    {
+    digitalWrite(A0, HIGH);
+    digitalWrite(A1, HIGH); 
+    Serial.println("DISABLE");
     }
   }
   else
