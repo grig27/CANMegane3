@@ -8,9 +8,11 @@
 
 bool engineStarted = false; 
 short engineRPM = 0x0000;
+short lastengineRPM = 0x0000;
 byte flashState = 0x00;
 byte engineState = 0x00;
-
+byte engineCoolantTemp = 0x00;
+  unsigned int c = 0;
 const int SPI_CS_PIN = 10;
 MCP_CAN CAN(SPI_CS_PIN); // Set CS pin
 Ssd1306Console  console;
@@ -56,6 +58,7 @@ void ProcessCanPackage()
   unsigned char len = 0;
   unsigned char buf[8];
   unsigned long canId = 0;
+
   CAN.readMsgBufID(&canId, &len, buf); // read data, len: data length, buf: data buf
   //len = 8;
   //canId = 0x212;
@@ -74,6 +77,12 @@ void ProcessCanPackage()
   }
   Serial.println();
 */
+  if (canId == 0x5DA)
+  {
+    engineCoolantTemp = buf[0];
+    Serial.print("engineCoolantTemp: ");
+    Serial.println(engineCoolantTemp);
+  }
   if ( canId == 0x5DE)
   {
     flashState = buf[0];
@@ -82,6 +91,7 @@ void ProcessCanPackage()
   }
   else if ( canId == 0x186)
   {
+    lastengineRPM = engineRPM;
     engineRPM = buf[1]| (buf[0] << 8);
     //Serial.print("engineRPM: ");
     //Serial.println(engineRPM, HEX);
@@ -89,33 +99,56 @@ void ProcessCanPackage()
   else if ( canId == 0x212)
   {
     engineState = buf[1]; 
-    Serial.print("engineState: ");
-    Serial.println(engineState, BIN);
+    //Serial.print("engineState: ");
+    //Serial.println(engineState, BIN);
   }
 }
 
 
 void ProcessAlgoritm()
 {
+  if ((lastengineRPM ==0)&(engineRPM>0))
+  {
+    ssd1306_128x64_i2c_init();
+    //ssd1306_setFixedFont(ssd1306xled_font6x8);
+    ssd1306_fillScreen( 0x00 );
+  }
+  else if ((lastengineRPM >0)&(engineRPM==0))
+  {
+    ssd1306_128x64_i2c_init();
+    //ssd1306_setFixedFont(ssd1306xled_font6x8);
+    ssd1306_fillScreen( 0x00 );  
+  }
   if (engineRPM > 0)
-  {.0
-    if (flashState==B100){  
+  {
+    //ssd1306_printFixedN(0,  8, engineCoolantTemp, STYLE_NORMAL,2);
+    c = c + 1;
+    if (c>1000){
+    //ssd1306_fillScreen( 0x00 );
+    String engc = String(engineCoolantTemp-40);
+    Serial.println("=====================================    "+engc);
+    ssd1306_printFixedN(0,  0, engc.c_str(), STYLE_NORMAL,3);
+    //console.println(engineCoolantTemp-40);
+    c = 0;
+    }
+    if (((flashState&B100)==B100)&(!((flashState&B10)==B10))){  
     digitalWrite(A0, LOW);
     digitalWrite(A1, LOW); 
-    Serial.println("ENABLE");
+    //Serial.println("ENABLE");
+    
     }
     else
     {
     digitalWrite(A0, HIGH);
     digitalWrite(A1, HIGH); 
-    Serial.println("DISABLE");
+    //Serial.println("DISABLE");
     }
   }
   else
   {
     digitalWrite(A0, HIGH);
     digitalWrite(A1, HIGH);
-    Serial.println("DISABLE");
+    //Serial.println("DISABLE");
   };     
 }
 
