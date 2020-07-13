@@ -126,14 +126,12 @@ void ProcessAlgoritm()
     if (c>1000){
     //ssd1306_fillScreen( 0x00 );
     String engc = String(engineCoolantTemp-40);
-    Serial.println("=====================================    "+engc);
     ssd1306_printFixedN(0,  0, engc.c_str(), STYLE_NORMAL,3);
-    //console.println(engineCoolantTemp-40);
     c = 0;
     }
     if (((flashState&B100)==B100)&(!((flashState&B10)==B10))){  
-    digitalWrite(A0, LOW);
-    digitalWrite(A1, LOW); 
+      digitalWrite(A0, LOW);
+      digitalWrite(A1, LOW); 
     //Serial.println("ENABLE");
     
     }
