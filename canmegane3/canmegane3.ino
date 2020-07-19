@@ -9,9 +9,19 @@
 bool engineStarted = false; 
 short engineRPM = 0x0000;
 short lastengineRPM = 0x0000;
+
+short speedCar = 0x0000;
+short lastspeedCar = 0x0000;
+
 byte flashState = 0x00;
 byte engineState = 0x00;
 byte engineCoolantTemp = 0x00;
+
+bool dayflash = false;
+bool dayflashAutoStarted = false;
+
+
+
   unsigned int c = 0;
 const int SPI_CS_PIN = 10;
 MCP_CAN CAN(SPI_CS_PIN); // Set CS pin
@@ -96,6 +106,15 @@ void ProcessCanPackage()
     //Serial.print("engineRPM: ");
     //Serial.println(engineRPM, HEX);
   }
+ else if ( canId == 0x354)
+  {
+    lastspeedCar = speedCar;
+    speedCar = buf[1]| (buf[0] << 8);
+    //Serial.print("engineRPM: ");
+    //Serial.println(engineRPM, HEX);
+    Serial.print("speed: ");
+    Serial.println(speedCar, HEX);
+  }
   else if ( canId == 0x212)
   {
     engineState = buf[1]; 
@@ -112,33 +131,50 @@ void ProcessAlgoritm()
     ssd1306_128x64_i2c_init();
     //ssd1306_setFixedFont(ssd1306xled_font6x8);
     ssd1306_fillScreen( 0x00 );
+    engineStarted = true;
   }
   else if ((lastengineRPM >0)&(engineRPM==0))
   {
     ssd1306_128x64_i2c_init();
     //ssd1306_setFixedFont(ssd1306xled_font6x8);
     ssd1306_fillScreen( 0x00 );  
+    engineStarted = false;
   }
   if (engineRPM > 0)
   {
-    //ssd1306_printFixedN(0,  8, engineCoolantTemp, STYLE_NORMAL,2);
     c = c + 1;
     if (c>1000){
-    //ssd1306_fillScreen( 0x00 );
-    String engc = String(engineCoolantTemp-40);
-    ssd1306_printFixedN(0,  0, engc.c_str(), STYLE_NORMAL,3);
-    c = 0;
+      String engc = String(engineCoolantTemp-40);
+      ssd1306_printFixedN(0,  25, engc.c_str(), STYLE_NORMAL, 2);
+      if (dayflash){
+        ssd1306_printFixedN(0,  0, "on", STYLE_NORMAL, 1);      
+        }
+      else
+      {
+        ssd1306_printFixedN(0,  0, "   ", STYLE_NORMAL, 1);
+      }
     }
-    if (((flashState&B100)==B100)&(!((flashState&B10)==B10))){  
+    if (((flashState&B100)==B100)&(!((flashState&B10)==B10)))
+    {  
       digitalWrite(A0, LOW);
-      digitalWrite(A1, LOW); 
-    //Serial.println("ENABLE");
-    
+      digitalWrite(A1, LOW);
+      dayflash = true; 
+      dayflashAutoStarted = false;
     }
-    else
+    else if ((flashState==B000)&((lastspeedCar ==0)&(speedCar>0)))
+    {
+      {
+        digitalWrite(A0, LOW);
+        digitalWrite(A1, LOW); 
+        dayflash = true;
+        dayflashAutoStarted = true;
+      }    
+    }
+    else if (!dayflashAutoStarted)
     {
     digitalWrite(A0, HIGH);
-    digitalWrite(A1, HIGH); 
+    digitalWrite(A1, HIGH);
+    dayflash = false; 
     //Serial.println("DISABLE");
     }
   }
@@ -146,6 +182,8 @@ void ProcessAlgoritm()
   {
     digitalWrite(A0, HIGH);
     digitalWrite(A1, HIGH);
+    dayflash = false;
+    dayflashAutoStarted = false;
     //Serial.println("DISABLE");
   };     
 }
